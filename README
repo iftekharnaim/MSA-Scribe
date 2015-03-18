@@ -20,3 +20,9 @@ MSA-A*:
 The directory “./msa_astar/” contains the Java code for aligning partial captions using MSA. A detailed descriptions of how to compile and run the code can be found at:
 
 ./msa_astar/src/README 
+
+The detailed algorithm is described in [1].
+
+References:
+==========
+[1] Text Alignment for Real-Time Crowd Captioning, Iftekhar Naim, Daniel Gildea, Walter Lasecki, and Jeffrey Bigham, in Proceedings of NAACL, 2013.
