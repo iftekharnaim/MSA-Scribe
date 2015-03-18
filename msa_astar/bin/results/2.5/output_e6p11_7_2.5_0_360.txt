@@ -1,0 +1,2134 @@
+-w
+-c
+-d
+-s
+-e
+-b
+-g
+-g
+Directory: /home/vax7/u6/inaim/MSA/data/e6p11/
+ChunkSize: 7
+Heuristic Weight: 2.5
+Beamsize: 20.0
+GapOpen: 0.125
+GapExtension: 0.05
+4
+6(3219)9(4069)is(6443)bigger(6829)
+7
+6(1889)9(2361)is(3047)bigger(3628)than(4472)6(5368)so(6695)
+5
+so(5480)we(5782)go(6191)this(6486)way(6953)
+11
+6(1211)9(1962)is(3034)bigger(3347)than(4181)6(4617)so(5165)we(5427)go(5765)this(6021)way(6777)
+4
+69(3407)is(4006)bigger(4398)than(5686)
+3
+6(1405)9(2698)is(4034)
+7
+69(2451)is(3289)bigger(3602)than(5292)6(6175)then(6434)we(6933)
+3
+69(5770)is(6246)bigger(6900)
+14
+6(1117)6(1816)9(2760)is(2997)bigger(3305)than(4110)9(4372)is(4587)6(5026)so(5253)we(5483)go(5823)this(6097)way(6539)
+7
+59(3097)is(3618)bigger(4013)than(4905)6(6113)so(6664)we(7000)
+.....................Number of Queue Removal: 21
+
+Time spent in alignment:162 ms
+_		6		9		_		is		bigger		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		6		9		_		is		bigger		than		6		so		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		so		we		go		this		way		_		_		_		_		_		_		_		_		
+_		6		9		_		is		bigger		than		6		so		we		go		this		way		_		_		_		_		_		_		_		_		
+_		_		_		69		is		bigger		than		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		6		9		_		is		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		69		is		bigger		than		6		_		_		_		_		_		then		we		_		_		_		_		_		_		
+_		_		_		69		is		bigger		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+6		6		9		_		is		bigger		than		_		_		_		_		_		_		9		is		6		so		we		go		this		way		
+_		_		_		59		is		bigger		than		6		so		we		_		_		_		_		_		_		_		_		_		_		_		
+
+6 6 9 69 is bigger than 6 so we go this way then is 6 so we go this way 
+
+6 6 9 69 is bigger than 6 so we go this way then is 6 so we go this way 
+
+ [(6:1)]   [(6:5)] 6  [(9:5)] 9  [(69:3)(59:1)] 69  [(is:9)] is  [(bigger:8)] bigger  [(than:6)] than  [(6:4)] 6  [(so:4)] so  [(we:3)] we  [(go:2)] go  [(this:2)] this  [(way:2)] way  [(then:1)(9:1)]   [(is:1)(we:1)]   [(6:1)]   [(so:1)]   [(we:1)]   [(go:1)]   [(this:1)]   [(way:1)]  
+
+ [(6:1)]   [(6:5)] 6  [(9:5)] 9  [(69:3)(59:1)] 69  [(is:9)] is  [(bigger:8)] bigger  [(than:6)] than  [(6:4)] 6  [(so:4)] so  [(we:3)] we  [(go:2)] go  [(this:2)] this  [(way:2)] way  [(then:1)(9:1)]   [(is:1)(we:1)]   [(6:1)]   [(so:1)]   [(we:1)]   [(go:1)]   [(this:1)]   [(way:1)]  
+
+ [(6:1)]   [(6:5)] 6  [(9:5)] 9  [(69:3)(59:1)] 69  [(is:9)] is  [(bigger:8)] bigger  [(than:6)] than  [(6:4)] 6  [(so:4)] so  [(we:3)] we  [(go:2)] go  [(this:2)] this  [(way:2)] way  [(then:1)(9:1)]   [(is:1)(we:1)]   [(6:1)]   [(so:1)]   [(we:1)]   [(go:1)]   [(this:1)]   [(way:1)]  
+6
+than(7731)6(8923)so(9783)we(11868)go(12252)this(12620)
+8
+we(7152)go(7552)this(8545)way(9344)and(9935)the(12752)claim(13167)is(13959)
+10
+and(7312)we(7711)compare(8071)the(9407)the(9407)second(9912)element(11000)with(11655)third(12449)element(13040)
+9
+and(7442)we(8344)compare(8720)second(9964)element(10735)and(12275)the(12609)claim(12965)is(13922)
+17
+6(7122)so(7398)we(7574)go(7811)this(8018)this(8018)way(8426)and(8735)compare(9126)the(9767)2nd(10159)with(11102)the(11392)first(12238)element(12739)the(13480)claim(13782)
+5
+less(9139)than(9929)6(11639)this(12494)is(13712)
+8
+go(7239)this(7568)way(8008)then(8947)we(9715)compare(10125)the(11022)element(11807)
+11
+than(7725)6(8563)so(8988)we(9294)go(9671)this(10007)way(11187)4(11590)is(11726)less(12101)than(12765)
+9
+and(7013)then(7448)we(7875)compare(8240)the(9010)second(10046)element(11625)and(13039)the(13731)
+12
+go(7341)here(7802)4(9858)is(10129)less(10469)than(11057)6(11873)so(12153)we(12454)go(12795)this(13171)way(13681)
+................................Number of Queue Removal: 32
+
+Time spent in alignment:89 ms
+_		_		than		6		so		we		go		_		this		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		we		go		_		this		way		_		_		_		_		_		_		_		_		_		_		_		and		the		claim		is		_		_		_		_		_		_		_		
+and		_		_		_		_		we		_		_		_		_		_		_		_		_		_		_		compare		the		the		second		element		_		_		_		_		with		third		element		_		_		_		_		
+and		_		_		_		_		we		_		_		_		_		_		_		_		_		_		_		compare		_		_		second		element		and		the		claim		is		_		_		_		_		_		_		_		
+_		_		_		6		so		we		go		this		this		way		and		_		_		_		_		_		compare		the		_		_		_		_		_		_		2nd		with		the		first		element		the		claim		_		
+_		less		than		6		_		_		_		_		this		_		_		is		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		go		_		this		way		_		_		_		_		then		we		compare		the		element		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		than		6		so		we		go		_		this		way		4		is		less		than		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+and		then		_		_		_		we		_		_		_		_		_		_		_		_		_		_		compare		the		_		second		element		and		the		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		go		here		_		_		4		is		less		than		6		so		_		_		_		_		_		_		_		_		_		_		_		_		we		go		this		way		
+
+and then than 6 so we go here this way 4 is less than 6 so compare the element second element and the claim is with the element element the claim way 
+
+and then than 6 so we go here this way 4 is less than 6 so compare the element second element and the claim is with the element element the claim way 
+
+ [(and:3)] and  [(then:1)(less:1)]   [(than:3)] than  [(6:4)] 6  [(so:3)] so  [(we:7)] we  [(go:6)] go  [(here:1)(this:1)]   [(this:6)] this  [(way:4)] way  [(4:2)(and:1)] 4  [(is:3)] is  [(less:2)] less  [(than:2)] than  [(6:1)(then:1)]   [(so:1)(we:1)]   [(compare:5)] compare  [(the:4)] the  [(element:1)(the:1)]   [(second:3)] second  [(element:3)] element  [(and:3)] and  [(the:3)] the  [(claim:2)] claim  [(2nd:1)(is:2)] is  [(with:2)] with  [(the:1)(third:1)]   [(element:1)(first:1)]   [(element:1)(we:1)]   [(the:1)(go:1)]   [(claim:1)(this:1)]   [(way:1)]  
+
+ [(and:3)] and  [(then:1)(less:1)]   [(than:3)] than  [(6:4)] 6  [(so:3)] so  [(we:7)] we  [(go:6)] go  [(here:1)(this:1)]   [(this:6)] this  [(way:4)] way  [(4:2)(and:1)] 4  [(is:3)] is  [(less:2)] less  [(than:2)] than  [(6:1)(then:1)]   [(so:1)(we:1)]   [(compare:5)] compare  [(the:4)] the  [(element:1)(the:1)]   [(second:3)] second  [(element:3)] element  [(and:3)] and  [(the:3)] the  [(claim:2)] claim  [(2nd:1)(is:2)] is  [(with:2)] with  [(the:1)(third:1)]   [(element:1)(first:1)]   [(element:1)(we:1)]   [(the:1)(go:1)]   [(claim:1)(this:1)]   [(way:1)]  
+
+ [(and:3)] and  [(then:1)(less:1)]   [(than:3)] than  [(6:4)] 6  [(so:3)] so  [(we:7)] we  [(go:6)] go  [(here:1)(this:1)]   [(this:6)] this  [(way:4)] way  [(4:2)(and:1)] 4  [(is:3)] is  [(less:2)] less  [(than:2)] than  [(6:1)(then:1)]   [(so:1)(we:1)]   [(compare:5)] compare  [(the:4)] the  [(element:1)(the:1)]   [(second:3)] second  [(element:3)] element  [(and:3)] and  [(the:3)] the  [(claim:2)] claim  [(2nd:1)(is:2)] is  [(with:2)] with  [(the:1)(third:1)]   [(element:1)(first:1)]   [(element:1)(we:1)]   [(the:1)(go:1)]   [(claim:1)(this:1)]   [(way:1)]  
+10
+way(14379)the(15563)claim(16181)is(16964)that(17348)this(17948)is(18556)the(18948)correct(19349)permutation(20510)
+8
+that(14303)this(14895)is(15354)the(15648)correct(16168)permutation(17756)so(20431)indeed(20721)
+10
+and(14473)the(14801)claim(15248)is(15852)this(16161)permutation(17461)and(19117)then(19386)we(20274)take(20562)
+8
+that(14180)this(14612)is(15015)the(15329)correct(15791)permutation(16952)of(18752)the(18975)
+10
+is(14726)that(14950)this(15206)is(15502)the(16183)correct(16505)permentation(17286)of(19187)the(19574)elements(20346)
+5
+the(14202)correct(14850)then(17883)you(18577)take(19265)
+5
+a2(16303)which(17881)is(18341)2(19239)a3(19837)
+3
+6(14261)claim(16033)a2(19331)
+12
+claim(14061)is(14669)this(14916)is(15462)the(15733)correct(16097)permutation(17029)of(18276)the(18539)elements(18888)so(19973)that(20650)
+8
+this(14368)is(14965)the(15261)correct(15597)permutation(16778)of(18823)the(19080)elements(19536)
+.....................Number of Queue Removal: 21
+
+Time spent in alignment:98 ms
+_		way		the		claim		is		that		this		is		the		correct		permutation		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		that		this		is		the		correct		permutation		_		_		_		_		_		_		_		_		so		indeed		
+and		_		the		claim		is		_		this		_		_		_		permutation		_		_		_		_		and		then		we		take		_		_		
+_		_		_		_		_		that		this		is		the		correct		permutation		of		the		_		_		_		_		_		_		_		_		
+_		_		_		_		is		that		this		is		the		correct		permentation		of		the		elements		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		the		correct		_		_		_		_		_		_		then		you		take		_		_		
+_		_		_		_		_		_		_		_		_		_		_		_		_		_		a2		which		is		2		a3		_		_		
+_		6		_		claim		_		_		_		_		_		_		_		_		_		_		a2		_		_		_		_		_		_		
+_		_		_		claim		is		_		this		is		the		correct		permutation		of		the		elements		_		_		_		_		_		so		that		
+_		_		_		_		_		_		this		is		the		correct		permutation		of		the		elements		_		_		_		_		_		_		_		
+
+and 6 the claim is that this is the correct permutation of the elements a2 which then 2 take so indeed 
+
+and 6 the claim is that this is the correct permutation of the elements a2 which then 2 take so indeed 
+
+ [(and:1)]   [(6:1)(way:1)]   [(the:2)] the  [(claim:4)] claim  [(is:4)] is  [(that:4)] that  [(this:7)] this  [(is:6)] is  [(the:7)] the  [(correct:7)] correct  [(permutation:6)(permentation:1)] permutation  [(of:4)] of  [(the:4)] the  [(elements:3)] elements  [(a2:2)] a2  [(which:1)(and:1)]   [(is:1)(then:2)] then  [(2:1)(you:1)(we:1)]   [(take:2)(a3:1)] take  [(so:2)] so  [(indeed:1)(that:1)]  
+
+ [(and:1)]   [(6:1)(way:1)]   [(the:2)] the  [(claim:4)] claim  [(is:4)] is  [(that:4)] that  [(this:7)] this  [(is:6)] is  [(the:7)] the  [(correct:7)] correct  [(permutation:6)(permentation:1)] permutation  [(of:4)] of  [(the:4)] the  [(elements:3)] elements  [(a2:2)] a2  [(which:1)(and:1)]   [(is:1)(then:2)] then  [(2:1)(you:1)(we:1)]   [(take:2)(a3:1)] take  [(so:2)] so  [(indeed:1)(that:1)]  
+
+ [(and:1)]   [(6:1)(way:1)]   [(the:2)] the  [(claim:4)] claim  [(is:4)] is  [(that:4)] that  [(this:7)] this  [(is:6)] is  [(the:7)] the  [(correct:7)] correct  [(permutation:6)(permentation:1)] permutation  [(of:4)] of  [(the:4)] the  [(elements:3)] elements  [(a2:2)] a2  [(which:1)(and:1)]   [(is:1)(then:2)] then  [(2:1)(you:1)(we:1)]   [(take:2)(a3:1)] take  [(so:2)] so  [(indeed:1)(that:1)]  
+6
+of(21977)the(22226)and(25012)if(26501)i(26956)wrote(27212)
+9
+that(21863)works(22447)out(23952)and(24356)if(24872)that(25272)works(25892)out(26562)then(27055)
+9
+a1(21547)if(23419)i(23792)wrote(24079)this(24611)down(25261)right(26876)this(27518)is(27933)
+11
+and(21086)if(21472)i(21814)got(22313)if(23885)i(24236)wrote(24708)this(25245)down(25688)right(26995)this(27655)
+11
+and(23614)if(23894)i(24126)wrote(24287)this(24710)down(25182)right(25726)this(26159)i(26417)a(27571)sorting(27756)
+6
+a1(21370)this(23625)is(24524)a(24918)sorting(25257)algorithm(26281)
+10
+which(21156)is(21592)6(22519)if(23248)i(23488)wrote(24366)this(25192)down(25708)right(26652)this(27174)
+6
+9(22698)this(25717)is(26173)a(26501)sorting(26721)algorithm(27749)
+13
+works(21424)out(21949)if(22568)i(22833)wrote(22999)this(23600)down(24017)right(24481)this(25076)is(26017)a(26266)sorting(26462)algorithm(27232)
+9
+so(21234)indeed(21770)that(23665)works(24236)out(25203)this(25960)is(26548)a(26828)sorting(27029)
+............................Number of Queue Removal: 28
+
+Time spent in alignment:109 ms
+_		_		of		the		and		_		_		_		_		_		_		if		i		wrote		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+that		_		_		_		_		_		_		_		works		out		and		if		_		_		_		_		_		_		_		_		that		works		out		then		_		_		_		_		
+_		a1		_		_		_		_		_		_		_		_		_		if		i		wrote		this		down		right		this		is		_		_		_		_		_		_		_		_		_		
+_		_		_		_		and		if		i		got		_		_		_		if		i		wrote		this		down		right		this		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		and		_		_		_		_		_		_		if		i		wrote		this		down		right		this		_		i		_		_		_		_		_		a		sorting		_		
+_		a1		_		_		_		_		_		_		_		_		_		_		_		_		this		_		_		_		is		_		_		_		_		_		_		a		sorting		algorithm		
+_		_		_		which		_		is		6		_		_		_		_		if		i		wrote		this		down		right		this		_		_		_		_		_		_		_		_		_		_		
+_		_		9		_		_		_		_		_		_		_		_		_		_		_		this		_		_		_		is		_		_		_		_		_		_		a		sorting		algorithm		
+_		_		_		_		_		_		_		_		works		out		_		if		i		wrote		this		down		right		this		is		_		_		_		_		_		_		a		sorting		algorithm		
+_		_		_		_		_		_		_		so		_		_		indeed		_		_		_		_		_		_		_		_		_		that		works		out		this		is		a		sorting		_		
+
+that a1 of which and is 6 so works out indeed if i wrote this down right this is i that works out then is a sorting algorithm 
+
+that a1 of which and is 6 so works out indeed if i wrote this down right this is i that works out then is a sorting algorithm 
+
+ [(that:1)]   [(a1:2)] a1  [(of:1)(9:1)]   [(which:1)(the:1)]   [(and:3)] and  [(is:1)(if:1)]   [(6:1)(i:1)]   [(so:1)(got:1)]   [(works:2)] works  [(out:2)] out  [(indeed:1)(and:1)]   [(if:7)] if  [(i:6)] i  [(wrote:6)] wrote  [(this:7)] this  [(down:5)] down  [(right:5)] right  [(this:5)] this  [(is:4)] is  [(i:1)]   [(that:2)] that  [(works:2)] works  [(out:2)] out  [(then:1)(this:1)]   [(is:1)]   [(a:5)] a  [(sorting:5)] sorting  [(algorithm:3)] algorithm 
+
+ [(that:1)]   [(a1:2)] a1  [(of:1)(9:1)]   [(which:1)(the:1)]   [(and:3)] and  [(is:1)(if:1)]   [(6:1)(i:1)]   [(so:1)(got:1)]   [(works:2)] works  [(out:2)] out  [(indeed:1)(and:1)]   [(if:7)] if  [(i:6)] i  [(wrote:6)] wrote  [(this:7)] this  [(down:5)] down  [(right:5)] right  [(this:5)] this  [(is:4)] is  [(i:1)]   [(that:2)] that  [(works:2)] works  [(out:2)] out  [(then:1)(this:1)]   [(is:1)]   [(a:5)] a  [(sorting:5)] sorting  [(algorithm:3)] algorithm 
+
+ [(that:1)]   [(a1:2)] a1  [(of:1)(9:1)]   [(which:1)(the:1)]   [(and:3)] and  [(is:1)(if:1)]   [(6:1)(i:1)]   [(so:1)(got:1)]   [(works:2)] works  [(out:2)] out  [(indeed:1)(and:1)]   [(if:7)] if  [(i:6)] i  [(wrote:6)] wrote  [(this:7)] this  [(down:5)] down  [(right:5)] right  [(this:5)] this  [(is:4)] is  [(i:1)]   [(that:2)] that  [(works:2)] works  [(out:2)] out  [(then:1)(this:1)]   [(is:1)]   [(a:5)] a  [(sorting:5)] sorting  [(algorithm:3)] algorithm 
+8
+this(28660)down(29557)right(30592)this(31257)is(31976)a(32229)sorting(32453)algorithm(33501)
+8
+this(28087)is(28672)a(28991)algorithm(30351)the(32831)rules(33485)of(34039)this(34363)
+8
+a(28203)sorting(28450)algorithm(29206)the(32576)rules(32877)of(33526)this(33744)game(34078)
+9
+is(28253)a(28627)sorting(28879)algorithm(29752)in(31119)the(31376)decision(31771)tree(33822)model(34421)
+11
+algorithm(28678)so(31503)in(31750)general(31958)we(32678)just(32990)say(33326)the(33662)rules(33954)of(34558)this(34759)
+5
+the(31200)rules(31758)of(32784)this(33094)game(33747)
+7
+is(29040)a(29338)let(32645)me(33117)write(33883)down(34479)the(34873)
+8
+in(29370)decision(29830)tree(31030)model(31702)say(32917)rules(33301)of(34181)game(34485)
+12
+in(28509)the(28767)decision(29290)tree(30077)algorithm(30858)so(31978)in(32225)general(32463)you(33263)can(33559)say(33813)the(34823)
+9
+algorithm(28041)in(30351)the(30708)decision(31047)tree(32165)model(32983)so(33974)we(34270)say(34786)
+.............................Number of Queue Removal: 29
+
+Time spent in alignment:104 ms
+this		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		down		right		this		is		a		sorting		algorithm		
+this		is		a		_		algorithm		_		the		_		_		_		_		_		_		_		_		_		_		rules		of		this		_		_		_		_		_		_		_		_		_		
+_		_		a		sorting		algorithm		_		the		_		_		_		_		_		_		_		_		_		_		rules		of		this		game		_		_		_		_		_		_		_		_		
+_		is		a		sorting		algorithm		in		the		decision		tree		model		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		algorithm		_		_		_		_		_		so		in		general		we		just		say		the		rules		of		this		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		the		_		_		_		_		_		_		_		_		_		_		rules		of		this		game		_		_		_		_		_		_		_		_		
+_		is		a		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		let		me		write		down		the		_		_		_		
+_		_		_		_		_		in		_		decision		tree		model		_		say		_		_		_		_		_		rules		of		_		game		_		_		_		_		_		_		_		_		
+_		_		_		_		_		in		the		decision		tree		algorithm		so		in		general		you		can		say		the		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		algorithm		in		the		decision		tree		model		so		_		_		we		_		say		_		_		_		_		_		_		_		_		_		_		_		_		_		
+
+this is a sorting algorithm in the decision tree model so in general we just say the rules of this game let me write down is a sorting algorithm 
+
+this is a sorting algorithm in the decision tree model so in general we just say the rules of this game let me write down is a sorting algorithm 
+
+ [(this:2)] this  [(is:3)] is  [(a:4)] a  [(sorting:2)] sorting  [(algorithm:5)] algorithm  [(in:4)] in  [(the:6)] the  [(decision:4)] decision  [(tree:4)] tree  [(model:3)(algorithm:1)] model  [(so:3)] so  [(say:1)(in:2)] in  [(general:2)] general  [(you:1)(we:2)] we  [(just:1)(can:1)]   [(say:3)] say  [(the:2)] the  [(rules:5)] rules  [(of:5)] of  [(this:4)] this  [(game:3)] game  [(let:1)]   [(me:1)(down:1)]   [(write:1)(right:1)]   [(down:1)(this:1)]   [(is:1)(the:1)]   [(a:1)]   [(sorting:1)]   [(algorithm:1)]  
+
+ [(this:2)] this  [(is:3)] is  [(a:4)] a  [(sorting:2)] sorting  [(algorithm:5)] algorithm  [(in:4)] in  [(the:6)] the  [(decision:4)] decision  [(tree:4)] tree  [(model:3)(algorithm:1)] model  [(so:3)] so  [(say:1)(in:2)] in  [(general:2)] general  [(you:1)(we:2)] we  [(just:1)(can:1)]   [(say:3)] say  [(the:2)] the  [(rules:5)] rules  [(of:5)] of  [(this:4)] this  [(game:3)] game  [(let:1)]   [(me:1)(down:1)]   [(write:1)(right:1)]   [(down:1)(this:1)]   [(is:1)(the:1)]   [(a:1)]   [(sorting:1)]   [(algorithm:1)]  
+
+ [(this:2)] this  [(is:3)] is  [(a:4)] a  [(sorting:2)] sorting  [(algorithm:5)] algorithm  [(in:4)] in  [(the:6)] the  [(decision:4)] decision  [(tree:4)] tree  [(model:3)(algorithm:1)] model  [(so:3)] so  [(say:1)(in:2)] in  [(general:2)] general  [(you:1)(we:2)] we  [(just:1)(can:1)]   [(say:3)] say  [(the:2)] the  [(rules:5)] rules  [(of:5)] of  [(this:4)] this  [(game:3)] game  [(let:1)]   [(me:1)(down:1)]   [(write:1)(right:1)]   [(down:1)(this:1)]   [(is:1)(the:1)]   [(a:1)]   [(sorting:1)]   [(algorithm:1)]  
+3
+in(40125)the(41286)decision(41721)
+8
+game(35201)so(36457)in(36935)general(37278)we(38128)have(38566)elements(39687)we(40896)
+8
+in(36990)general(37278)we(38438)have(38968)elements(39758)we(40674)want(40974)to(41412)
+10
+so(35424)in(35817)general(36256)we(37530)have(37830)elements(38667)we(39682)want(40961)to(41566)sort(41909)
+10
+game(35081)so(37628)in(37841)general(38142)we(38785)have(39070)elements(39662)we(40391)want(40758)to(41931)
+7
+in(35860)general(36827)we(38276)have(38793)elements(40003)we(41317)want(41720)
+8
+rules(35456)of(36029)this(36249)game(36759)in(37516)general(37788)we(39329)have(39553)
+4
+in(39397)general(39712)have(40839)elements(41888)
+13
+rules(35179)of(35992)the(36331)game(36768)in(37521)general(37779)we(38526)have(38840)elements(39391)you(40399)want(40770)to(41221)sort(41412)
+9
+the(35534)rules(35989)of(36807)this(37092)game(37713)in(38595)general(39031)we(40761)have(41186)
+....................Number of Queue Removal: 20
+
+Time spent in alignment:76 ms
+_		_		_		_		_		_		in		the		decision		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		game		so		in		_		_		general		we		have		elements		we		_		_		_		_		_		_		
+_		_		_		_		_		_		in		_		_		general		we		have		elements		we		want		to		_		_		_		_		
+so		_		_		_		_		_		in		_		_		general		we		have		elements		we		want		to		sort		_		_		_		
+_		_		_		_		game		so		in		_		_		general		we		have		elements		we		want		to		_		_		_		_		
+_		_		_		_		_		_		in		_		_		general		we		have		elements		we		want		_		_		_		_		_		
+_		rules		of		this		game		_		in		_		_		general		we		have		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		in		_		_		general		_		have		elements		_		_		_		_		_		_		_		
+_		rules		of		the		game		_		in		_		_		general		we		have		elements		_		_		_		you		want		to		sort		
+the		rules		of		this		game		_		in		_		_		general		we		have		_		_		_		_		_		_		_		_		
+
+so rules of this game so in the decision general we have elements we want to sort want to sort 
+
+so rules of this game so in the decision general we have elements we want to sort want to sort 
+
+ [(so:1)(the:1)]   [(rules:3)] rules  [(of:3)] of  [(the:1)(this:2)] this  [(game:5)] game  [(so:2)] so  [(in:10)] in  [(the:1)]   [(decision:1)]   [(general:9)] general  [(we:8)] we  [(have:9)] have  [(elements:7)] elements  [(we:5)] we  [(want:4)] want  [(to:3)] to  [(sort:1)(you:1)]   [(want:1)]   [(to:1)]   [(sort:1)]  
+
+ [(so:1)(the:1)]   [(rules:3)] rules  [(of:3)] of  [(the:1)(this:2)] this  [(game:5)] game  [(so:2)] so  [(in:10)] in  [(the:1)]   [(decision:1)]   [(general:9)] general  [(we:8)] we  [(have:9)] have  [(elements:7)] elements  [(we:5)] we  [(want:4)] want  [(to:3)] to  [(sort:1)(you:1)]   [(want:1)]   [(to:1)]   [(sort:1)]  
+
+ [(so:1)(the:1)]   [(rules:3)] rules  [(of:3)] of  [(the:1)(this:2)] this  [(game:5)] game  [(so:2)] so  [(in:10)] in  [(the:1)]   [(decision:1)]   [(general:9)] general  [(we:8)] we  [(have:9)] have  [(elements:7)] elements  [(we:5)] we  [(want:4)] want  [(to:3)] to  [(sort:1)(you:1)]   [(want:1)]   [(to:1)]   [(sort:1)]  
+7
+tree(43174)model(43949)so(45677)i(46870)only(47217)drew(48323)the(48949)
+9
+sort(42239)and(42975)i(43518)only(44222)drew(44911)drew(44911)the(46368)equals(47772)3(48895)
+9
+sort(42111)and(42678)i(44178)only(44362)the(45466)n3(45913)case(46816)because(47640)they(48464)
+4
+and(42698)i(43210)only(43494)the(44975)
+10
+sort(42178)and(43464)i(43854)only(44302)drew(44710)the(45208)n3(45927)case(47246)because(48065)these(48963)
+7
+to(42369)sort(42749)i(45055)only(45476)drew(46260)the(47368)n3(48056)
+6
+i(43567)only(43813)drew(44366)the(45152)n3(45529)case(48854)
+5
+that(43116)we(43633)wanna(44048)sort(44861)drew(48044)
+5
+and(42108)i(43803)only(44027)drew(44736)the(45466)
+9
+elements(42219)we(43597)want(43934)to(44636)see(44977)and(45979)i(46639)only(47031)drew(48654)
+.....................Number of Queue Removal: 21
+
+Time spent in alignment:82 ms
+_		_		_		_		_		_		_		tree		model		so		i		only		drew		_		the		_		_		_		_		_		_		
+sort		and		_		_		_		_		_		_		_		_		i		only		drew		drew		the		_		_		_		_		equals		3		
+sort		and		_		_		_		_		_		_		_		_		i		only		_		_		the		n3		case		because		they		_		_		
+_		and		_		_		_		_		_		_		_		_		i		only		_		_		the		_		_		_		_		_		_		
+sort		and		_		_		_		_		_		_		_		_		i		only		drew		_		the		n3		case		because		these		_		_		
+_		_		_		_		_		to		sort		_		_		_		i		only		drew		_		the		n3		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		i		only		drew		_		the		n3		case		_		_		_		_		
+_		_		that		we		wanna		_		sort		_		_		_		_		_		drew		_		_		_		_		_		_		_		_		
+_		and		_		_		_		_		_		_		_		_		i		only		drew		_		the		_		_		_		_		_		_		
+_		_		elements		we		want		to		see		and		_		_		i		only		drew		_		_		_		_		_		_		_		_		
+
+sort and that we wanna to sort tree model so i only drew drew the n3 case because they equals 3 
+
+sort and that we wanna to sort tree model so i only drew drew the n3 case because they equals 3 
+
+ [(sort:3)] sort  [(and:5)] and  [(that:1)(elements:1)]   [(we:2)] we  [(wanna:1)(want:1)]   [(to:2)] to  [(sort:2)(see:1)] sort  [(tree:1)(and:1)]   [(model:1)]   [(so:1)]   [(i:9)] i  [(only:9)] only  [(drew:8)] drew  [(drew:1)]   [(the:8)] the  [(n3:4)] n3  [(case:3)] case  [(because:2)] because  [(they:1)(these:1)]   [(equals:1)]   [(3:1)]  
+
+ [(sort:3)] sort  [(and:5)] and  [(that:1)(elements:1)]   [(we:2)] we  [(wanna:1)(want:1)]   [(to:2)] to  [(sort:2)(see:1)] sort  [(tree:1)(and:1)]   [(model:1)]   [(so:1)]   [(i:9)] i  [(only:9)] only  [(drew:8)] drew  [(drew:1)]   [(the:8)] the  [(n3:4)] n3  [(case:3)] case  [(because:2)] because  [(they:1)(these:1)]   [(equals:1)]   [(3:1)]  
+
+ [(sort:3)] sort  [(and:5)] and  [(that:1)(elements:1)]   [(we:2)] we  [(wanna:1)(want:1)]   [(to:2)] to  [(sort:2)(see:1)] sort  [(tree:1)(and:1)]   [(model:1)]   [(so:1)]   [(i:9)] i  [(only:9)] only  [(drew:8)] drew  [(drew:1)]   [(the:8)] the  [(n3:4)] n3  [(case:3)] case  [(because:2)] because  [(they:1)(these:1)]   [(equals:1)]   [(3:1)]  
+6
+n3(49755)case(51164)because(51785)these(52653)trees(54158)get(55574)
+5
+case(49454)cause(50207)these(50839)each(52959)internal(54199)
+9
+get(49313)very(50113)big(50659)very(51561)quickly(51945)each(53242)internal(53730)node(54459)every(55851)
+()
+5
+trees(49528)get(50406)very(50806)big(51414)quickly(54967)
+4
+case(49654)each(51558)internal(52440)node(55711)
+2
+each(51928)internal(52972)
+7
+n3(49004)case(51016)cause(51714)trees(52417)get(54620)big(55140)very(55941)
+()
+6
+the(49436)equal(51005)3(52699)case(52924)each(54328)internal(55221)
+.................Number of Queue Removal: 17
+
+Time spent in alignment:18 ms
+n3		case		because		these		trees		get		_		_		_		_		_		_		_		_		_		_		_		
+_		case		cause		these		_		_		_		_		_		_		_		_		_		each		internal		_		_		
+_		_		_		_		_		get		very		big		very		quickly		_		_		_		each		internal		node		every		
+_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		trees		get		very		big		quickly		_		_		_		_		_		_		_		_		
+_		case		_		_		_		_		_		_		_		_		_		_		_		each		internal		node		_		
+_		_		_		_		_		_		_		_		_		_		_		_		_		each		internal		_		_		
+n3		case		cause		_		trees		get		_		big		very		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		the		equal		3		case		each		internal		_		_		
+
+n3 case cause these trees get very big very the equal 3 case each internal node every 
+
+n3 case cause these trees get very big very the equal 3 case each internal node every 
+
+ [(n3:2)] n3  [(case:4)] case  [(because:1)(cause:2)] cause  [(these:2)] these  [(trees:3)] trees  [(get:4)] get  [(very:2)] very  [(big:3)] big  [(quickly:1)(very:2)] very  [(the:1)(quickly:1)]   [(equal:1)]   [(3:1)]   [(case:1)]   [(each:5)] each  [(internal:5)] internal  [(node:2)] node  [(every:1)]  
+
+ [(n3:2)] n3  [(case:4)] case  [(because:1)(cause:2)] cause  [(these:2)] these  [(trees:3)] trees  [(get:4)] get  [(very:2)] very  [(big:3)] big  [(quickly:1)(very:2)] very  [(the:1)(quickly:1)]   [(equal:1)]   [(3:1)]   [(case:1)]   [(each:5)] each  [(internal:5)] internal  [(node:2)] node  [(every:1)]  
+
+ [(n3:2)] n3  [(case:4)] case  [(because:1)(cause:2)] cause  [(these:2)] these  [(trees:3)] trees  [(get:4)] get  [(very:2)] very  [(big:3)] big  [(quickly:1)(very:2)] very  [(the:1)(quickly:1)]   [(equal:1)]   [(3:1)]   [(case:1)]   [(each:5)] each  [(internal:5)] internal  [(node:2)] node  [(every:1)]  
+5
+very(56702)big(57849)quickly(59662)every(61575)non(62854)
+9
+node(56022)each(56830)nonleaf(57415)node(59191)has(59894)a(60406)label(60974)of(62486)the(62782)
+5
+nonleaf(56579)node(57605)has(58558)a(58878)label(59058)
+4
+each(58506)internal(59357)tree(60946)every(62583)
+6
+each(57598)internal(58038)mode(59130)has(59662)a(59934)label(60174)
+4
+so(56785)every(57365)nonleaf(58274)node(60135)
+5
+has(58336)a(58730)label(58852)of(62593)the(62882)
+6
+quickly(57068)nonleaf(58668)node(60847)has(61951)a(62270)label(62620)
+6
+has(58529)a(58852)label(59054)of(61971)the(62254)form(62555)
+4
+node(57981)has(58798)a(59154)label(59570)
+................Number of Queue Removal: 16
+
+Time spent in alignment:54 ms
+_		_		_		_		very		_		_		_		_		_		_		_		big		quickly		every		non		
+node		each		_		_		_		nonleaf		node		has		a		label		of		the		_		_		_		_		
+_		_		_		_		_		nonleaf		node		has		a		label		_		_		_		_		_		_		
+_		each		internal		tree		every		_		_		_		_		_		_		_		_		_		_		_		
+_		each		internal		mode		_		_		_		has		a		label		_		_		_		_		_		_		
+_		_		_		so		every		nonleaf		node		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		has		a		label		of		the		_		_		_		_		
+_		_		quickly		_		_		nonleaf		node		has		a		label		_		_		_		_		_		_		
+_		_		_		_		_		_		_		has		a		label		of		the		form		_		_		_		
+_		_		_		_		_		_		node		has		a		label		_		_		_		_		_		_		
+
+node each internal tree every nonleaf node has a label of the form quickly every non 
+
+node each internal tree every nonleaf node has a label of the form quickly every non 
+
+ [(node:1)]   [(each:3)] each  [(quickly:1)(internal:2)] internal  [(tree:1)(so:1)(mode:1)]   [(every:2)(very:1)] every  [(nonleaf:4)] nonleaf  [(node:5)] node  [(has:7)] has  [(a:7)] a  [(label:7)] label  [(of:3)] of  [(the:3)] the  [(form:1)(big:1)]   [(quickly:1)]   [(every:1)]   [(non:1)]  
+
+ [(node:1)]   [(each:3)] each  [(quickly:1)(internal:2)] internal  [(tree:1)(so:1)(mode:1)]   [(every:2)(very:1)] every  [(nonleaf:4)] nonleaf  [(node:5)] node  [(has:7)] has  [(a:7)] a  [(label:7)] label  [(of:3)] of  [(the:3)] the  [(form:1)(big:1)]   [(quickly:1)]   [(every:1)]   [(non:1)]  
+
+ [(node:1)]   [(each:3)] each  [(quickly:1)(internal:2)] internal  [(tree:1)(so:1)(mode:1)]   [(every:2)(very:1)] every  [(nonleaf:4)] nonleaf  [(node:5)] node  [(has:7)] has  [(a:7)] a  [(label:7)] label  [(of:3)] of  [(the:3)] the  [(form:1)(big:1)]   [(quickly:1)]   [(every:1)]   [(non:1)]  
+6
+leaf(63680)mode(65083)has(66147)a(66528)label(66862)where(69247)
+8
+form(63398)i(64150)colon(64470)where(66110)i(67255)and(67526)are(68815)between(69303)
+7
+of(63388)the(63668)form(64028)where(66821)i(68534)and(68798)are(69763)
+6
+non(63380)where(65629)i(66198)and(66571)are(67428)between(68870)
+9
+of(63526)the(63731)form(64031)i(66292)colon(66498)where(67902)i(68565)and(68727)are(69690)
+7
+has(63462)a(63942)label(64475)of(65769)the(66677)form(67143)where(69712)
+3
+form(63189)when(68122)i(68807)
+4
+of(64993)the(65284)form(66221)ij(67075)
+9
+i(63243)colon(64098)where(65763)i(66321)and(66527)are(67332)between(67723)1(69285)and(69542)
+6
+of(63400)the(63670)form(64041)where(67579)i(68912)and(69544)
+..................Number of Queue Removal: 18
+
+Time spent in alignment:72 ms
+leaf		mode		has		a		label		_		_		_		_		_		_		where		_		_		_		_		_		_		
+_		_		_		_		_		_		_		form		_		i		colon		where		i		and		are		between		_		_		
+_		_		_		_		_		of		the		form		_		_		_		where		i		and		are		_		_		_		
+_		non		_		_		_		_		_		_		_		_		_		where		i		and		are		between		_		_		
+_		_		_		_		_		of		the		form		_		i		colon		where		i		and		are		_		_		_		
+_		_		has		a		label		of		the		form		_		_		_		where		_		_		_		_		_		_		
+_		_		_		_		_		_		_		form		when		i		_		_		_		_		_		_		_		_		
+_		_		_		_		_		of		the		form		_		_		_		_		_		_		_		ij		_		_		
+_		_		_		_		_		_		_		_		_		i		colon		where		i		and		are		between		1		and		
+_		_		_		_		_		of		the		form		_		_		_		where		i		and		_		_		_		_		
+
+leaf non has a label of the form when i colon where i and are between 1 and 
+
+leaf non has a label of the form when i colon where i and are between 1 and 
+
+ [(leaf:1)]   [(non:1)(mode:1)]   [(has:2)] has  [(a:2)] a  [(label:2)] label  [(of:5)] of  [(the:5)] the  [(form:7)] form  [(when:1)]   [(i:4)] i  [(colon:3)] colon  [(where:8)] where  [(i:6)] i  [(and:6)] and  [(are:5)] are  [(ij:1)(between:3)] between  [(1:1)]   [(and:1)]  
+
+ [(leaf:1)]   [(non:1)(mode:1)]   [(has:2)] has  [(a:2)] a  [(label:2)] label  [(of:5)] of  [(the:5)] the  [(form:7)] form  [(when:1)]   [(i:4)] i  [(colon:3)] colon  [(where:8)] where  [(i:6)] i  [(and:6)] and  [(are:5)] are  [(ij:1)(between:3)] between  [(1:1)]   [(and:1)]  
+
+ [(leaf:1)]   [(non:1)(mode:1)]   [(has:2)] has  [(a:2)] a  [(label:2)] label  [(of:5)] of  [(the:5)] the  [(form:7)] form  [(when:1)]   [(i:4)] i  [(colon:3)] colon  [(where:8)] where  [(i:6)] i  [(and:6)] and  [(are:5)] are  [(ij:1)(between:3)] between  [(1:1)]   [(and:1)]  
+9
+i(70006)and(70422)are(71350)between(72912)1(74095)and(74329)and(75471)this(75905)means(76368)
+8
+1(70406)and(70707)and(73509)this(73886)means(74501)that(75031)we(75534)compare(75919)
+9
+between(70347)1(71768)and(72082)and(74767)this(75127)means(75508)that(76031)we(76407)compare(76708)
+8
+1(70371)and(70666)and(73407)this(73800)means(74322)that(74859)we(75455)compare(75835)
+9
+between(70047)1(71550)and(71800)and(74326)this(74634)means(75158)that(75671)we(75951)compare(76182)
+7
+i(70659)and(71387)are(72541)between(73066)1(74924)and(75232)and(76501)
+7
+is(70549)between(71037)this(74318)means(74779)that(75310)we(75721)compare(75986)
+9
+where(70135)i(70696)and(71163)are(72211)between(72619)1(73821)and(74229)and(75910)this(76277)
+6
+and(72957)this(73376)means(74333)that(75058)we(75462)compare(75792)
+8
+are(70226)between(70797)1(71864)and(72331)and(74786)this(75187)means(75769)that(76390)
+.............Number of Queue Removal: 13
+
+Time spent in alignment:55 ms
+_		i		and		are		between		1		and		and		this		means		_		_		_		
+_		_		_		_		_		1		and		and		this		means		that		we		compare		
+_		_		_		_		between		1		and		and		this		means		that		we		compare		
+_		_		_		_		_		1		and		and		this		means		that		we		compare		
+_		_		_		_		between		1		and		and		this		means		that		we		compare		
+_		i		and		are		between		1		and		and		_		_		_		_		_		
+is		_		_		_		between		_		_		_		this		means		that		we		compare		
+where		i		and		are		between		1		and		and		this		_		_		_		_		
+_		_		_		_		_		_		_		and		this		means		that		we		compare		
+_		_		_		are		between		1		and		and		this		means		that		_		_		
+
+is i and are between 1 and and this means that we compare 
+
+is i and are between 1 and and this means that we compare 
+
+ [(is:1)(where:1)]   [(i:3)] i  [(and:3)] and  [(are:4)] are  [(between:7)] between  [(1:8)] 1  [(and:8)] and  [(and:9)] and  [(this:9)] this  [(means:8)] means  [(that:7)] that  [(we:6)] we  [(compare:6)] compare 
+
+ [(is:1)(where:1)]   [(i:3)] i  [(and:3)] and  [(are:4)] are  [(between:7)] between  [(1:8)] 1  [(and:8)] and  [(and:9)] and  [(this:9)] this  [(means:8)] means  [(that:7)] that  [(we:6)] we  [(compare:6)] compare 
+
+ [(is:1)(where:1)]   [(i:3)] i  [(and:3)] and  [(are:4)] are  [(between:7)] between  [(1:8)] 1  [(and:8)] and  [(and:9)] and  [(this:9)] this  [(means:8)] means  [(that:7)] that  [(we:6)] we  [(compare:6)] compare 
+7
+that(77023)we(77479)compare(77832)a(79527)i(81689)with(82126)aj(83983)
+3
+ai(79382)with(81141)aj(81677)
+3
+ai(80699)with(81448)aj(81920)
+3
+ai(78583)with(81413)aj(82054)
+3
+ai(80271)with(82366)aj(82926)
+7
+this(77020)means(77595)we(78788)compare(79996)ai(81685)with(82447)aj(83104)
+3
+ai(79295)with(81288)aj(81758)
+6
+means(77271)that(77804)we(78799)compare(80528)ai(81467)with(82819)
+3
+ai(78467)with(78999)aj(79421)
+5
+we(77046)compare(77388)ai(80470)with(81893)aj(82675)
+..........Number of Queue Removal: 10
+
+Time spent in alignment:53 ms
+_		_		that		we		compare		a		i		_		with		aj		
+_		_		_		_		_		_		_		ai		with		aj		
+_		_		_		_		_		_		_		ai		with		aj		
+_		_		_		_		_		_		_		ai		with		aj		
+_		_		_		_		_		_		_		ai		with		aj		
+this		means		_		we		compare		_		_		ai		with		aj		
+_		_		_		_		_		_		_		ai		with		aj		
+_		means		that		we		compare		_		_		ai		with		_		
+_		_		_		_		_		_		_		ai		with		aj		
+_		_		_		we		compare		_		_		ai		with		aj		
+
+this means that we compare a i ai with aj 
+
+this means that we compare a i ai with aj 
+
+ [(this:1)]   [(means:2)] means  [(that:2)] that  [(we:4)] we  [(compare:4)] compare  [(a:1)]   [(i:1)]   [(ai:9)] ai  [(with:10)] with  [(aj:9)] aj 
+
+ [(this:1)]   [(means:2)] means  [(that:2)] that  [(we:4)] we  [(compare:4)] compare  [(a:1)]   [(i:1)]   [(ai:9)] ai  [(with:10)] with  [(aj:9)] aj 
+
+ [(this:1)]   [(means:2)] means  [(that:2)] that  [(we:4)] we  [(compare:4)] compare  [(a:1)]   [(i:1)]   [(ai:9)] ai  [(with:10)] with  [(aj:9)] aj 
+5
+and(88448)we(88960)have(89388)2(89954)sub(90760)
+5
+and(86981)we(88338)have(88624)2(89351)subtrees(90045)
+5
+and(88018)we(89322)have(89571)2(89986)subtrees(90671)
+7
+and(86355)we(87592)have(87959)2(88621)subtrees(89160)from(90407)every(90908)
+5
+and(88030)we(88926)have(89204)2(89657)subtrees(90746)
+4
+we(87650)have(88030)2(89688)subtrees(90416)
+6
+and(87327)we(88205)have(88295)2(89257)sub(89665)trees(90622)
+4
+aj(85003)and(89279)we(90475)have(90827)
+6
+and(86460)we(87605)have(87929)2(89394)subtrees(89807)for(90928)
+5
+and(87672)we(88970)have(89396)2(89887)subtrees(90489)
+.........Number of Queue Removal: 9
+
+Time spent in alignment:29 ms
+_		and		we		have		2		_		sub		_		_		
+_		and		we		have		2		subtrees		_		_		_		
+_		and		we		have		2		subtrees		_		_		_		
+_		and		we		have		2		subtrees		_		from		every		
+_		and		we		have		2		subtrees		_		_		_		
+_		_		we		have		2		subtrees		_		_		_		
+_		and		we		have		2		_		_		sub		trees		
+aj		and		we		have		_		_		_		_		_		
+_		and		we		have		2		subtrees		for		_		_		
+_		and		we		have		2		subtrees		_		_		_		
+
+aj and we have 2 subtrees sub sub trees 
+
+aj and we have 2 subtrees sub sub trees 
+
+ [(aj:1)]   [(and:9)] and  [(we:10)] we  [(have:10)] have  [(2:9)] 2  [(subtrees:7)] subtrees  [(sub:1)(for:1)]   [(sub:1)(from:1)]   [(trees:1)(every:1)]  
+
+ [(aj:1)]   [(and:9)] and  [(we:10)] we  [(have:10)] have  [(2:9)] 2  [(subtrees:7)] subtrees  [(sub:1)(for:1)]   [(sub:1)(from:1)]   [(trees:1)(every:1)]  
+
+ [(aj:1)]   [(and:9)] and  [(we:10)] we  [(have:10)] have  [(2:9)] 2  [(subtrees:7)] subtrees  [(sub:1)(for:1)]   [(sub:1)(from:1)]   [(trees:1)(every:1)]  
+9
+trees(91520)from(93063)every(93651)such(94672)node(95288)we(96658)have(97104)the(97680)left(97976)
+7
+for(91789)every(92629)such(93781)node(94973)we(95542)have(95885)the(96325)
+9
+for(92211)every(92611)such(93238)node(94708)we(95478)have(95820)the(96229)left(96596)subtree(97100)
+9
+such(91730)node(92473)we(93282)have(93585)the(94113)subtree(95038)which(96367)tells(97055)you(97664)
+11
+from(91786)every(92137)such(93318)node(93742)we(94400)have(94638)the(94934)less(95195)subtree(95686)which(96864)tells(97318)
+6
+from(91970)every(92604)such(93679)node(94465)which(95618)tells(96519)
+8
+we(92650)have(93124)hte(93513)left(95240)sub(95845)tree(96361)which(97165)tells(97612)
+4
+2(91443)from(94567)every(95325)subnode(95935)
+13
+every(91292)such(91892)node(92395)we(93008)have(93389)the(93824)left(94183)subtree(94637)which(95677)tells(96316)you(97016)what(97322)the(97701)
+9
+from(92143)every(92753)such(93720)node(94368)we(95019)have(95445)the(95901)left(96434)subtree(97095)
+.....................Number of Queue Removal: 21
+
+Time spent in alignment:66 ms
+trees		from		_		every		such		node		we		have		the		left		_		_		_		_		_		_		_		_		_		_		_		
+_		_		for		every		such		node		we		have		the		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		for		every		such		node		we		have		the		left		subtree		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		such		node		we		have		the		_		subtree		_		_		_		_		_		which		tells		you		_		_		
+_		from		_		every		such		node		we		have		the		_		_		_		less		subtree		_		_		which		tells		_		_		_		
+_		from		_		every		such		node		_		_		_		_		_		_		_		_		_		_		which		tells		_		_		_		
+_		_		_		_		_		_		we		have		_		_		_		_		hte		left		sub		tree		which		tells		_		_		_		
+2		from		_		every		_		_		_		_		_		_		_		subnode		_		_		_		_		_		_		_		_		_		
+_		_		_		every		such		node		we		have		the		left		subtree		_		_		_		_		_		which		tells		you		what		the		
+_		from		_		every		such		node		we		have		the		left		subtree		_		_		_		_		_		_		_		_		_		_		
+
+2 from for every such node we have the left subtree subnode hte subtree sub tree which tells you what the 
+
+2 from for every such node we have the left subtree subnode hte subtree sub tree which tells you what the 
+
+ [(2:1)(trees:1)]   [(from:5)] from  [(for:2)] for  [(every:8)] every  [(such:8)] such  [(node:8)] node  [(we:8)] we  [(have:8)] have  [(the:7)] the  [(left:4)] left  [(subtree:4)] subtree  [(subnode:1)]   [(hte:1)(less:1)]   [(subtree:1)(left:1)]   [(sub:1)]   [(tree:1)]   [(which:5)] which  [(tells:5)] tells  [(you:2)] you  [(what:1)]   [(the:1)]  
+
+ [(2:1)(trees:1)]   [(from:5)] from  [(for:2)] for  [(every:8)] every  [(such:8)] such  [(node:8)] node  [(we:8)] we  [(have:8)] have  [(the:7)] the  [(left:4)] left  [(subtree:4)] subtree  [(subnode:1)]   [(hte:1)(less:1)]   [(subtree:1)(left:1)]   [(sub:1)]   [(tree:1)]   [(which:5)] which  [(tells:5)] tells  [(you:2)] you  [(what:1)]   [(the:1)]  
+
+ [(2:1)(trees:1)]   [(from:5)] from  [(for:2)] for  [(every:8)] every  [(such:8)] such  [(node:8)] node  [(we:8)] we  [(have:8)] have  [(the:7)] the  [(left:4)] left  [(subtree:4)] subtree  [(subnode:1)]   [(hte:1)(less:1)]   [(subtree:1)(left:1)]   [(sub:1)]   [(tree:1)]   [(which:5)] which  [(tells:5)] tells  [(you:2)] you  [(what:1)]   [(the:1)]  
+8
+sub(98585)tree(99289)which(100281)tells(101297)you(102282)what(103219)the(103800)algorith(104152)
+6
+subtreee(98484)what(100469)subsequent(101093)comparisons(102765)it(104360)makes(104861)
+6
+which(98588)tells(99076)what(100021)the(101221)algorithm(101575)does(103292)
+5
+what(98029)the(99411)algorithm(99899)does(101290)what(102497)
+8
+you(98382)what(99036)the(99337)algorithm(100079)does(102291)and(102900)what(103180)subsequent(103506)
+5
+you(100225)if(103068)it(103547)comes(103967)out(104736)
+6
+you(98182)what(98546)hte(98970)algorhtyhm(99223)if(104463)it(104848)
+10
+which(98877)tells(99519)you(100161)what(100468)the(100957)algorhithm(101971)does(103646)and(104138)what(104493)subsequent(104997)
+5
+algorithm(98050)does(99163)what(99956)if(104009)it(104411)
+8
+which(98132)tells(98900)you(99897)what(100638)the(101199)algorithm(101676)if(104417)it(104833)
+......................Number of Queue Removal: 22
+
+Time spent in alignment:106 ms
+_		_		_		_		sub		tree		which		tells		you		what		the		algorith		_		_		_		_		_		_		_		_		_		_		
+subtreee		_		_		_		_		_		_		_		_		what		_		_		_		_		_		subsequent		comparisons		it		makes		_		_		_		
+_		which		tells		_		_		_		_		_		_		what		the		algorithm		does		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		what		the		algorithm		does		_		what		_		_		_		_		_		_		_		
+_		_		_		you		_		_		_		_		_		what		the		algorithm		does		and		what		subsequent		_		_		_		_		_		_		
+_		_		_		you		_		_		_		_		_		_		_		_		_		_		_		_		_		_		if		it		comes		out		
+_		_		_		you		_		_		_		_		_		what		_		_		_		_		_		_		hte		algorhtyhm		if		it		_		_		
+_		which		tells		you		_		_		_		_		_		what		the		algorhithm		does		and		what		subsequent		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		algorithm		does		_		what		_		_		_		if		it		_		_		
+_		which		tells		you		_		_		_		_		_		what		the		algorithm		_		_		_		_		_		_		if		it		_		_		
+
+subtreee which tells you sub tree which tells you what the algorithm does and what subsequent comparisons it if it comes out 
+
+subtreee which tells you sub tree which tells you what the algorithm does and what subsequent comparisons it if it comes out 
+
+ [(subtreee:1)]   [(which:3)] which  [(tells:3)] tells  [(you:5)] you  [(sub:1)]   [(tree:1)]   [(which:1)]   [(tells:1)]   [(you:1)]   [(what:8)] what  [(the:6)] the  [(algorhithm:1)(algorith:1)(algorithm:5)] algorithm  [(does:5)] does  [(and:2)] and  [(what:4)] what  [(subsequent:3)] subsequent  [(comparisons:1)(hte:1)]   [(it:1)(algorhtyhm:1)]   [(if:4)(makes:1)] if  [(it:4)] it  [(comes:1)]   [(out:1)]  
+
+ [(subtreee:1)]   [(which:3)] which  [(tells:3)] tells  [(you:5)] you  [(sub:1)]   [(tree:1)]   [(which:1)]   [(tells:1)]   [(you:1)]   [(what:8)] what  [(the:6)] the  [(algorhithm:1)(algorith:1)(algorithm:5)] algorithm  [(does:5)] does  [(and:2)] and  [(what:4)] what  [(subsequent:3)] subsequent  [(comparisons:1)(hte:1)]   [(it:1)(algorhtyhm:1)]   [(if:4)(makes:1)] if  [(it:4)] it  [(comes:1)]   [(out:1)]  
+
+ [(subtreee:1)]   [(which:3)] which  [(tells:3)] tells  [(you:5)] you  [(sub:1)]   [(tree:1)]   [(which:1)]   [(tells:1)]   [(you:1)]   [(what:8)] what  [(the:6)] the  [(algorhithm:1)(algorith:1)(algorithm:5)] algorithm  [(does:5)] does  [(and:2)] and  [(what:4)] what  [(subsequent:3)] subsequent  [(comparisons:1)(hte:1)]   [(it:1)(algorhtyhm:1)]   [(if:4)(makes:1)] if  [(it:4)] it  [(comes:1)]   [(out:1)]  
+5
+does(106380)and(108118)what(108873)subtrees(109394)it(111505)
+5
+if(105448)it(105915)comes(106601)out(107293)less(107692)
+6
+if(105870)it(106406)comes(106718)up(107167)less(107483)than(108083)
+10
+comparisons(105211)it(106789)makes(107210)if(108060)it(108480)comes(109000)out(109768)less(110208)than(110850)and(111881)
+8
+algortihms(105087)it(107817)takes(108024)if(108465)it(108699)comes(109077)out(109601)less(109858)
+2
+less(105339)than(106064)
+4
+comes(105174)out(105751)less(106090)than(106629)
+6
+if(108014)it(108446)comes(108815)out(109442)less(109786)then(110530)
+6
+comes(105209)out(105728)less(106088)than(106890)and(111582)we(111937)
+4
+comes(105214)out(105971)less(106501)than(107279)
+...............Number of Queue Removal: 15
+
+Time spent in alignment:82 ms
+does		_		_		_		_		_		_		_		_		_		_		and		what		subtrees		it		
+_		_		_		_		if		it		comes		out		_		less		_		_		_		_		_		
+_		_		_		_		if		it		comes		_		up		less		than		_		_		_		_		
+_		comparisons		it		makes		if		it		comes		out		_		less		than		and		_		_		_		
+_		algortihms		it		takes		if		it		comes		out		_		less		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		less		than		_		_		_		_		
+_		_		_		_		_		_		comes		out		_		less		than		_		_		_		_		
+_		_		_		_		if		it		comes		out		_		less		_		then		_		_		_		
+_		_		_		_		_		_		comes		out		_		less		than		and		we		_		_		
+_		_		_		_		_		_		comes		out		_		less		than		_		_		_		_		
+
+does algortihms it takes if it comes out up less than and what subtrees it 
+
+does algortihms it takes if it comes out up less than and what subtrees it 
+
+ [(does:1)]   [(algortihms:1)(comparisons:1)]   [(it:2)] it  [(takes:1)(makes:1)]   [(if:5)] if  [(it:5)] it  [(comes:8)] comes  [(out:7)] out  [(up:1)]   [(less:9)] less  [(than:6)] than  [(then:1)(and:3)] and  [(what:1)(we:1)]   [(subtrees:1)]   [(it:1)]  
+
+ [(does:1)]   [(algortihms:1)(comparisons:1)]   [(it:2)] it  [(takes:1)(makes:1)]   [(if:5)] if  [(it:5)] it  [(comes:8)] comes  [(out:7)] out  [(up:1)]   [(less:9)] less  [(than:6)] than  [(then:1)(and:3)] and  [(what:1)(we:1)]   [(subtrees:1)]   [(it:1)]  
+
+ [(does:1)]   [(algortihms:1)(comparisons:1)]   [(it:2)] it  [(takes:1)(makes:1)]   [(if:5)] if  [(it:5)] it  [(comes:8)] comes  [(out:7)] out  [(up:1)]   [(less:9)] less  [(than:6)] than  [(then:1)(and:3)] and  [(what:1)(we:1)]   [(subtrees:1)]   [(it:1)]  
+12
+makes(112428)if(113297)it(113716)comes(114145)out(114817)less(115321)than(116010)and(116827)we(117385)have(117809)to(118321)be(118690)
+11
+and(112220)we(112631)have(112897)to(113366)be(113835)a(114572)little(114790)bit(115744)careful(116949)cause(118101)it(118724)
+8
+and(114079)we(115598)have(115882)to(116285)be(117235)a(117518)little(117657)careful(118769)
+11
+we(112354)have(112795)to(113386)be(113848)a(114345)little(114572)bit(115298)careful(116206)because(117110)it(117937)could(118522)
+14
+and(112862)we(113198)have(113711)to(114000)be(114222)a(114470)little(114622)bit(115185)careful(116159)because(116935)it(117581)could(117925)also(118292)come(118847)
+9
+we(112025)have(112376)to(112895)be(113234)a(113762)little(114104)bit(116126)less(117065)than(117865)
+14
+and(112129)we(112502)have(112708)to(113109)be(113995)a(114228)little(114362)bit(115021)careful(115519)because(116466)it(117128)can(117815)come(118190)out(118557)
+8
+than(112794)we(115202)have(115594)to(116082)be(116466)a(116918)little(117159)careful(118576)
+15
+have(112231)to(112583)be(112817)a(113081)little(113243)bit(113865)careful(114374)because(115246)because(115246)it(115979)could(116267)also(116738)come(117245)out(117630)equal(117947)
+10
+and(112817)we(113213)have(113599)to(114086)be(114557)a(114848)little(115153)bit(116047)careful(116662)because(117950)
+............................Number of Queue Removal: 28
+
+Time spent in alignment:123 ms
+_		_		_		makes		if		it		comes		out		less		than		and		we		have		to		be		_		_		_		_		_		_		_		_		_		_		_		_		_		
+and		_		we		_		_		_		_		_		_		_		_		_		have		to		be		a		little		bit		careful		_		cause		it		_		_		_		_		_		_		
+and		_		we		_		_		_		_		_		_		_		_		_		have		to		be		a		little		_		careful		_		_		_		_		_		_		_		_		_		
+_		_		we		_		_		_		_		_		_		_		_		_		have		to		be		a		little		bit		careful		because		_		it		could		_		_		_		_		_		
+and		_		we		_		_		_		_		_		_		_		_		_		have		to		be		a		little		bit		careful		because		_		it		could		also		come		_		_		_		
+_		_		we		_		_		_		_		_		_		_		_		_		have		to		be		a		little		bit		_		_		_		_		_		_		_		_		less		than		
+and		_		we		_		_		_		_		_		_		_		_		_		have		to		be		a		little		bit		careful		because		_		it		_		can		come		out		_		_		
+_		than		we		_		_		_		_		_		_		_		_		_		have		to		be		a		little		_		careful		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		_		have		to		be		a		little		bit		careful		because		because		it		could		also		come		out		equal		_		
+and		_		we		_		_		_		_		_		_		_		_		_		have		to		be		a		little		bit		careful		because		_		_		_		_		_		_		_		_		
+
+and than we makes if it comes out less than and we have to be a little bit careful because because it could also come out equal than 
+
+and than we makes if it comes out less than and we have to be a little bit careful because because it could also come out equal than 
+
+ [(and:5)] and  [(than:1)]   [(we:8)] we  [(makes:1)]   [(if:1)]   [(it:1)]   [(comes:1)]   [(out:1)]   [(less:1)]   [(than:1)]   [(and:1)]   [(we:1)]   [(have:10)] have  [(to:10)] to  [(be:10)] be  [(a:9)] a  [(little:9)] little  [(bit:7)] bit  [(careful:8)] careful  [(because:5)] because  [(because:1)(cause:1)]   [(it:5)] it  [(could:3)] could  [(can:1)(also:2)] also  [(come:3)] come  [(out:2)] out  [(equal:1)(less:1)]   [(than:1)]  
+
+ [(and:5)] and  [(than:1)]   [(we:8)] we  [(makes:1)]   [(if:1)]   [(it:1)]   [(comes:1)]   [(out:1)]   [(less:1)]   [(than:1)]   [(and:1)]   [(we:1)]   [(have:10)] have  [(to:10)] to  [(be:10)] be  [(a:9)] a  [(little:9)] little  [(bit:7)] bit  [(careful:8)] careful  [(because:5)] because  [(because:1)(cause:1)]   [(it:5)] it  [(could:3)] could  [(can:1)(also:2)] also  [(come:3)] come  [(out:2)] out  [(equal:1)(less:1)]   [(than:1)]  
+
+ [(and:5)] and  [(than:1)]   [(we:8)] we  [(makes:1)]   [(if:1)]   [(it:1)]   [(comes:1)]   [(out:1)]   [(less:1)]   [(than:1)]   [(and:1)]   [(we:1)]   [(have:10)] have  [(to:10)] to  [(be:10)] be  [(a:9)] a  [(little:9)] little  [(bit:7)] bit  [(careful:8)] careful  [(because:5)] because  [(because:1)(cause:1)]   [(it:5)] it  [(could:3)] could  [(can:1)(also:2)] also  [(come:3)] come  [(out:2)] out  [(equal:1)(less:1)]   [(than:1)]  
+9
+a(119057)little(119643)bit(120507)careful(121475)since(122841)it(123546)could(123946)also(124524)come(125450)
+8
+could(119236)also(120068)come(120829)equals(122345)so(124172)the(124548)right(124996)subtree(125622)
+7
+because(119722)they(120570)could(121042)be(121510)and(124971)the(125315)right(125653)
+7
+also(119088)come(119747)equal(120959)and(122447)the(122803)right(123207)subtree(123989)
+7
+out(119218)equal(119679)the(121086)right(121350)subtree(121807)corresponds(124332)to(125869)
+5
+and(120246)the(120676)right(121112)subtree(121999)strictly(125426)
+4
+the(121070)right(121382)sub(122008)tress(122571)
+5
+less(121518)than(122194)or(122644)equal(123696)to(124580)
+9
+less(119784)than(120315)or(120722)equal(120990)to(121621)and(122561)the(122956)right(123287)subtree(124149)
+7
+it(119028)may(119343)come(119900)out(120581)right(122696)subtree(123773)corresponds(124781)
+.........................Number of Queue Removal: 25
+
+Time spent in alignment:76 ms
+_		_		_		_		_		_		_		_		a		little		bit		careful		_		_		_		_		_		_		_		_		since		it		could		also		come		
+_		_		_		_		_		_		_		could		_		_		_		_		also		come		equals		so		the		right		subtree		_		_		_		_		_		_		
+because		they		_		_		_		_		_		could		be		and		_		_		_		_		_		_		the		right		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		_		also		come		equal		and		the		right		subtree		_		_		_		_		_		_		
+_		_		_		out		equal		_		_		_		_		_		_		_		_		_		_		_		the		right		subtree		corresponds		to		_		_		_		_		
+_		_		_		_		_		_		and		_		_		_		_		_		_		_		_		_		the		right		subtree		strictly		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		the		right		_		_		_		sub		tress		_		_		
+_		less		than		or		equal		to		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		less		than		or		equal		to		and		_		_		_		_		_		_		_		_		_		the		right		subtree		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		it		may		_		come		out		_		_		right		subtree		corresponds		_		_		_		_		_		
+
+because less than or equal to and could a little bit may also come equals so the right subtree corresponds to sub tress also come 
+
+because less than or equal to and could a little bit may also come equals so the right subtree corresponds to sub tress also come 
+
+ [(because:1)]   [(they:1)(less:2)] less  [(than:2)] than  [(or:2)(out:1)] or  [(equal:3)] equal  [(to:2)] to  [(and:2)] and  [(could:2)] could  [(a:1)(be:1)]   [(little:1)(and:1)]   [(bit:1)(it:1)]   [(may:1)(careful:1)]   [(also:2)] also  [(come:3)] come  [(equals:1)(equal:1)(out:1)]   [(so:1)(and:1)]   [(the:7)] the  [(right:8)] right  [(subtree:6)] subtree  [(strictly:1)(corresponds:2)] corresponds  [(to:1)(since:1)]   [(sub:1)(it:1)]   [(tress:1)(could:1)]   [(also:1)]   [(come:1)]  
+
+ [(because:1)]   [(they:1)(less:2)] less  [(than:2)] than  [(or:2)(out:1)] or  [(equal:3)] equal  [(to:2)] to  [(and:2)] and  [(could:2)] could  [(a:1)(be:1)]   [(little:1)(and:1)]   [(bit:1)(it:1)]   [(may:1)(careful:1)]   [(also:2)] also  [(come:3)] come  [(equals:1)(equal:1)(out:1)]   [(so:1)(and:1)]   [(the:7)] the  [(right:8)] right  [(subtree:6)] subtree  [(strictly:1)(corresponds:2)] corresponds  [(to:1)(since:1)]   [(sub:1)(it:1)]   [(tress:1)(could:1)]   [(also:1)]   [(come:1)]  
+
+ [(because:1)]   [(they:1)(less:2)] less  [(than:2)] than  [(or:2)(out:1)] or  [(equal:3)] equal  [(to:2)] to  [(and:2)] and  [(could:2)] could  [(a:1)(be:1)]   [(little:1)(and:1)]   [(bit:1)(it:1)]   [(may:1)(careful:1)]   [(also:2)] also  [(come:3)] come  [(equals:1)(equal:1)(out:1)]   [(so:1)(and:1)]   [(the:7)] the  [(right:8)] right  [(subtree:6)] subtree  [(strictly:1)(corresponds:2)] corresponds  [(to:1)(since:1)]   [(sub:1)(it:1)]   [(tress:1)(could:1)]   [(also:1)]   [(come:1)]  
+6
+equal(127483)and(129310)the(129709)left(130082)subtree(130665)corresponds(132737)
+5
+corresponds(126860)to(128920)strictly(129582)greater(131196)than(132124)
+1
+subtree(126335)
+6
+comes(126070)out(127339)to(127666)strictly(128242)greater(130317)than(131169)
+3
+strictly(126104)greater(127696)than(128496)
+2
+greater(126927)than(127909)
+3
+strictly(127408)greater(129272)than(130262)
+3
+responds(126937)strictly(128467)great(130325)
+3
+strictly(126522)greater(127815)than(128903)
+4
+to(126910)strictly(127692)greater(130659)than(131577)
+............Number of Queue Removal: 12
+
+Time spent in alignment:93 ms
+_		equal		and		the		left		subtree		corresponds		_		_		_		_		_		
+_		_		_		_		_		_		corresponds		to		strictly		greater		than		_		
+_		_		_		_		_		subtree		_		_		_		_		_		_		
+_		_		comes		out		to		_		_		_		strictly		greater		than		_		
+_		_		_		_		_		_		_		_		strictly		greater		than		_		
+_		_		_		_		_		_		_		_		_		greater		than		_		
+_		_		_		_		_		_		_		_		strictly		greater		than		_		
+responds		_		_		_		_		_		_		_		strictly		_		_		great		
+_		_		_		_		_		_		_		_		strictly		greater		than		_		
+_		to		_		_		_		_		_		_		strictly		greater		than		_		
+
+responds to comes the to subtree corresponds to strictly greater than great 
+
+responds to comes the to subtree corresponds to strictly greater than great 
+
+ [(responds:1)]   [(to:1)(equal:1)]   [(comes:1)(and:1)]   [(the:1)(out:1)]   [(to:1)(left:1)]   [(subtree:2)] subtree  [(corresponds:2)] corresponds  [(to:1)]   [(strictly:7)] strictly  [(greater:7)] greater  [(than:7)] than  [(great:1)]  
+
+ [(responds:1)]   [(to:1)(equal:1)]   [(comes:1)(and:1)]   [(the:1)(out:1)]   [(to:1)(left:1)]   [(subtree:2)] subtree  [(corresponds:2)] corresponds  [(to:1)]   [(strictly:7)] strictly  [(greater:7)] greater  [(than:7)] than  [(great:1)]  
+
+ [(responds:1)]   [(to:1)(equal:1)]   [(comes:1)(and:1)]   [(the:1)(out:1)]   [(to:1)(left:1)]   [(subtree:2)] subtree  [(corresponds:2)] corresponds  [(to:1)]   [(strictly:7)] strictly  [(greater:7)] greater  [(than:7)] than  [(great:1)]  
+8
+to(134575)strictly(134942)greater(136386)thn(137283)so(138070)that(138874)is(138974)a(139675)
+9
+so(135620)that(135855)is(135955)a(136611)little(136980)more(137827)precise(138420)than(139300)what(139935)
+7
+so(136405)that(136806)is(136906)a(137423)little(137558)more(138246)precise(138590)
+10
+so(134740)that(135067)is(135167)a(135913)little(136254)bit(136970)more(137322)precise(137745)than(139030)what(139607)
+5
+chalk(136166)so(139366)that(139434)is(139534)a(139935)
+7
+so(135770)that(136049)is(136149)a(137513)little(137862)bit(139256)more(139753)
+9
+so(135296)that(135653)is(135753)the(136666)little(136967)more(137565)percise(138140)all(139643)the(139990)
+3
+er(133459)than(134026)a(139937)
+12
+so(134659)that(135002)is(135102)a(136031)little(136209)bit(136895)more(137337)precise(137736)than(138701)what(139355)we(139729)are(139829)
+7
+so(135818)that(136369)is(138128)a(138411)little(138684)bit(139481)more(139997)
+..................Number of Queue Removal: 18
+
+Time spent in alignment:58 ms
+_		to		strictly		greater		thn		so		that		is		_		a		_		_		_		_		_		_		_		_		
+_		_		_		_		_		so		that		is		_		a		little		_		more		precise		than		what		_		_		
+_		_		_		_		_		so		that		is		_		a		little		_		more		precise		_		_		_		_		
+_		_		_		_		_		so		that		is		_		a		little		bit		more		precise		than		what		_		_		
+chalk		_		_		_		_		so		that		is		_		a		_		_		_		_		_		_		_		_		
+_		_		_		_		_		so		that		is		_		a		little		bit		more		_		_		_		_		_		
+_		_		_		_		_		so		that		is		the		_		little		_		more		percise		_		_		all		the		
+_		er		than		_		_		_		_		_		_		a		_		_		_		_		_		_		_		_		
+_		_		_		_		_		so		that		is		_		a		little		bit		more		precise		than		what		we		are		
+_		_		_		_		_		so		that		is		_		a		little		bit		more		_		_		_		_		_		
+
+chalk to than greater thn so that is the a little bit more precise than what all are 
+
+chalk to than greater thn so that is the a little bit more precise than what all are 
+
+ [(chalk:1)]   [(to:1)(er:1)]   [(than:1)(strictly:1)]   [(greater:1)]   [(thn:1)]   [(so:9)] so  [(that:9)] that  [(is:9)] is  [(the:1)]   [(a:9)] a  [(little:7)] little  [(bit:4)] bit  [(more:7)] more  [(percise:1)(precise:4)] precise  [(than:3)] than  [(what:3)] what  [(all:1)(we:1)]   [(are:1)(the:1)]  
+
+ [(chalk:1)]   [(to:1)(er:1)]   [(than:1)(strictly:1)]   [(greater:1)]   [(thn:1)]   [(so:9)] so  [(that:9)] that  [(is:9)] is  [(the:1)]   [(a:9)] a  [(little:7)] little  [(bit:4)] bit  [(more:7)] more  [(percise:1)(precise:4)] precise  [(than:3)] than  [(what:3)] what  [(all:1)(we:1)]   [(are:1)(the:1)]  
+
+ [(chalk:1)]   [(to:1)(er:1)]   [(than:1)(strictly:1)]   [(greater:1)]   [(thn:1)]   [(so:9)] so  [(that:9)] that  [(is:9)] is  [(the:1)]   [(a:9)] a  [(little:7)] little  [(bit:4)] bit  [(more:7)] more  [(percise:1)(precise:4)] precise  [(than:3)] than  [(what:3)] what  [(all:1)(we:1)]   [(are:1)(the:1)]  
+9
+little(140006)more(140994)precise(141482)that(142522)what(144905)we(145451)we(145879)are(145979)doing(146588)
+11
+we(140599)are(140699)doing(141507)here(142084)but(143035)in(143515)general(143878)we(144940)care(145396)about(146140)the(146715)
+8
+of(142414)what(142651)we(143143)we(143483)are(143583)doing(144103)here(144519)we(146760)
+10
+we(140205)we(140530)are(140630)doing(141162)here(141658)but(144698)in(145057)general(145426)we(146262)care(146811)
+10
+little(140086)more(140822)precise(141815)than(142582)what(143294)you(143639)hear(143863)now(144319)in(146055)general(146364)
+5
+precise(140669)in(142934)general(143589)we(145928)care(146516)
+4
+elements(140441)we(141500)more(142826)extinct(143252)
+6
+little(140166)more(140909)precise(141544)problem(143951)i(145033)general(146940)
+10
+doing(141835)here(142292)but(142758)in(143163)general(143377)we(144347)care(144627)about(145253)the(145763)equality(146265)
+7
+precise(140919)all(142638)the(143119)elements(143461)we(144297)are(144397)distinct(145064)
+...........................Number of Queue Removal: 27
+
+Time spent in alignment:89 ms
+_		little		more		precise		that		what		we		we		are		doing		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		we		are		doing		here		but		in		general		we		care		about		the		_		_		_		_		_		_		_		_		_		
+_		_		_		_		of		what		we		we		are		doing		here		_		_		_		we		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		we		we		are		doing		here		but		in		general		we		care		_		_		_		_		_		_		_		_		_		_		_		
+_		little		more		precise		than		what		_		_		_		_		_		_		_		_		_		_		_		_		_		you		hear		now		in		general		_		_		_		
+_		_		_		precise		_		_		_		_		_		_		_		_		in		general		we		care		_		_		_		_		_		_		_		_		_		_		_		
+elements		_		_		_		_		_		_		we		_		_		_		_		_		_		_		_		_		_		_		_		_		_		more		extinct		_		_		_		
+_		little		more		precise		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		problem		i		general		
+_		_		_		_		_		_		_		_		_		doing		here		but		in		general		we		care		about		the		equality		_		_		_		_		_		_		_		_		
+_		_		_		precise		_		_		_		_		_		_		_		_		_		_		_		_		all		the		elements		we		are		distinct		_		_		_		_		_		
+
+elements little more precise of what we we are doing here but in general we care about the equality you hear now more extinct problem i general 
+
+elements little more precise of what we we are doing here but in general we care about the equality you hear now more extinct problem i general 
+
+ [(elements:1)]   [(little:3)] little  [(more:3)] more  [(precise:5)] precise  [(of:1)(that:1)(than:1)]   [(what:3)] what  [(we:3)] we  [(we:5)] we  [(are:4)] are  [(doing:5)] doing  [(here:4)] here  [(but:3)] but  [(in:4)] in  [(general:4)] general  [(we:5)] we  [(care:4)] care  [(about:2)(all:1)] about  [(the:3)] the  [(equality:1)(elements:1)]   [(you:1)(we:1)]   [(hear:1)(are:1)]   [(now:1)(distinct:1)]   [(more:1)(in:1)]   [(extinct:1)(general:1)]   [(problem:1)]   [(i:1)]   [(general:1)]  
+
+ [(elements:1)]   [(little:3)] little  [(more:3)] more  [(precise:5)] precise  [(of:1)(that:1)(than:1)]   [(what:3)] what  [(we:3)] we  [(we:5)] we  [(are:4)] are  [(doing:5)] doing  [(here:4)] here  [(but:3)] but  [(in:4)] in  [(general:4)] general  [(we:5)] we  [(care:4)] care  [(about:2)(all:1)] about  [(the:3)] the  [(equality:1)(elements:1)]   [(you:1)(we:1)]   [(hear:1)(are:1)]   [(now:1)(distinct:1)]   [(more:1)(in:1)]   [(extinct:1)(general:1)]   [(problem:1)]   [(i:1)]   [(general:1)]  
+
+ [(elements:1)]   [(little:3)] little  [(more:3)] more  [(precise:5)] precise  [(of:1)(that:1)(than:1)]   [(what:3)] what  [(we:3)] we  [(we:5)] we  [(are:4)] are  [(doing:5)] doing  [(here:4)] here  [(but:3)] but  [(in:4)] in  [(general:4)] general  [(we:5)] we  [(care:4)] care  [(about:2)(all:1)] about  [(the:3)] the  [(equality:1)(elements:1)]   [(you:1)(we:1)]   [(hear:1)(are:1)]   [(now:1)(distinct:1)]   [(more:1)(in:1)]   [(extinct:1)(general:1)]   [(problem:1)]   [(i:1)]   [(general:1)]  
+8
+here(147412)and(148235)so(150219)so(151412)that(151779)was(152683)the(153182)internal(153563)
+7
+equality(147243)case(149427)too(149963)each(151435)leaf(151900)node(152724)gives(153739)
+11
+care(147129)about(147584)the(148076)equality(148552)case(150120)to(150831)be(151033)general(151399)each(152768)leaf(153193)node(153634)
+7
+about(147313)the(147902)equality(148345)case(149421)too(150363)to(151522)be(151818)
+13
+we(147639)care(148287)about(148654)hte(149023)to(149734)be(149967)general(150262)so(151388)that(151582)was(151862)the(152150)internal(152582)nodes(153318)
+6
+about(147067)the(147784)equality(148573)case(150697)each(152748)leaf(153551)
+8
+so(148621)that(148900)was(149439)the(150158)internal(150412)node(151699)and(152524)each(152956)
+7
+care(148106)about(148607)quality(149724)case(150625)2(152489)each(153265)leaf(153890)
+13
+case(147215)too(147735)so(148656)that(148882)was(149295)the(149665)internal(150000)nodes(151020)and(151666)then(152050)each(152580)leaf(153263)node(153809)
+7
+so(147845)no(148266)problem(148829)each(151705)leaf(152467)node(153244)gives(153876)
+..............................Number of Queue Removal: 30
+
+Time spent in alignment:102 ms
+_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		here		and		so		_		_		_		_		so		that		was		the		internal		
+_		_		_		_		equality		case		too		_		_		_		_		_		_		_		_		_		_		_		_		_		_		each		leaf		node		gives		_		_		_		_		_		
+_		care		about		the		equality		case		_		_		to		be		general		_		_		_		_		_		_		_		_		_		_		each		leaf		node		_		_		_		_		_		_		
+_		_		about		the		equality		case		too		_		to		be		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+we		care		about		_		_		_		_		hte		to		be		general		so		that		was		the		internal		nodes		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		about		the		equality		case		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		each		leaf		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		so		that		was		the		internal		node		and		_		_		_		each		_		_		_		_		_		_		_		_		
+_		care		about		_		quality		case		_		2		_		_		_		_		_		_		_		_		_		_		_		_		_		each		leaf		_		_		_		_		_		_		_		
+_		_		_		_		_		case		too		_		_		_		_		so		that		was		the		internal		nodes		and		then		_		_		each		leaf		node		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		so		_		_		_		_		_		_		_		no		problem		each		leaf		node		gives		_		_		_		_		_		
+
+we care about the equality case too 2 to be general so that was the internal nodes and then no so each leaf node gives so that was the internal 
+
+we care about the equality case too 2 to be general so that was the internal nodes and then no so each leaf node gives so that was the internal 
+
+ [(we:1)]   [(care:3)] care  [(about:5)] about  [(the:3)] the  [(equality:4)(quality:1)] equality  [(case:6)] case  [(too:3)] too  [(2:1)(hte:1)]   [(to:3)] to  [(be:3)] be  [(general:2)] general  [(so:4)] so  [(that:3)] that  [(was:3)] was  [(the:3)] the  [(internal:3)] internal  [(node:1)(nodes:2)] nodes  [(and:2)] and  [(then:1)(here:1)]   [(no:1)(and:1)]   [(so:1)(problem:1)]   [(each:7)] each  [(leaf:6)] leaf  [(node:4)] node  [(gives:2)] gives  [(so:1)]   [(that:1)]   [(was:1)]   [(the:1)]   [(internal:1)]  
+
+ [(we:1)]   [(care:3)] care  [(about:5)] about  [(the:3)] the  [(equality:4)(quality:1)] equality  [(case:6)] case  [(too:3)] too  [(2:1)(hte:1)]   [(to:3)] to  [(be:3)] be  [(general:2)] general  [(so:4)] so  [(that:3)] that  [(was:3)] was  [(the:3)] the  [(internal:3)] internal  [(node:1)(nodes:2)] nodes  [(and:2)] and  [(then:1)(here:1)]   [(no:1)(and:1)]   [(so:1)(problem:1)]   [(each:7)] each  [(leaf:6)] leaf  [(node:4)] node  [(gives:2)] gives  [(so:1)]   [(that:1)]   [(was:1)]   [(the:1)]   [(internal:1)]  
+
+ [(we:1)]   [(care:3)] care  [(about:5)] about  [(the:3)] the  [(equality:4)(quality:1)] equality  [(case:6)] case  [(too:3)] too  [(2:1)(hte:1)]   [(to:3)] to  [(be:3)] be  [(general:2)] general  [(so:4)] so  [(that:3)] that  [(was:3)] was  [(the:3)] the  [(internal:3)] internal  [(node:1)(nodes:2)] nodes  [(and:2)] and  [(then:1)(here:1)]   [(no:1)(and:1)]   [(so:1)(problem:1)]   [(each:7)] each  [(leaf:6)] leaf  [(node:4)] node  [(gives:2)] gives  [(so:1)]   [(that:1)]   [(was:1)]   [(the:1)]   [(internal:1)]  
+6
+nodes(154867)and(156766)so(157379)each(157848)leaf(158515)node(160134)
+3
+you(154355)the(154739)permutation(155219)
+4
+gives(154226)you(154771)a(155089)permutation(155297)
+7
+each(155052)leaf(155553)node(155985)gives(156789)you(157608)a(157921)permutation(158131)
+9
+and(154070)each(154340)leaf(154734)node(155569)gives(156728)you(157309)a(157568)chalk(159695)chalk(160486)
+5
+node(154176)gives(155016)you(155989)a(156485)permutations(157024)
+()
+5
+mode(154681)gives(155258)you(155988)a(156369)permutation(156505)
+3
+gives(154439)a(155402)permutation(155541)
+3
+you(154672)a(155178)permutation(155483)
+..............Number of Queue Removal: 14
+
+Time spent in alignment:33 ms
+_		nodes		and		so		each		leaf		node		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		you		_		_		the		permutation		_		
+_		_		_		_		_		_		_		gives		you		a		permutation		_		_		_		
+_		_		_		_		each		leaf		node		gives		you		a		permutation		_		_		_		
+_		_		and		_		each		leaf		node		gives		you		a		_		_		chalk		chalk		
+_		node		_		_		_		_		_		gives		you		a		permutations		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+mode		_		_		_		_		_		_		gives		you		a		permutation		_		_		_		
+_		_		_		_		_		_		_		gives		_		a		permutation		_		_		_		
+_		_		_		_		_		_		_		_		you		a		permutation		_		_		_		
+
+mode node and so each leaf node gives you a permutation the chalk chalk 
+
+mode node and so each leaf node gives you a permutation the chalk chalk 
+
+ [(mode:1)]   [(node:1)(nodes:1)]   [(and:2)] and  [(so:1)]   [(each:3)] each  [(leaf:3)] leaf  [(node:3)] node  [(gives:6)] gives  [(you:7)] you  [(a:7)] a  [(permutations:1)(permutation:5)] permutation  [(the:1)]   [(chalk:1)(permutation:1)]   [(chalk:1)]  
+
+ [(mode:1)]   [(node:1)(nodes:1)]   [(and:2)] and  [(so:1)]   [(each:3)] each  [(leaf:3)] leaf  [(node:3)] node  [(gives:6)] gives  [(you:7)] you  [(a:7)] a  [(permutations:1)(permutation:5)] permutation  [(the:1)]   [(chalk:1)(permutation:1)]   [(chalk:1)]  
+
+ [(mode:1)]   [(node:1)(nodes:1)]   [(and:2)] and  [(so:1)]   [(each:3)] each  [(leaf:3)] leaf  [(node:3)] node  [(gives:6)] gives  [(you:7)] you  [(a:7)] a  [(permutations:1)(permutation:5)] permutation  [(the:1)]   [(chalk:1)(permutation:1)]   [(chalk:1)]  
+5
+gives(162068)you(163140)an(163464)internal(164827)permutation(166232)
+11
+so(162268)in(162753)order(163390)to(164177)be(164523)the(164846)answer(165363)to(166091)the(166603)sorting(167043)problem(167883)
+9
+so(163688)in(164100)order(164348)to(165685)be(166068)the(166484)answer(166829)to(167677)the(167885)
+11
+so(162019)in(162406)order(162717)to(163508)be(163942)be(163942)the(164323)to(165935)the(166201)sorting(166579)problem(167429)
+12
+chalk(161998)so(163657)in(163879)order(164142)to(164759)be(164974)teh(165224)answer(165546)to(166487)the(166691)sorting(167034)problem(167787)
+9
+in(162930)order(163427)to(164290)be(164597)the(164918)answer(165510)to(166321)the(166631)sorting(167160)
+11
+so(162358)in(162953)order(163275)to(163980)give(164220)ou(164848)an(165102)answer(166141)to(166985)the(167152)sorting(167662)
+5
+in(165719)order(166004)to(167105)have(167469)an(167976)
+12
+so(161819)in(162243)order(162456)to(163179)be(163486)the(163899)answer(164351)to(165142)the(165372)sorting(165673)problem(166698)that(167511)
+10
+so(163046)in(163603)order(164059)to(164821)be(165217)the(165432)answer(165818)to(166816)the(167247)sorting(167643)
+....................Number of Queue Removal: 20
+
+Time spent in alignment:88 ms
+_		_		_		_		_		_		_		_		_		_		gives		you		an		internal		permutation		_		_		_		_		_		
+_		so		in		order		to		_		be		the		_		answer		_		_		_		_		_		to		the		sorting		problem		_		
+_		so		in		order		to		_		be		the		_		answer		_		_		_		_		_		to		the		_		_		_		
+_		so		in		order		to		be		be		the		_		_		_		_		_		_		_		to		the		sorting		problem		_		
+chalk		so		in		order		to		_		be		_		teh		answer		_		_		_		_		_		to		the		sorting		problem		_		
+_		_		in		order		to		_		be		the		_		answer		_		_		_		_		_		to		the		sorting		_		_		
+_		so		in		order		to		_		_		_		_		_		give		ou		an		answer		_		to		the		sorting		_		_		
+_		_		in		order		to		_		_		_		_		_		_		have		an		_		_		_		_		_		_		_		
+_		so		in		order		to		_		be		the		_		answer		_		_		_		_		_		to		the		sorting		problem		that		
+_		so		in		order		to		_		be		the		_		answer		_		_		_		_		_		to		the		sorting		_		_		
+
+chalk so in order to be be the teh answer give ou an answer permutation to the sorting problem that 
+
+chalk so in order to be be the teh answer give ou an answer permutation to the sorting problem that 
+
+ [(chalk:1)]   [(so:7)] so  [(in:9)] in  [(order:9)] order  [(to:9)] to  [(be:1)]   [(be:7)] be  [(the:6)] the  [(teh:1)]   [(answer:6)] answer  [(give:1)(gives:1)]   [(ou:1)(have:1)(you:1)]   [(an:3)] an  [(answer:1)(internal:1)]   [(permutation:1)]   [(to:8)] to  [(the:8)] the  [(sorting:7)] sorting  [(problem:4)] problem  [(that:1)]  
+
+ [(chalk:1)]   [(so:7)] so  [(in:9)] in  [(order:9)] order  [(to:9)] to  [(be:1)]   [(be:7)] be  [(the:6)] the  [(teh:1)]   [(answer:6)] answer  [(give:1)(gives:1)]   [(ou:1)(have:1)(you:1)]   [(an:3)] an  [(answer:1)(internal:1)]   [(permutation:1)]   [(to:8)] to  [(the:8)] the  [(sorting:7)] sorting  [(problem:4)] problem  [(that:1)]  
+
+ [(chalk:1)]   [(so:7)] so  [(in:9)] in  [(order:9)] order  [(to:9)] to  [(be:1)]   [(be:7)] be  [(the:6)] the  [(teh:1)]   [(answer:6)] answer  [(give:1)(gives:1)]   [(ou:1)(have:1)(you:1)]   [(an:3)] an  [(answer:1)(internal:1)]   [(permutation:1)]   [(to:8)] to  [(the:8)] the  [(sorting:7)] sorting  [(problem:4)] problem  [(that:1)]  
+6
+so(169960)that(170261)permutation(171676)better(173204)have(174176)the(174744)
+5
+that(168755)better(170987)have(171715)the(172187)property(173378)
+3
+sorting(168213)problem(168974)the(170188)
+8
+that(168459)permutation(168883)better(170416)have(171168)the(171644)that(173228)it(173699)orders(174212)
+9
+so(168698)that(168872)better(171127)have(171863)the(172158)properties(172460)from(174230)the(174597)first(174879)
+8
+problem(168260)this(171050)is(172404)from(172934)the(173562)the(173562)first(174035)lecture(174953)
+5
+question(169622)so(173080)fro(173419)the(173785)first(174772)
+8
+aswer(168441)to(169492)sorting(169873)problem(170833)so(172633)this(173073)is(174029)from(174529)
+9
+better(169267)have(170363)the(171007)property(171349)that(172239)it(172619)orders(172832)the(173801)elements(174160)
+4
+problem(168565)orders(171601)the(172529)elements(172889)
+..........................Number of Queue Removal: 26
+
+Time spent in alignment:89 ms
+so		that		permutation		better		have		the		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		that		_		better		have		the		property		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		sorting		problem		the		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		that		permutation		better		have		the		_		that		it		orders		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+so		that		_		better		have		the		_		_		_		_		_		_		_		_		_		properties		from		_		_		_		_		_		the		first		_		_		
+_		_		_		_		_		_		_		_		_		_		_		problem		_		_		_		_		_		_		_		this		is		from		the		the		first		lecture		
+_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		question		so		fro		_		_		the		first		_		_		
+_		_		_		_		_		_		_		_		_		_		aswer		_		_		_		_		to		sorting		problem		so		this		is		from		_		_		_		_		
+_		_		_		better		have		the		property		that		it		orders		_		_		_		the		elements		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		problem		orders		the		elements		_		_		_		_		_		_		_		_		_		_		_		
+
+so that permutation better have the property that it orders aswer problem orders the elements to sorting problem so this is from the first first lecture 
+
+so that permutation better have the property that it orders aswer problem orders the elements to sorting problem so this is from the first first lecture 
+
+ [(so:2)] so  [(that:4)] that  [(permutation:2)] permutation  [(better:5)] better  [(have:5)] have  [(the:5)] the  [(property:2)] property  [(that:2)] that  [(it:2)] it  [(orders:2)] orders  [(aswer:1)(sorting:1)]   [(problem:3)] problem  [(orders:1)(the:1)]   [(the:2)] the  [(elements:2)] elements  [(to:1)(properties:1)]   [(sorting:1)(from:1)]   [(problem:1)(question:1)]   [(so:2)] so  [(fro:1)(this:2)] this  [(is:2)] is  [(from:2)] from  [(the:3)] the  [(the:1)(first:2)] first  [(first:1)]   [(lecture:1)]  
+
+ [(so:2)] so  [(that:4)] that  [(permutation:2)] permutation  [(better:5)] better  [(have:5)] have  [(the:5)] the  [(property:2)] property  [(that:2)] that  [(it:2)] it  [(orders:2)] orders  [(aswer:1)(sorting:1)]   [(problem:3)] problem  [(orders:1)(the:1)]   [(the:2)] the  [(elements:2)] elements  [(to:1)(properties:1)]   [(sorting:1)(from:1)]   [(problem:1)(question:1)]   [(so:2)] so  [(fro:1)(this:2)] this  [(is:2)] is  [(from:2)] from  [(the:3)] the  [(the:1)(first:2)] first  [(first:1)]   [(lecture:1)]  
+
+ [(so:2)] so  [(that:4)] that  [(permutation:2)] permutation  [(better:5)] better  [(have:5)] have  [(the:5)] the  [(property:2)] property  [(that:2)] that  [(it:2)] it  [(orders:2)] orders  [(aswer:1)(sorting:1)]   [(problem:3)] problem  [(orders:1)(the:1)]   [(the:2)] the  [(elements:2)] elements  [(to:1)(properties:1)]   [(sorting:1)(from:1)]   [(problem:1)(question:1)]   [(so:2)] so  [(fro:1)(this:2)] this  [(is:2)] is  [(from:2)] from  [(the:3)] the  [(the:1)(first:2)] first  [(first:1)]   [(lecture:1)]  
+4
+property(175059)that(178500)defines(179045)the(179957)
+9
+some(176003)permutation(176514)on(177987)things(178802)such(179622)that(180149)a(180768)pi(181083)1(181873)
+6
+some(177063)permutation(177450)on(178620)things(179218)such(180323)that(180840)
+6
+the(175125)elements(175446)such(178665)that(179343)a(179952)pi(180868)
+10
+lecture(175718)that(176528)we(176722)defined(177097)the(178340)sorting(178652)problems(179360)such(180601)that(181127)apie(181615)
+4
+some(176912)permutation(177587)on(179809)things(180812)
+6
+lecture(175352)when(176276)we(176664)such(179485)that(180608)a(181111)
+6
+first(175273)lecture(176355)some(178317)permuation(179296)on(181128)things(181964)
+9
+some(175477)permutation(175941)on(177132)things(177594)such(178744)that(179302)a(180542)pi(181216)1(181843)
+8
+first(175204)lecture(176067)when(177039)we(177530)defined(177916)the(178938)sorting(179424)problem(180412)
+.....................Number of Queue Removal: 21
+
+Time spent in alignment:94 ms
+_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		property		that		defines		the		
+_		_		_		_		_		_		_		_		some		permutation		on		things		such		that		a		pi		1		_		_		_		_		
+_		_		_		_		_		_		_		_		some		permutation		on		things		such		that		_		_		_		_		_		_		_		
+_		_		_		_		_		the		elements		_		_		_		_		_		such		that		a		pi		_		_		_		_		_		
+_		lecture		that		we		defined		the		sorting		problems		_		_		_		_		such		that		apie		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		some		permutation		on		things		_		_		_		_		_		_		_		_		_		
+_		lecture		when		we		_		_		_		_		_		_		_		_		such		that		a		_		_		_		_		_		_		
+first		lecture		_		_		_		_		_		_		some		permuation		on		things		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		some		permutation		on		things		such		that		a		pi		1		_		_		_		_		
+first		lecture		when		we		defined		the		sorting		problem		_		_		_		_		_		_		_		_		_		_		_		_		_		
+
+first lecture when we defined the sorting problems some permutation on things such that a pi 1 property that defines the 
+
+first lecture when we defined the sorting problems some permutation on things such that a pi 1 property that defines the 
+
+ [(first:2)] first  [(lecture:4)] lecture  [(that:1)(when:2)] when  [(we:3)] we  [(defined:2)] defined  [(the:3)] the  [(sorting:2)(elements:1)] sorting  [(problems:1)(problem:1)]   [(some:5)] some  [(permuation:1)(permutation:4)] permutation  [(on:5)] on  [(things:5)] things  [(such:6)] such  [(that:6)] that  [(apie:1)(a:4)] a  [(pi:3)] pi  [(1:2)] 1  [(property:1)]   [(that:1)]   [(defines:1)]   [(the:1)]  
+
+ [(first:2)] first  [(lecture:4)] lecture  [(that:1)(when:2)] when  [(we:3)] we  [(defined:2)] defined  [(the:3)] the  [(sorting:2)(elements:1)] sorting  [(problems:1)(problem:1)]   [(some:5)] some  [(permuation:1)(permutation:4)] permutation  [(on:5)] on  [(things:5)] things  [(such:6)] such  [(that:6)] that  [(apie:1)(a:4)] a  [(pi:3)] pi  [(1:2)] 1  [(property:1)]   [(that:1)]   [(defines:1)]   [(the:1)]  
+
+ [(first:2)] first  [(lecture:4)] lecture  [(that:1)(when:2)] when  [(we:3)] we  [(defined:2)] defined  [(the:3)] the  [(sorting:2)(elements:1)] sorting  [(problems:1)(problem:1)]   [(some:5)] some  [(permuation:1)(permutation:4)] permutation  [(on:5)] on  [(things:5)] things  [(such:6)] such  [(that:6)] that  [(apie:1)(a:4)] a  [(pi:3)] pi  [(1:2)] 1  [(property:1)]   [(that:1)]   [(defines:1)]   [(the:1)]  
+9
+such(182133)that(182765)a(183453)pi(183842)1(186352)is(186935)less(187523)than(188136)or(188868)
+8
+is(182699)lss(182980)than(184235)or(185491)to(187138)a(187874)pi(188146)2(188698)
+4
+api1(182207)and(187035)so(187361)on(187671)
+8
+1(182376)is(184759)less(185183)than(186208)or(186709)equal(187157)to(188092)a(188633)
+12
+1(182962)is(183814)less(183999)than(184555)or(184871)equal(185207)to(186376)a(186805)pie(187249)of(187620)2(187873)and(188429)
+8
+such(182139)that(182900)a(183809)pi(184503)of(185075)1(186010)and(188232)so(188772)
+5
+1(183052)a(184747)2(187616)and(188036)so(188534)
+8
+so(183306)that(183547)a(184371)pi(184561)1(184992)is(185618)less(185928)than(186625)
+6
+is(182265)less(182523)than(183220)and(185486)so(185868)on(186244)
+3
+and(187003)so(187379)on(187864)
+...........................Number of Queue Removal: 27
+
+Time spent in alignment:61 ms
+_		_		such		that		a		pi		1		_		_		_		_		_		is		less		than		or		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		_		is		lss		than		or		_		to		a		pi		2		_		_		_		_		_		_		
+api1		_		_		_		_		_		_		_		and		so		on		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		1		_		_		_		_		_		_		_		_		_		_		is		less		than		or		equal		to		a		_		_		_		_		_		_		_		_		
+_		1		_		_		_		_		_		_		_		_		_		_		is		less		than		or		equal		to		a		_		_		pie		of		2		and		_		_		
+_		_		such		that		a		pi		of		1		and		so		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		1		_		_		a		2		_		_		and		so		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		so		_		that		_		_		_		_		_		_		a		pi		1		is		less		than		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		_		is		less		than		_		_		_		_		_		_		_		_		_		and		so		on		
+_		_		_		_		_		_		_		_		and		so		on		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+
+api1 1 such that a pi of 1 and so on that is less than or equal to a pi 2 is of 2 and so on 
+
+api1 1 such that a pi of 1 and so on that is less than or equal to a pi 2 is of 2 and so on 
+
+ [(api1:1)]   [(1:3)] 1  [(such:2)] such  [(that:2)] that  [(a:3)] a  [(2:1)(pi:2)] pi  [(of:1)(1:1)]   [(1:1)]   [(and:4)] and  [(so:5)] so  [(on:2)] on  [(that:1)]   [(is:5)] is  [(lss:1)(less:4)] less  [(than:5)] than  [(or:4)] or  [(equal:2)] equal  [(to:3)] to  [(a:4)] a  [(pi:2)] pi  [(2:1)(1:1)]   [(is:1)(pie:1)]   [(of:1)(less:1)]   [(2:1)(than:1)]   [(and:2)] and  [(so:1)]   [(on:1)]  
+
+ [(api1:1)]   [(1:3)] 1  [(such:2)] such  [(that:2)] that  [(a:3)] a  [(2:1)(pi:2)] pi  [(of:1)(1:1)]   [(1:1)]   [(and:4)] and  [(so:5)] so  [(on:2)] on  [(that:1)]   [(is:5)] is  [(lss:1)(less:4)] less  [(than:5)] than  [(or:4)] or  [(equal:2)] equal  [(to:3)] to  [(a:4)] a  [(pi:2)] pi  [(2:1)(1:1)]   [(is:1)(pie:1)]   [(of:1)(less:1)]   [(2:1)(than:1)]   [(and:2)] and  [(so:1)]   [(on:1)]  
+
+ [(api1:1)]   [(1:3)] 1  [(such:2)] such  [(that:2)] that  [(a:3)] a  [(2:1)(pi:2)] pi  [(of:1)(1:1)]   [(1:1)]   [(and:4)] and  [(so:5)] so  [(on:2)] on  [(that:1)]   [(is:5)] is  [(lss:1)(less:4)] less  [(than:5)] than  [(or:4)] or  [(equal:2)] equal  [(to:3)] to  [(a:4)] a  [(pi:2)] pi  [(2:1)(1:1)]   [(is:1)(pie:1)]   [(of:1)(less:1)]   [(2:1)(than:1)]   [(and:2)] and  [(so:1)]   [(on:1)]  
+9
+equal(190005)to(191869)a(192382)pi(192801)of(193309)2(193990)so(195336)that(195594)is(195694)
+8
+and(189163)so(189650)on(190002)okay(194060)so(194666)that(194861)is(194961)the(195552)
+5
+okay(194146)so(194798)that(194949)is(195049)the(195867)
+12
+pi(189075)of(189572)2(189866)and(190496)so(190835)on(191105)okay(194037)so(194559)that(194725)is(194825)the(195419)definition(195813)
+11
+so(189439)on(189652)chalk(190111)chalk(190895)chalk(192031)okay(194194)so(194843)that(194927)is(195027)the(195419)definition(195689)
+5
+on(189200)okay(192796)so(194020)that(194284)is(194384)
+7
+on(189871)okay(193325)so(193944)that(194030)is(194130)the(194732)definition(195066)
+5
+to(189657)a(190176)pi(190648)of(191402)2(192656)
+7
+okay(192948)so(193211)that(193329)is(193429)the(194087)definition(194442)of(195931)
+4
+okay(194194)so(194831)that(195067)is(195167)
+....................Number of Queue Removal: 20
+
+Time spent in alignment:62 ms
+equal		to		a		pi		of		2		_		_		_		_		_		_		_		_		so		that		is		_		_		_		
+_		_		_		_		_		_		and		so		on		okay		_		_		_		_		so		that		is		the		_		_		
+_		_		_		_		_		_		_		_		_		okay		_		_		_		_		so		that		is		the		_		_		
+_		_		_		pi		of		2		and		so		on		okay		_		_		_		_		so		that		is		the		definition		_		
+_		_		_		_		_		_		_		so		on		_		chalk		chalk		chalk		okay		so		that		is		the		definition		_		
+_		_		_		_		_		_		_		_		on		okay		_		_		_		_		so		that		is		_		_		_		
+_		_		_		_		_		_		_		_		on		okay		_		_		_		_		so		that		is		the		definition		_		
+_		to		a		pi		of		2		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		okay		_		_		_		_		so		that		is		the		definition		of		
+_		_		_		_		_		_		_		_		_		okay		_		_		_		_		so		that		is		_		_		_		
+
+equal to a pi of 2 and so on okay chalk chalk chalk okay so that is the definition of 
+
+equal to a pi of 2 and so on okay chalk chalk chalk okay so that is the definition of 
+
+ [(equal:1)]   [(to:2)] to  [(a:2)] a  [(pi:3)] pi  [(of:3)] of  [(2:3)] 2  [(and:2)] and  [(so:3)] so  [(on:5)] on  [(okay:7)] okay  [(chalk:1)]   [(chalk:1)]   [(chalk:1)]   [(okay:1)]   [(so:9)] so  [(that:9)] that  [(is:9)] is  [(the:6)] the  [(definition:4)] definition  [(of:1)]  
+
+ [(equal:1)]   [(to:2)] to  [(a:2)] a  [(pi:3)] pi  [(of:3)] of  [(2:3)] 2  [(and:2)] and  [(so:3)] so  [(on:5)] on  [(okay:7)] okay  [(chalk:1)]   [(chalk:1)]   [(chalk:1)]   [(okay:1)]   [(so:9)] so  [(that:9)] that  [(is:9)] is  [(the:6)] the  [(definition:4)] definition  [(of:1)]  
+
+ [(equal:1)]   [(to:2)] to  [(a:2)] a  [(pi:3)] pi  [(of:3)] of  [(2:3)] 2  [(and:2)] and  [(so:3)] so  [(on:5)] on  [(okay:7)] okay  [(chalk:1)]   [(chalk:1)]   [(chalk:1)]   [(okay:1)]   [(so:9)] so  [(that:9)] that  [(is:9)] is  [(the:6)] the  [(definition:4)] definition  [(of:1)]  
+6
+the(196581)deifinition(197030)of(199455)a(200104)decision(200422)tree(201766)
+5
+definition(196188)of(198353)a(198714)decision(199050)tree(200370)
+8
+definition(196244)of(198820)a(199119)decision(199341)tree(200197)any(200942)binary(201406)tree(202101)
+6
+of(197090)a(197346)decision(197581)tree(198851)that(202308)is(202812)
+8
+of(197354)a(198131)decision(198377)tree(199205)any(199831)tree(201295)with(202372)labels(202799)
+4
+the(196118)any(199219)binary(199788)tree(200919)
+7
+of(196634)a(197180)decision(197410)tree(199088)any(200242)binary(201810)tree(202650)
+9
+so(196344)that(196581)is(196681)the(198283)definion(198683)of(200736)the(201313)decision(201733)tree(202912)
+11
+a(196164)decision(196331)tree(197181)any(197924)binary(198939)tree(199594)with(200214)these(200712)kidns(201427)of(201958)labels(202540)
+9
+the(196074)definition(196445)of(198039)a(198309)decision(198951)tree(200129)any(201040)binary(201747)tree(202911)
+.......................Number of Queue Removal: 23
+
+Time spent in alignment:139 ms
+the		deifinition		of		a		_		_		_		_		_		_		_		decision		tree		_		_		_		_		_		_		_		_		_		_		
+_		definition		of		a		_		_		_		_		_		_		_		decision		tree		_		_		_		_		_		_		_		_		_		_		
+_		definition		of		a		_		_		_		_		_		_		_		decision		tree		_		any		binary		tree		_		_		_		_		_		_		
+_		_		of		a		_		_		_		_		_		_		_		decision		tree		that		_		_		_		is		_		_		_		_		_		
+_		_		of		a		_		_		_		_		_		_		_		decision		tree		_		any		_		tree		_		with		labels		_		_		_		
+the		_		_		_		_		_		_		_		_		_		_		_		_		_		any		binary		tree		_		_		_		_		_		_		
+_		_		of		a		_		_		_		_		_		_		_		decision		tree		_		any		binary		tree		_		_		_		_		_		_		
+_		_		_		_		so		that		is		the		definion		of		the		decision		tree		_		_		_		_		_		_		_		_		_		_		
+_		_		_		a		_		_		_		_		_		_		_		decision		tree		_		any		binary		tree		_		with		these		kidns		of		labels		
+the		definition		of		a		_		_		_		_		_		_		_		decision		tree		_		any		binary		tree		_		_		_		_		_		_		
+
+the definition of a so that is the definion of the decision tree that any binary tree is with labels kidns of labels 
+
+the definition of a so that is the definion of the decision tree that any binary tree is with labels kidns of labels 
+
+ [(the:3)] the  [(definition:3)(deifinition:1)] definition  [(of:7)] of  [(a:8)] a  [(so:1)]   [(that:1)]   [(is:1)]   [(the:1)]   [(definion:1)]   [(of:1)]   [(the:1)]   [(decision:9)] decision  [(tree:9)] tree  [(that:1)]   [(any:6)] any  [(binary:5)] binary  [(tree:6)] tree  [(is:1)]   [(with:2)] with  [(labels:1)(these:1)]   [(kidns:1)]   [(of:1)]   [(labels:1)]  
+
+ [(the:3)] the  [(definition:3)(deifinition:1)] definition  [(of:7)] of  [(a:8)] a  [(so:1)]   [(that:1)]   [(is:1)]   [(the:1)]   [(definion:1)]   [(of:1)]   [(the:1)]   [(decision:9)] decision  [(tree:9)] tree  [(that:1)]   [(any:6)] any  [(binary:5)] binary  [(tree:6)] tree  [(is:1)]   [(with:2)] with  [(labels:1)(these:1)]   [(kidns:1)]   [(of:1)]   [(labels:1)]  
+
+ [(the:3)] the  [(definition:3)(deifinition:1)] definition  [(of:7)] of  [(a:8)] a  [(so:1)]   [(that:1)]   [(is:1)]   [(the:1)]   [(definion:1)]   [(of:1)]   [(the:1)]   [(decision:9)] decision  [(tree:9)] tree  [(that:1)]   [(any:6)] any  [(binary:5)] binary  [(tree:6)] tree  [(is:1)]   [(with:2)] with  [(labels:1)(these:1)]   [(kidns:1)]   [(of:1)]   [(labels:1)]  
+6
+any(203111)binary(204559)tree(205768)that(208084)is(208184)aa(209160)
+9
+that(203954)is(204458)in(205378)some(205845)sense(206396)a(207016)sorting(207269)algorithm(208223)as(209969)
+9
+that(203389)has(203750)these(204125)kinds(204775)of(205238)labels(205637)now(209167)as(209663)you(209943)
+9
+in(203182)some(203589)sense(204522)a(205351)sorting(205641)algorithm(206439)now(208914)as(209316)you(209560)
+7
+satisfies(203879)these(205395)it(207240)is(207340)a(207687)sorting(208441)algroithm(209804)
+7
+that(203733)is(204601)some(205604)sense(206579)a(207688)sorting(208178)algorithm(209922)
+6
+that(204567)in(204983)that(205444)sent(205931)was(206802)a(207267)
+5
+any(204058)some(206896)sort(207412)of(208645)algortihm(209541)
+10
+it(204891)is(204991)a(205434)sorting(205694)algorithm(206509)in(207605)the(207855)decision(208198)tree(209023)model(209529)
+7
+with(203627)these(204144)kind(205186)of(205852)labels(206184)sorting(207692)algorithm(208609)
+............................Number of Queue Removal: 28
+
+Time spent in alignment:95 ms
+any		_		_		_		_		_		_		_		_		_		_		_		_		binary		tree		that		is		aa		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		that		is		in		some		sense		a		sorting		algorithm		as		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		that		_		_		_		_		_		_		_		_		_		_		_		_		_		has		these		kinds		of		labels		now		as		you		_		_		
+_		_		_		_		_		_		in		some		sense		a		sorting		algorithm		_		_		_		_		_		_		_		_		_		_		_		now		as		you		_		_		
+_		satisfies		these		it		_		is		_		_		_		a		sorting		algroithm		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		that		is		_		some		sense		a		sorting		algorithm		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		that		_		in		_		_		_		_		_		_		_		_		that		sent		was		a		_		_		_		_		_		_		_		_		_		
+any		_		_		_		_		_		_		some		_		_		_		_		_		_		_		_		_		_		_		sort		_		of		algortihm		_		_		_		_		_		
+_		_		_		it		_		is		_		_		_		a		sorting		algorithm		in		the		decision		tree		model		_		_		_		_		_		_		_		_		_		_		_		
+_		with		these		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		kind		of		labels		_		_		_		sorting		algorithm		
+
+any with these it that is in some sense a sorting algorithm as binary tree that model aa a sort kinds of labels now as you sorting algorithm 
+
+any with these it that is in some sense a sorting algorithm as binary tree that model aa a sort kinds of labels now as you sorting algorithm 
+
+ [(any:2)] any  [(with:1)(satisfies:1)]   [(these:2)] these  [(it:2)] it  [(that:4)] that  [(is:4)] is  [(in:3)] in  [(some:4)] some  [(sense:3)] sense  [(a:5)] a  [(sorting:5)] sorting  [(algroithm:1)(algorithm:4)] algorithm  [(as:1)(in:1)]   [(binary:1)(the:1)]   [(tree:1)(decision:1)]   [(that:2)(tree:1)] that  [(model:1)(sent:1)(is:1)]   [(aa:1)(was:1)]   [(a:1)(has:1)]   [(sort:1)(these:1)]   [(kinds:1)(kind:1)]   [(of:3)] of  [(algortihm:1)(labels:2)] labels  [(now:2)] now  [(as:2)] as  [(you:2)] you  [(sorting:1)]   [(algorithm:1)]  
+
+ [(any:2)] any  [(with:1)(satisfies:1)]   [(these:2)] these  [(it:2)] it  [(that:4)] that  [(is:4)] is  [(in:3)] in  [(some:4)] some  [(sense:3)] sense  [(a:5)] a  [(sorting:5)] sorting  [(algroithm:1)(algorithm:4)] algorithm  [(as:1)(in:1)]   [(binary:1)(the:1)]   [(tree:1)(decision:1)]   [(that:2)(tree:1)] that  [(model:1)(sent:1)(is:1)]   [(aa:1)(was:1)]   [(a:1)(has:1)]   [(sort:1)(these:1)]   [(kinds:1)(kind:1)]   [(of:3)] of  [(algortihm:1)(labels:2)] labels  [(now:2)] now  [(as:2)] as  [(you:2)] you  [(sorting:1)]   [(algorithm:1)]  
+
+ [(any:2)] any  [(with:1)(satisfies:1)]   [(these:2)] these  [(it:2)] it  [(that:4)] that  [(is:4)] is  [(in:3)] in  [(some:4)] some  [(sense:3)] sense  [(a:5)] a  [(sorting:5)] sorting  [(algroithm:1)(algorithm:4)] algorithm  [(as:1)(in:1)]   [(binary:1)(the:1)]   [(tree:1)(decision:1)]   [(that:2)(tree:1)] that  [(model:1)(sent:1)(is:1)]   [(aa:1)(was:1)]   [(a:1)(has:1)]   [(sort:1)(these:1)]   [(kinds:1)(kind:1)]   [(of:3)] of  [(algortihm:1)(labels:2)] labels  [(now:2)] now  [(as:2)] as  [(you:2)] you  [(sorting:1)]   [(algorithm:1)]  
+1
+sortinga(210447)
+10
+you(210369)might(210794)expect(211514)this(212481)is(213114)really(213465)not(214154)to(214609)different(215353)from(216525)
+8
+might(210297)expect(210800)this(212583)is(212967)not(214608)too(215008)different(215451)from(216777)
+10
+might(210002)expect(210617)this(211878)is(212422)a(213197)really(213667)not(214255)too(214656)different(215648)from(216625)
+7
+as(213171)you(213477)might(213793)expect(214255)this(215152)is(215461)different(216231)
+4
+really(212591)not(213870)too(214479)different(215093)
+4
+if(214884)i(215546)give(215845)ou(216817)
+7
+as(211601)you(211904)might(212328)excpect(213064)this(215112)is(216283)really(216608)
+8
+as(210203)you(210562)might(210917)expect(211481)this(213114)is(214094)not(214342)we(216855)
+8
+in(210133)the(210528)decision(211350)tree(213335)model(214097)not(214994)too(215806)different(216382)
+.....................Number of Queue Removal: 21
+
+Time spent in alignment:80 ms
+_		_		_		_		_		_		_		_		_		_		_		sortinga		_		_		_		_		_		_		_		_		_		
+_		you		might		expect		this		is		_		really		not		to		different		from		_		_		_		_		_		_		_		_		_		
+_		_		might		expect		this		is		_		_		not		too		different		from		_		_		_		_		_		_		_		_		_		
+_		_		might		expect		this		is		a		really		not		too		different		from		_		_		_		_		_		_		_		_		_		
+as		you		might		expect		this		is		_		_		_		_		different		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		really		not		too		different		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		_		if		i		give		ou		_		_		_		_		_		
+as		you		might		excpect		this		is		_		really		_		_		_		_		_		_		_		_		_		_		_		_		_		
+as		you		might		expect		this		is		_		_		not		_		_		we		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		_		_		in		the		decision		tree		model		not		too		different		
+
+as you might expect this is a really not too different from if in give ou tree model not too different 
+
+as you might expect this is a really not too different from if in give ou tree model not too different 
+
+ [(as:3)] as  [(you:4)] you  [(might:6)] might  [(expect:5)(excpect:1)] expect  [(this:6)] this  [(is:6)] is  [(a:1)]   [(really:4)] really  [(not:5)] not  [(to:1)(too:3)] too  [(different:5)] different  [(sortinga:1)(from:3)(we:1)] from  [(if:1)]   [(in:1)(i:1)]   [(give:1)(the:1)]   [(ou:1)(decision:1)]   [(tree:1)]   [(model:1)]   [(not:1)]   [(too:1)]   [(different:1)]  
+
+ [(as:3)] as  [(you:4)] you  [(might:6)] might  [(expect:5)(excpect:1)] expect  [(this:6)] this  [(is:6)] is  [(a:1)]   [(really:4)] really  [(not:5)] not  [(to:1)(too:3)] too  [(different:5)] different  [(sortinga:1)(from:3)(we:1)] from  [(if:1)]   [(in:1)(i:1)]   [(give:1)(the:1)]   [(ou:1)(decision:1)]   [(tree:1)]   [(model:1)]   [(not:1)]   [(too:1)]   [(different:1)]  
+
+ [(as:3)] as  [(you:4)] you  [(might:6)] might  [(expect:5)(excpect:1)] expect  [(this:6)] this  [(is:6)] is  [(a:1)]   [(really:4)] really  [(not:5)] not  [(to:1)(too:3)] too  [(different:5)] different  [(sortinga:1)(from:3)(we:1)] from  [(if:1)]   [(in:1)(i:1)]   [(give:1)(the:1)]   [(ou:1)(decision:1)]   [(tree:1)]   [(model:1)]   [(not:1)]   [(too:1)]   [(different:1)]  
+7
+if(219159)i(219511)give(220134)you(220751)a(221368)quick(222909)sorting(223830)
+7
+the(217013)all(220945)of(221473)them(221809)can(222434)be(223249)translated(223640)
+8
+the(217129)model(219641)all(221785)of(222185)them(222418)can(223023)be(223351)translated(223668)
+9
+comparison(217562)model(219290)all(220603)of(221049)them(221327)can(221926)be(222386)translated(222846)into(223924)
+8
+from(217007)the(217385)comparing(217725)model(219008)all(222328)of(222687)them(223399)can(223815)
+3
+insertion(219718)sort(221080)all(223267)
+4
+a(217082)comparison(218025)sorting(219924)algorithm(220858)
+7
+not(217415)to(217775)different(219099)we(220688)have(220993)these(221963)all(223760)
+10
+have(217147)these(217560)4(218859)insertion(220804)sort(221821)all(222515)of(222820)them(223073)can(223630)be(223962)
+7
+from(217870)comparison(218516)models(220367)all(222492)of(223054)them(223329)can(223895)
+.......................Number of Queue Removal: 23
+
+Time spent in alignment:100 ms
+_		_		_		_		if		i		give		you		a		quick		sorting		_		_		_		_		_		_		_		_		_		_		_		_		
+_		the		_		_		_		_		_		_		_		_		_		_		_		_		_		_		all		of		them		can		be		translated		_		
+_		the		_		model		_		_		_		_		_		_		_		_		_		_		_		_		all		of		them		can		be		translated		_		
+_		_		comparison		model		_		_		_		_		_		_		_		_		_		_		_		_		all		of		them		can		be		translated		into		
+from		the		comparing		model		_		_		_		_		_		_		_		_		_		_		_		_		all		of		them		can		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		_		_		_		insertion		sort		all		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		a		comparison		sorting		algorithm		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		not		to		different		we		_		_		have		these		_		_		_		all		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		have		these		4		insertion		sort		all		of		them		can		be		_		_		
+from		_		comparison		models		_		_		_		_		_		_		_		_		_		_		_		_		all		of		them		can		_		_		_		
+
+from the comparison model if not to different a quick sorting have these 4 insertion sort all of them can be translated into 
+
+from the comparison model if not to different a quick sorting have these 4 insertion sort all of them can be translated into 
+
+ [(from:2)] from  [(the:3)] the  [(comparing:1)(comparison:2)] comparison  [(models:1)(model:3)] model  [(if:1)]   [(not:1)(i:1)]   [(to:1)(give:1)]   [(different:1)(you:1)]   [(a:2)(we:1)] a  [(quick:1)(comparison:1)]   [(sorting:2)] sorting  [(have:2)(algorithm:1)] have  [(these:2)] these  [(4:1)]   [(insertion:2)] insertion  [(sort:2)] sort  [(all:8)] all  [(of:6)] of  [(them:6)] them  [(can:6)] can  [(be:4)] be  [(translated:3)] translated  [(into:1)]  
+
+ [(from:2)] from  [(the:3)] the  [(comparing:1)(comparison:2)] comparison  [(models:1)(model:3)] model  [(if:1)]   [(not:1)(i:1)]   [(to:1)(give:1)]   [(different:1)(you:1)]   [(a:2)(we:1)] a  [(quick:1)(comparison:1)]   [(sorting:2)] sorting  [(have:2)(algorithm:1)] have  [(these:2)] these  [(4:1)]   [(insertion:2)] insertion  [(sort:2)] sort  [(all:8)] all  [(of:6)] of  [(them:6)] them  [(can:6)] can  [(be:4)] be  [(translated:3)] translated  [(into:1)]  
+
+ [(from:2)] from  [(the:3)] the  [(comparing:1)(comparison:2)] comparison  [(models:1)(model:3)] model  [(if:1)]   [(not:1)(i:1)]   [(to:1)(give:1)]   [(different:1)(you:1)]   [(a:2)(we:1)] a  [(quick:1)(comparison:1)]   [(sorting:2)] sorting  [(have:2)(algorithm:1)] have  [(these:2)] these  [(4:1)]   [(insertion:2)] insertion  [(sort:2)] sort  [(all:8)] all  [(of:6)] of  [(them:6)] them  [(can:6)] can  [(be:4)] be  [(translated:3)] translated  [(into:1)]  
+7
+alrgormtih(225075)all(227376)of(228015)them(228343)can(229439)be(230128)translated(230648)
+10
+into(226069)the(226588)decision(227059)tree(228212)model(228841)it(229552)is(229652)not(230233)a(230713)terribly(230985)
+11
+in(224870)to(225941)the(226625)decision(227881)tree(228761)model(229267)it(230391)is(230491)it(230391)is(230491)not(230948)
+9
+the(224310)decision(224680)tree(226218)model(226800)it(228583)is(228683)not(229555)a(229845)terribly(230743)
+13
+be(224343)translated(224719)into(225714)the(226142)deicison(226480)tree(227417)model(228079)it(228611)is(228711)is(229031)a(229343)graphic(229519)reperesentation(230634)
+4
+sort(226373)of(227177)a(227615)graphical(228151)
+7
+all(224021)can(224881)be(225255)transferred(225600)into(228091)the(228546)model(230628)
+6
+of(224231)them(224575)can(226631)be(227118)translated(227463)graphical(229847)
+12
+translated(224222)into(225826)the(226206)decision(226580)tree(227354)model(227985)it(228922)is(229022)not(229402)a(229736)terribly(230030)useful(230994)
+7
+be(224401)translated(224767)into(226596)the(227163)decision(227809)tree(229052)model(230015)
+........................Number of Queue Removal: 24
+
+Time spent in alignment:89 ms
+_		alrgormtih		all		of		them		can		be		translated		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		into		the		decision		tree		model		it		is		not		a		terribly		_		_		_		_		_		_		
+_		in		to		_		_		_		_		_		_		the		decision		tree		model		it		is		_		_		_		_		it		is		not		_		_		
+_		_		_		_		_		_		_		_		_		the		decision		tree		model		it		is		not		a		terribly		_		_		_		_		_		_		
+_		_		_		_		_		_		be		translated		into		the		deicison		tree		model		it		is		is		a		_		graphic		reperesentation		_		_		_		_		
+sort		_		_		of		_		_		_		_		_		_		_		_		_		_		_		_		a		_		graphical		_		_		_		_		_		
+_		_		all		_		_		can		be		_		_		_		_		_		_		_		_		_		_		_		_		_		transferred		into		the		model		
+_		_		_		of		them		can		be		translated		_		_		_		_		_		_		_		_		_		_		graphical		_		_		_		_		_		
+_		_		_		_		_		_		_		translated		into		the		decision		tree		model		it		is		not		a		terribly		useful		_		_		_		_		_		
+_		_		_		_		_		_		be		translated		into		the		decision		tree		model		_		_		_		_		_		_		_		_		_		_		_		
+
+sort alrgormtih all of them can be translated into the decision tree model it is not a terribly graphical it is not the model 
+
+sort alrgormtih all of them can be translated into the decision tree model it is not a terribly graphical it is not the model 
+
+ [(sort:1)]   [(alrgormtih:1)(in:1)]   [(to:1)(all:2)] all  [(of:3)] of  [(them:2)] them  [(can:3)] can  [(be:5)] be  [(translated:5)] translated  [(into:4)] into  [(the:6)] the  [(decision:5)(deicison:1)] decision  [(tree:6)] tree  [(model:6)] model  [(it:5)] it  [(is:5)] is  [(not:3)(is:1)] not  [(a:5)] a  [(terribly:3)] terribly  [(graphic:1)(graphical:2)(useful:1)] graphical  [(it:1)(reperesentation:1)]   [(is:1)(transferred:1)]   [(not:1)(into:1)]   [(the:1)]   [(model:1)]  
+
+ [(sort:1)]   [(alrgormtih:1)(in:1)]   [(to:1)(all:2)] all  [(of:3)] of  [(them:2)] them  [(can:3)] can  [(be:5)] be  [(translated:5)] translated  [(into:4)] into  [(the:6)] the  [(decision:5)(deicison:1)] decision  [(tree:6)] tree  [(model:6)] model  [(it:5)] it  [(is:5)] is  [(not:3)(is:1)] not  [(a:5)] a  [(terribly:3)] terribly  [(graphic:1)(graphical:2)(useful:1)] graphical  [(it:1)(reperesentation:1)]   [(is:1)(transferred:1)]   [(not:1)(into:1)]   [(the:1)]   [(model:1)]  
+
+ [(sort:1)]   [(alrgormtih:1)(in:1)]   [(to:1)(all:2)] all  [(of:3)] of  [(them:2)] them  [(can:3)] can  [(be:5)] be  [(translated:5)] translated  [(into:4)] into  [(the:6)] the  [(decision:5)(deicison:1)] decision  [(tree:6)] tree  [(model:6)] model  [(it:5)] it  [(is:5)] is  [(not:3)(is:1)] not  [(a:5)] a  [(terribly:3)] terribly  [(graphic:1)(graphical:2)(useful:1)] graphical  [(it:1)(reperesentation:1)]   [(is:1)(transferred:1)]   [(not:1)(into:1)]   [(the:1)]   [(model:1)]  
+5
+it(233635)is(233735)not(234561)a(235080)terribly(235448)
+6
+useful(232066)1(232969)for(233706)righting(234281)down(236183)and(236835)
+9
+a(231247)terribly(231460)useful(232398)1(233116)for(233540)writing(234042)down(234781)an(235540)algorithm(235908)
+7
+useful(231805)1(232637)for(232957)writing(233386)down(235181)an(235657)algorithm(236103)
+9
+it(233257)is(233357)not(233664)a(233864)terribly(234063)useful(235163)1(236455)for(236820)writing(237447)
+2
+representation(231462)why(236980)
+6
+it(232750)is(233530)not(233630)a(234290)totally(234600)useful(235391)
+4
+reprsentation(233151)not(235219)terribly(235702)useful(237096)
+6
+1(231699)for(232020)writing(232459)downa(233170)an(235275)lgrothm(236493)
+10
+it(231056)is(231553)not(231894)a(232440)terribly(232696)useful(234089)1(235337)for(236300)writing(236732)down(237979)
+.................Number of Queue Removal: 17
+
+Time spent in alignment:69 ms
+it		is		not		a		terribly		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		useful		1		for		_		_		_		_		_		_		righting		down		and		
+_		_		_		a		terribly		useful		1		for		writing		down		an		algorithm		_		_		_		_		_		
+_		_		_		_		_		useful		1		for		writing		down		an		algorithm		_		_		_		_		_		
+it		is		not		a		terribly		useful		1		for		writing		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		_		representation		why		_		_		_		
+it		is		not		a		totally		useful		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		_		reprsentation		not		terribly		useful		_		
+_		_		_		_		_		_		1		for		writing		downa		an		lgrothm		_		_		_		_		_		
+it		is		not		a		terribly		useful		1		for		writing		down		_		_		_		_		_		_		_		
+
+it is not a terribly useful 1 for writing down an algorithm reprsentation not terribly useful and 
+
+it is not a terribly useful 1 for writing down an algorithm reprsentation not terribly useful and 
+
+ [(it:4)] it  [(is:4)] is  [(not:4)] not  [(a:5)] a  [(terribly:4)(totally:1)] terribly  [(useful:6)] useful  [(1:6)] 1  [(for:6)] for  [(writing:5)] writing  [(downa:1)(down:3)] down  [(an:3)] an  [(lgrothm:1)(algorithm:2)] algorithm  [(reprsentation:1)(representation:1)]   [(not:1)(why:1)]   [(terribly:1)(righting:1)]   [(useful:1)(down:1)]   [(and:1)]  
+
+ [(it:4)] it  [(is:4)] is  [(not:4)] not  [(a:5)] a  [(terribly:4)(totally:1)] terribly  [(useful:6)] useful  [(1:6)] 1  [(for:6)] for  [(writing:5)] writing  [(downa:1)(down:3)] down  [(an:3)] an  [(lgrothm:1)(algorithm:2)] algorithm  [(reprsentation:1)(representation:1)]   [(not:1)(why:1)]   [(terribly:1)(righting:1)]   [(useful:1)(down:1)]   [(and:1)]  
+
+ [(it:4)] it  [(is:4)] is  [(not:4)] not  [(a:5)] a  [(terribly:4)(totally:1)] terribly  [(useful:6)] useful  [(1:6)] 1  [(for:6)] for  [(writing:5)] writing  [(downa:1)(down:3)] down  [(an:3)] an  [(lgrothm:1)(algorithm:2)] algorithm  [(reprsentation:1)(representation:1)]   [(not:1)(why:1)]   [(terribly:1)(righting:1)]   [(useful:1)(down:1)]   [(and:1)]  
+7
+useful(238022)1(240103)for(240496)sorting(241033)out(242065)an(242472)algorith(243225)
+8
+a(238289)why(240272)do(240769)we(241273)not(241832)draw(242402)these(243104)pictures(244089)
+10
+guesses(238212)why(239190)why(240238)do(240666)we(240966)not(241317)draw(242030)these(242735)pictures(243906)as(244791)
+3
+why(242178)why(244133)do(244708)
+9
+down(238250)an(238650)algorithm(239291)any(241609)guesses(242340)why(243552)why(244025)do(244431)we(244663)
+6
+do(238292)we(238762)not(239156)draw(240055)these(242002)pictures(244295)
+4
+why(240588)did(241131)we(242364)not(242812)
+7
+why(240023)do(241529)we(241841)not(242231)draw(242791)these(243750)pictures(244682)
+8
+as(240987)a(241246)defitino(241446)of(242804)quicksort(243198)or(244420)a(244667)defition(244824)
+9
+the(238841)algorithm(239292)why(240646)do(241306)we(241697)not(242154)draw(242640)these(243752)pictures(244524)
+.........................Number of Queue Removal: 25
+
+Time spent in alignment:50 ms
+_		_		_		_		_		_		_		_		_		_		_		_		useful		1		for		sorting		out		an		algorith		_		_		_		_		_		_		
+a		_		_		why		_		do		we		not		draw		these		pictures		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		guesses		why		why		_		do		we		not		draw		these		pictures		as		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		why		why		_		do		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		down		an		algorithm		any		guesses		why		why		do		we		
+_		_		_		_		_		do		we		not		draw		these		pictures		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		why		did		_		we		not		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		why		_		do		we		not		draw		these		pictures		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		as		a		defitino		of		quicksort		or		a		defition		_		_		_		_		_		_		
+_		the		algorithm		why		_		do		we		not		draw		these		pictures		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+
+a guesses why why did do we not draw these pictures as a 1 of sorting or an defition any guesses why why do we 
+
+a guesses why why did do we not draw these pictures as a 1 of sorting or an defition any guesses why why do we 
+
+ [(a:1)]   [(guesses:1)(the:1)]   [(why:2)(algorithm:1)] why  [(why:6)] why  [(did:1)]   [(do:6)] do  [(we:6)] we  [(not:6)] not  [(draw:5)] draw  [(these:5)] these  [(pictures:5)] pictures  [(as:2)] as  [(a:1)(useful:1)]   [(1:1)(defitino:1)]   [(of:1)(for:1)]   [(sorting:1)(quicksort:1)]   [(or:1)(down:1)(out:1)]   [(a:1)(an:2)] an  [(defition:1)(algorith:1)(algorithm:1)]   [(any:1)]   [(guesses:1)]   [(why:1)]   [(why:1)]   [(do:1)]   [(we:1)]  
+
+ [(a:1)]   [(guesses:1)(the:1)]   [(why:2)(algorithm:1)] why  [(why:6)] why  [(did:1)]   [(do:6)] do  [(we:6)] we  [(not:6)] not  [(draw:5)] draw  [(these:5)] these  [(pictures:5)] pictures  [(as:2)] as  [(a:1)(useful:1)]   [(1:1)(defitino:1)]   [(of:1)(for:1)]   [(sorting:1)(quicksort:1)]   [(or:1)(down:1)(out:1)]   [(a:1)(an:2)] an  [(defition:1)(algorith:1)(algorithm:1)]   [(any:1)]   [(guesses:1)]   [(why:1)]   [(why:1)]   [(do:1)]   [(we:1)]  
+
+ [(a:1)]   [(guesses:1)(the:1)]   [(why:2)(algorithm:1)] why  [(why:6)] why  [(did:1)]   [(do:6)] do  [(we:6)] we  [(not:6)] not  [(draw:5)] draw  [(these:5)] these  [(pictures:5)] pictures  [(as:2)] as  [(a:1)(useful:1)]   [(1:1)(defitino:1)]   [(of:1)(for:1)]   [(sorting:1)(quicksort:1)]   [(or:1)(down:1)(out:1)]   [(a:1)(an:2)] an  [(defition:1)(algorith:1)(algorithm:1)]   [(any:1)]   [(guesses:1)]   [(why:1)]   [(why:1)]   [(do:1)]   [(we:1)]  
+7
+it(248537)depends(248954)on(249984)the(250251)size(250566)of(251269)the(251600)
+9
+as(245203)a(245658)defintion(245892)it(248808)depends(249512)on(250280)the(250608)size(251272)of(251992)
+8
+a(245244)of(246735)quick(248808)sort(249454)it(250544)depends(250833)on(251504)the(251687)
+8
+we(245257)not(245599)draw(246435)these(247634)pictures(248238)this(250262)tree(250868)is(251493)
+12
+not(245620)draw(245927)these(246615)pictures(247162)it(248434)depends(248757)on(249759)the(249927)size(250215)of(251063)the(251256)input(251463)
+8
+it(247239)depends(247680)on(249344)the(249713)size(250213)of(251025)the(251347)input(251772)
+8
+it(247293)depends(247596)on(248397)the(248731)size(249025)of(250331)the(250592)input(250992)
+4
+it(249903)depends(250220)on(251275)the(251675)
+8
+of(247287)merge(247584)sort(248535)it(249120)depends(249493)on(250281)the(250535)size(251153)
+8
+as(246414)a(246759)definiton(246995)as(248925)merge(249355)sort(249976)depends(250893)on(251876)
+......................Number of Queue Removal: 22
+
+Time spent in alignment:83 ms
+_		_		_		_		_		_		_		_		_		_		_		it		depends		on		the		size		of		the		_		_		_		_		
+as		a		defintion		_		_		_		_		_		_		_		_		it		depends		on		the		size		of		_		_		_		_		_		
+_		a		_		of		quick		sort		_		_		_		_		_		it		depends		on		the		_		_		_		_		_		_		_		
+_		_		_		_		_		_		we		not		draw		these		pictures		_		_		_		_		_		_		_		_		this		tree		is		
+_		_		_		_		_		_		_		not		draw		these		pictures		it		depends		on		the		size		of		the		input		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		it		depends		on		the		size		of		the		input		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		it		depends		on		the		size		of		the		input		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		it		depends		on		the		_		_		_		_		_		_		_		
+_		_		_		of		merge		sort		_		_		_		_		_		it		depends		on		the		size		_		_		_		_		_		_		
+as		a		definiton		as		merge		sort		_		_		_		_		_		_		depends		on		_		_		_		_		_		_		_		_		
+
+as a definiton of merge sort we not draw these pictures it depends on the size of the input this tree is 
+
+as a definiton of merge sort we not draw these pictures it depends on the size of the input this tree is 
+
+ [(as:2)] as  [(a:3)] a  [(definiton:1)(defintion:1)]   [(of:2)(as:1)] of  [(merge:2)(quick:1)] merge  [(sort:3)] sort  [(we:1)]   [(not:2)] not  [(draw:2)] draw  [(these:2)] these  [(pictures:2)] pictures  [(it:8)] it  [(depends:9)] depends  [(on:9)] on  [(the:8)] the  [(size:6)] size  [(of:5)] of  [(the:4)] the  [(input:3)] input  [(this:1)]   [(tree:1)]   [(is:1)]  
+
+ [(as:2)] as  [(a:3)] a  [(definiton:1)(defintion:1)]   [(of:2)(as:1)] of  [(merge:2)(quick:1)] merge  [(sort:3)] sort  [(we:1)]   [(not:2)] not  [(draw:2)] draw  [(these:2)] these  [(pictures:2)] pictures  [(it:8)] it  [(depends:9)] depends  [(on:9)] on  [(the:8)] the  [(size:6)] size  [(of:5)] of  [(the:4)] the  [(input:3)] input  [(this:1)]   [(tree:1)]   [(is:1)]  
+
+ [(as:2)] as  [(a:3)] a  [(definiton:1)(defintion:1)]   [(of:2)(as:1)] of  [(merge:2)(quick:1)] merge  [(sort:3)] sort  [(we:1)]   [(not:2)] not  [(draw:2)] draw  [(these:2)] these  [(pictures:2)] pictures  [(it:8)] it  [(depends:9)] depends  [(on:9)] on  [(the:8)] the  [(size:6)] size  [(of:5)] of  [(the:4)] the  [(input:3)] input  [(this:1)]   [(tree:1)]   [(is:1)]  
+5
+input(252187)this(254913)tree(255650)is(256697)specific(257097)
+8
+the(252385)input(252752)in(254145)some(254531)sense(255184)not(256200)as(256712)generic(257280)
+11
+size(252003)of(252842)the(253091)input(253898)that(254453)is(254553)a(255178)good(255497)point(255911)now(257114)we(258875)
+12
+specific(252100)to(253464)the(253757)value(254102)of(254636)so(255638)in(256095)some(256717)sense(257389)it(257938)is(258038)not(258820)
+12
+that(252395)is(252495)a(252925)good(254232)point(254628)it(256363)is(256463)in(256721)some(257067)sense(257451)not(258389)as(258664)
+5
+specific(253399)to(255056)the(255386)value(255891)of(256545)
+8
+it(254297)is(254618)in(255065)some(255593)sense(256426)not(257325)as(257907)generic(258777)
+10
+size(252564)of(253127)the(253448)input(253785)this(255062)tree(255774)is(256371)specific(257174)to(258566)value(258807)
+14
+of(252005)the(252292)input(252625)that(253099)is(253199)a(253962)good(254259)point(254776)now(256026)we(256435)could(256833)try(257796)to(258346)write(258600)
+7
+size(252803)of(253625)the(253906)input(254533)not(255721)as(256197)generic(256693)
+...............................Number of Queue Removal: 31
+
+Time spent in alignment:109 ms
+_		_		_		input		_		_		_		_		_		_		_		_		_		this		tree		is		specific		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		the		input		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		in		some		sense		not		as		generic		_		_		_		
+size		of		the		input		that		is		a		good		point		now		we		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		specific		to		the		value		of		so		in		some		sense		_		_		_		it		is		not		
+_		_		_		_		that		is		a		good		point		_		_		it		is		_		_		_		_		_		_		_		_		_		in		some		sense		not		as		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		specific		to		the		value		of		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		it		is		_		_		_		_		_		_		_		_		_		in		some		sense		not		as		generic		_		_		_		
+size		of		the		input		_		_		_		_		_		_		_		_		_		this		tree		is		specific		to		_		value		_		_		_		_		_		_		_		_		_		_		_		
+_		of		the		input		that		is		a		good		point		now		we		_		_		_		_		_		_		_		_		_		_		could		_		_		_		_		_		_		try		to		write		
+size		of		the		input		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		not		as		generic		_		_		_		
+
+size of the input that is a good point now we it is this tree is specific to the value of could in some sense not as generic it to not 
+
+size of the input that is a good point now we it is this tree is specific to the value of could in some sense not as generic it to not 
+
+ [(size:3)] size  [(of:4)] of  [(the:5)] the  [(input:6)] input  [(that:3)] that  [(is:3)] is  [(a:3)] a  [(good:3)] good  [(point:3)] point  [(now:2)] now  [(we:2)] we  [(it:2)] it  [(is:2)] is  [(this:2)] this  [(tree:2)] tree  [(is:2)] is  [(specific:4)] specific  [(to:3)] to  [(the:2)] the  [(value:3)] value  [(of:2)] of  [(could:1)(so:1)]   [(in:4)] in  [(some:4)] some  [(sense:4)] sense  [(not:4)] not  [(as:4)] as  [(generic:3)] generic  [(it:1)(try:1)]   [(to:1)(is:1)]   [(not:1)(write:1)]  
+
+ [(size:3)] size  [(of:4)] of  [(the:5)] the  [(input:6)] input  [(that:3)] that  [(is:3)] is  [(a:3)] a  [(good:3)] good  [(point:3)] point  [(now:2)] now  [(we:2)] we  [(it:2)] it  [(is:2)] is  [(this:2)] this  [(tree:2)] tree  [(is:2)] is  [(specific:4)] specific  [(to:3)] to  [(the:2)] the  [(value:3)] value  [(of:2)] of  [(could:1)(so:1)]   [(in:4)] in  [(some:4)] some  [(sense:4)] sense  [(not:4)] not  [(as:4)] as  [(generic:3)] generic  [(it:1)(try:1)]   [(to:1)(is:1)]   [(not:1)(write:1)]  
+
+ [(size:3)] size  [(of:4)] of  [(the:5)] the  [(input:6)] input  [(that:3)] that  [(is:3)] is  [(a:3)] a  [(good:3)] good  [(point:3)] point  [(now:2)] now  [(we:2)] we  [(it:2)] it  [(is:2)] is  [(this:2)] this  [(tree:2)] tree  [(is:2)] is  [(specific:4)] specific  [(to:3)] to  [(the:2)] the  [(value:3)] value  [(of:2)] of  [(could:1)(so:1)]   [(in:4)] in  [(some:4)] some  [(sense:4)] sense  [(not:4)] not  [(as:4)] as  [(generic:3)] generic  [(it:1)(try:1)]   [(to:1)(is:1)]   [(not:1)(write:1)]  
+7
+to(260345)the(260598)value(261048)of(262128)that(264073)would(264562)give(265154)
+8
+1(260304)of(260712)these(261032)decision(262336)trees(263719)and(264710)this(265128)would(265719)
+9
+could(259210)try(260019)to(260363)write(260731)down(261322)a(261726)construction(262310)for(265292)any(265612)
+8
+generic(259644)that(261693)would(262141)give(262772)us(263982)a(264346)real(264569)algorithm(265281)
+8
+generic(259335)that(263287)would(263568)give(264000)us(264423)a(264647)real(264791)algorithm(265287)
+5
+of(260478)1(260870)of(261428)these(262785)definition(264950)
+3
+that(263075)we(263579)give(265595)
+5
+of(260307)1(263967)of(264430)these(264742)decisons(265407)
+12
+down(259454)and(259967)instruction(260353)that(262193)would(262609)give(263170)us(263712)sort(263981)of(265101)a(265364)real(265566)algorithm(265962)
+6
+of(261249)1(261670)of(262216)these(262571)decision(263259)trees(264682)
+.........................Number of Queue Removal: 25
+
+Time spent in alignment:52 ms
+_		_		_		_		_		_		_		_		_		to		the		value		of		that		would		give		_		_		_		_		_		_		_		_		_		
+_		1		of		these		decision		trees		_		_		and		_		_		_		this		_		would		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		could		try		to		write		down		_		_		_		_		_		a		construction		for		any		_		_		_		_		
+_		_		_		_		_		_		generic		_		_		_		_		_		_		that		would		give		us		a		_		_		_		_		_		real		algorithm		
+_		_		_		_		_		_		generic		_		_		_		_		_		_		that		would		give		us		a		_		_		_		_		_		real		algorithm		
+of		1		of		these		_		definition		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		_		_		that		_		_		_		_		we		give		_		_		_		_		_		
+of		1		of		these		decisons		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		down		and		instruction		_		_		_		that		would		give		us		_		_		_		sort		of		a		real		algorithm		
+of		1		of		these		decision		trees		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+
+of 1 of these decision trees generic could and to write value of that would give us a construction give sort of a real algorithm 
+
+of 1 of these decision trees generic could and to write value of that would give us a construction give sort of a real algorithm 
+
+ [(of:3)] of  [(1:4)] 1  [(of:4)] of  [(these:4)] these  [(decisons:1)(decision:2)] decision  [(definition:1)(trees:2)] trees  [(generic:2)] generic  [(could:1)(down:1)]   [(try:1)(and:2)] and  [(to:2)(instruction:1)] to  [(write:1)(the:1)]   [(value:1)(down:1)]   [(of:1)(this:1)]   [(that:5)] that  [(would:5)] would  [(give:4)] give  [(us:3)] us  [(a:3)] a  [(construction:1)(we:1)]   [(give:1)(for:1)]   [(sort:1)(any:1)]   [(of:1)]   [(a:1)]   [(real:3)] real  [(algorithm:3)] algorithm 
+
+ [(of:3)] of  [(1:4)] 1  [(of:4)] of  [(these:4)] these  [(decisons:1)(decision:2)] decision  [(definition:1)(trees:2)] trees  [(generic:2)] generic  [(could:1)(down:1)]   [(try:1)(and:2)] and  [(to:2)(instruction:1)] to  [(write:1)(the:1)]   [(value:1)(down:1)]   [(of:1)(this:1)]   [(that:5)] that  [(would:5)] would  [(give:4)] give  [(us:3)] us  [(a:3)] a  [(construction:1)(we:1)]   [(give:1)(for:1)]   [(sort:1)(any:1)]   [(of:1)]   [(a:1)]   [(real:3)] real  [(algorithm:3)] algorithm 
+
+ [(of:3)] of  [(1:4)] 1  [(of:4)] of  [(these:4)] these  [(decisons:1)(decision:2)] decision  [(definition:1)(trees:2)] trees  [(generic:2)] generic  [(could:1)(down:1)]   [(try:1)(and:2)] and  [(to:2)(instruction:1)] to  [(write:1)(the:1)]   [(value:1)(down:1)]   [(of:1)(this:1)]   [(that:5)] that  [(would:5)] would  [(give:4)] give  [(us:3)] us  [(a:3)] a  [(construction:1)(we:1)]   [(give:1)(for:1)]   [(sort:1)(any:1)]   [(of:1)]   [(a:1)]   [(real:3)] real  [(algorithm:3)] algorithm 
+7
+us(266514)a(266841)real(267314)algortihm(267941)sort(270378)even(271941)then(272698)
+7
+even(267320)then(267889)this(269176)is(269751)not(270728)a(271128)convenient(271375)
+10
+input(266036)size(266556)but(267540)even(269087)then(269622)it(270191)is(270291)not(271308)a(272041)terribly(272195)
+9
+but(267340)even(267741)then(268282)this(269151)is(269576)not(269907)a(270227)terribly(270889)convenient(272663)
+10
+but(267337)even(267867)then(268279)this(268906)is(269239)not(269466)a(269671)terribly(269952)conveneint(270823)representaitin(272241)
+5
+trees(267636)for(270306)writing(271030)down(272209)an(272861)
+9
+us(266175)some(266492)sort(267170)of(267769)real(268073)this(269225)is(270297)not(270597)a(271030)
+6
+trees(268638)even(269942)then(270524)not(271806)a(272254)terribly(272486)
+10
+but(267449)even(267882)then(268266)this(268746)is(269167)not(269490)a(269805)terribly(269990)convenient(271287)represetntation(272823)
+10
+but(266795)even(267228)then(267773)this(268625)is(269252)not(269819)not(269819)a(270751)terribly(271016)convenent(272371)
+.......................Number of Queue Removal: 23
+
+Time spent in alignment:90 ms
+_		_		us		a		real		algortihm		sort		_		_		_		_		even		then		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		even		then		this		is		_		_		_		not		a		_		convenient		_		
+_		_		_		_		_		_		_		input		size		but		_		even		then		_		_		_		it		is		not		a		terribly		_		_		
+_		but		_		_		_		_		_		_		_		_		_		even		then		this		is		_		_		_		not		a		terribly		convenient		_		
+_		but		_		_		_		_		_		_		_		_		_		even		then		this		is		_		_		_		not		a		terribly		conveneint		representaitin		
+trees		_		_		_		_		_		_		for		writing		down		an		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		us		some		sort		of		real		_		_		_		_		_		_		this		is		_		_		_		not		a		_		_		_		
+trees		_		_		_		_		_		_		_		_		_		_		even		then		_		_		_		_		_		not		a		terribly		_		_		
+_		but		_		_		_		_		_		_		_		_		_		even		then		this		is		_		_		_		not		a		terribly		convenient		represetntation		
+_		but		_		_		_		_		_		_		_		_		_		even		then		this		is		not		_		_		not		a		terribly		convenent		_		
+
+trees but us a real of real input writing but an even then this is not it is not a terribly convenient represetntation 
+
+trees but us a real of real input writing but an even then this is not it is not a terribly convenient represetntation 
+
+ [(trees:2)] trees  [(but:4)] but  [(us:2)] us  [(a:1)(some:1)]   [(real:1)(sort:1)]   [(of:1)(algortihm:1)]   [(real:1)(sort:1)]   [(input:1)(for:1)]   [(writing:1)(size:1)]   [(but:1)(down:1)]   [(an:1)]   [(even:8)] even  [(then:8)] then  [(this:6)] this  [(is:6)] is  [(not:1)]   [(it:1)]   [(is:1)]   [(not:8)] not  [(a:8)] a  [(terribly:6)] terribly  [(convenient:3)(conveneint:1)(convenent:1)] convenient  [(represetntation:1)(representaitin:1)]  
+
+ [(trees:2)] trees  [(but:4)] but  [(us:2)] us  [(a:1)(some:1)]   [(real:1)(sort:1)]   [(of:1)(algortihm:1)]   [(real:1)(sort:1)]   [(input:1)(for:1)]   [(writing:1)(size:1)]   [(but:1)(down:1)]   [(an:1)]   [(even:8)] even  [(then:8)] then  [(this:6)] this  [(is:6)] is  [(not:1)]   [(it:1)]   [(is:1)]   [(not:8)] not  [(a:8)] a  [(terribly:6)] terribly  [(convenient:3)(conveneint:1)(convenent:1)] convenient  [(represetntation:1)(representaitin:1)]  
+
+ [(trees:2)] trees  [(but:4)] but  [(us:2)] us  [(a:1)(some:1)]   [(real:1)(sort:1)]   [(of:1)(algortihm:1)]   [(real:1)(sort:1)]   [(input:1)(for:1)]   [(writing:1)(size:1)]   [(but:1)(down:1)]   [(an:1)]   [(even:8)] even  [(then:8)] then  [(this:6)] this  [(is:6)] is  [(not:1)]   [(it:1)]   [(is:1)]   [(not:8)] not  [(a:8)] a  [(terribly:6)] terribly  [(convenient:3)(conveneint:1)(convenent:1)] convenient  [(represetntation:1)(representaitin:1)]  
+6
+this(274170)is(274866)not(275426)a(275843)terribly(276235)convenient(277954)
+5
+representation(273449)for(276152)writing(277118)an(278711)algorithm(279256)
+6
+convenient(273314)way(276631)to(276953)write(277278)an(278287)algorithm(278671)
+5
+representation(274191)writing(276996)down(278030)an(278505)algorithm(278818)
+7
+for(274220)writng(274497)down(276031)an(276431)algorithm(276849)lets(279087)write(279959)
+4
+algorithm(273447)lets(276662)write(278642)down(279950)
+4
+hmm(275071)lets(276348)right(278319)done(279717)
+5
+convienent(274054)representation(276182)of(277982)writing(278665)down(279509)
+5
+lets(276816)write(277575)down(278219)a(278698)transformation(278955)
+5
+lets(277026)write(277583)down(278599)a(279147)transformation(279372)
+....................Number of Queue Removal: 20
+
+Time spent in alignment:73 ms
+_		_		_		_		_		_		_		_		_		_		_		_		_		this		is		not		a		terribly		convenient		_		
+_		_		representation		for		writing		_		an		algorithm		_		_		_		_		_		_		_		_		_		_		_		_		
+_		convenient		_		_		_		_		_		_		_		_		_		_		_		way		to		write		an		algorithm		_		_		
+_		_		representation		_		writing		down		an		algorithm		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		for		writng		down		an		algorithm		lets		write		_		_		_		_		_		_		_		_		_		_		
+algorithm		_		_		_		_		_		_		_		lets		write		down		_		_		_		_		_		_		_		_		_		
+hmm		_		_		_		_		_		_		_		lets		_		_		_		_		_		_		_		_		_		right		done		
+_		convienent		representation		of		writing		down		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		lets		write		down		a		transformation		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		lets		write		down		a		transformation		_		_		_		_		_		_		_		
+
+hmm convenient representation for writing down an algorithm lets write down a transformation way to not an terribly convenient done 
+
+hmm convenient representation for writing down an algorithm lets write down a transformation way to not an terribly convenient done 
+
+ [(hmm:1)(algorithm:1)]   [(convenient:1)(convienent:1)]   [(representation:3)] representation  [(of:1)(for:2)] for  [(writng:1)(writing:3)] writing  [(down:3)] down  [(an:3)] an  [(algorithm:3)] algorithm  [(lets:5)] lets  [(write:4)] write  [(down:3)] down  [(a:2)] a  [(transformation:2)] transformation  [(way:1)(this:1)]   [(to:1)(is:1)]   [(not:1)(write:1)]   [(an:1)(a:1)]   [(terribly:1)(algorithm:1)]   [(convenient:1)(right:1)]   [(done:1)]  
+
+ [(hmm:1)(algorithm:1)]   [(convenient:1)(convienent:1)]   [(representation:3)] representation  [(of:1)(for:2)] for  [(writng:1)(writing:3)] writing  [(down:3)] down  [(an:3)] an  [(algorithm:3)] algorithm  [(lets:5)] lets  [(write:4)] write  [(down:3)] down  [(a:2)] a  [(transformation:2)] transformation  [(way:1)(this:1)]   [(to:1)(is:1)]   [(not:1)(write:1)]   [(an:1)(a:1)]   [(terribly:1)(algorithm:1)]   [(convenient:1)(right:1)]   [(done:1)]  
+
+ [(hmm:1)(algorithm:1)]   [(convenient:1)(convienent:1)]   [(representation:3)] representation  [(of:1)(for:2)] for  [(writng:1)(writing:3)] writing  [(down:3)] down  [(an:3)] an  [(algorithm:3)] algorithm  [(lets:5)] lets  [(write:4)] write  [(down:3)] down  [(a:2)] a  [(transformation:2)] transformation  [(way:1)(this:1)]   [(to:1)(is:1)]   [(not:1)(write:1)]   [(an:1)(a:1)]   [(terribly:1)(algorithm:1)]   [(convenient:1)(right:1)]   [(done:1)]  
+2
+lets(281468)write(284666)
+7
+maybe(283351)you(283899)will(283999)see(284935)why(285527)this(286095)is(286676)
+6
+lets(280377)write(281048)down(281680)a(282096)transformation(283249)maybe(286069)
+10
+to(281363)a(281611)decision(281878)tree(283241)and(283920)then(284327)maybe(284822)you(285585)will(285685)see(286586)
+7
+down(280690)a(281023)transformation(281175)to(284103)a(284351)decision(284847)tree(285783)
+3
+a(281420)transformation(281872)this(286601)
+5
+a(280124)transfrmation(280721)this(286205)is(286573)not(286886)
+2
+algorithm(280630)compares(284369)
+9
+that(281027)to(282518)a(282792)decision(282919)tree(284793)this(285765)is(286373)not(286623)a(286943)
+5
+that(281611)converts(282213)this(283482)comparison(284824)sorting(286468)
+......................Number of Queue Removal: 22
+
+Time spent in alignment:54 ms
+_		_		lets		write		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		maybe		_		_		_		_		_		_		_		_		you		will		see		why		this		is		
+_		_		lets		write		down		a		transformation		maybe		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		to		_		_		_		a		_		_		_		_		_		decision		tree		and		then		maybe		you		will		see		_		_		_		
+_		_		_		_		down		a		transformation		_		_		to		a		decision		tree		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		a		transformation		_		this		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		a		transfrmation		_		this		_		_		_		_		_		is		not		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		algorithm		compares		_		
+that		to		_		_		_		a		_		_		_		_		_		decision		tree		this		is		not		a		_		_		_		_		_		
+that		converts		_		_		_		_		_		_		this		comparison		sorting		_		_		_		_		_		_		_		_		_		_		_		
+
+that to lets write down a transformation maybe this to a decision tree this is not you will see why compares is 
+
+that to lets write down a transformation maybe this to a decision tree this is not you will see why compares is 
+
+ [(that:2)] that  [(to:2)(converts:1)] to  [(lets:2)] lets  [(write:2)] write  [(down:2)] down  [(a:6)] a  [(transfrmation:1)(transformation:3)] transformation  [(maybe:2)] maybe  [(this:3)] this  [(to:1)(comparison:1)]   [(a:1)(sorting:1)]   [(decision:3)] decision  [(tree:3)] tree  [(this:1)(and:1)]   [(is:2)(then:1)] is  [(not:2)(maybe:1)] not  [(a:1)(you:2)] you  [(will:2)] will  [(see:2)] see  [(why:1)(algorithm:1)]   [(compares:1)(this:1)]   [(is:1)]  
+
+ [(that:2)] that  [(to:2)(converts:1)] to  [(lets:2)] lets  [(write:2)] write  [(down:2)] down  [(a:6)] a  [(transfrmation:1)(transformation:3)] transformation  [(maybe:2)] maybe  [(this:3)] this  [(to:1)(comparison:1)]   [(a:1)(sorting:1)]   [(decision:3)] decision  [(tree:3)] tree  [(this:1)(and:1)]   [(is:2)(then:1)] is  [(not:2)(maybe:1)] not  [(a:1)(you:2)] you  [(will:2)] will  [(see:2)] see  [(why:1)(algorithm:1)]   [(compares:1)(this:1)]   [(is:1)]  
+
+ [(that:2)] that  [(to:2)(converts:1)] to  [(lets:2)] lets  [(write:2)] write  [(down:2)] down  [(a:6)] a  [(transfrmation:1)(transformation:3)] transformation  [(maybe:2)] maybe  [(this:3)] this  [(to:1)(comparison:1)]   [(a:1)(sorting:1)]   [(decision:3)] decision  [(tree:3)] tree  [(this:1)(and:1)]   [(is:2)(then:1)] is  [(not:2)(maybe:1)] not  [(a:1)(you:2)] you  [(will:2)] will  [(see:2)] see  [(why:1)(algorithm:1)]   [(compares:1)(this:1)]   [(is:1)]  
+8
+down(287422)a(288091)conversion(288371)this(290218)is(291715)not(292203)a(292700)useless(293187)
+8
+not(287040)a(287512)useless(287847)model(289047)it(289775)will(290431)be(290991)powerful(293100)
+10
+you(287254)will(287354)see(288193)why(289866)it(290412)is(290512)not(290994)a(291297)useless(291586)model(292923)
+9
+why(287024)this(288002)is(288427)not(288819)a(289166)useless(289487)model(290890)but(293560)as(293985)
+12
+this(287423)is(287797)not(288006)a(288209)useless(288423)model(289412)obviously(290025)i(291638)would(291705)not(291805)be(292431)tell(292639)
+5
+is(288649)not(289120)a(289532)useless(290172)model(291490)
+10
+a(287206)useless(287409)model(288641)or(289309)oi(290164)would(291728)not(291828)be(292664)telling(293241)you(293993)
+5
+see(288595)why(289431)not(291674)a(292181)useless(293160)
+9
+useless(287181)model(288350)otherwise(289161)i(290383)would(290493)not(290593)be(291335)telling(291632)you(292550)
+7
+algorithm(287495)to(288789)a(289180)decision(289371)will(292463)be(293230)very(293506)
+..................................Number of Queue Removal: 34
+
+Time spent in alignment:145 ms
+_		_		down		a		conversion		this		is		not		a		_		_		_		_		_		_		_		_		useless		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		not		a		_		_		_		_		_		_		_		_		useless		model		_		_		_		_		_		it		will		be		powerful		_		_		_		_		_		_		
+_		_		you		will		see		why		_		_		_		it		is		not		a		_		_		_		_		useless		model		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+why		this		_		_		_		_		is		not		a		_		_		_		_		_		_		_		_		useless		model		_		_		_		_		_		_		but		as		_		_		_		_		_		_		_		
+_		this		_		_		_		_		is		not		a		_		_		_		_		_		_		_		_		useless		model		obviously		i		would		not		be		tell		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		is		not		a		_		_		_		_		_		_		_		_		useless		model		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		a		_		_		_		_		_		_		_		_		useless		model		_		_		_		_		_		_		_		_		or		oi		would		not		be		telling		you		
+_		_		_		_		see		why		_		not		a		_		_		_		_		_		_		_		_		useless		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		useless		model		otherwise		i		would		not		be		_		_		_		_		_		telling		you		_		_		_		
+_		_		_		_		_		_		_		_		_		_		algorithm		to		a		decision		will		be		very		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+
+why this you a see why is not a it is to a decision will be very useless model obviously i would not be it but as or oi would not be telling you 
+
+why this you a see why is not a it is to a decision will be very useless model obviously i would not be it but as or oi would not be telling you 
+
+ [(why:1)]   [(this:2)] this  [(you:1)(down:1)]   [(a:1)(will:1)]   [(conversion:1)(see:2)] see  [(this:1)(why:2)] why  [(is:4)] is  [(not:6)] not  [(a:7)] a  [(it:1)]   [(is:1)(algorithm:1)]   [(to:1)(not:1)]   [(a:2)] a  [(decision:1)]   [(will:1)]   [(be:1)]   [(very:1)]   [(useless:9)] useless  [(model:7)] model  [(obviously:1)(otherwise:1)]   [(i:2)] i  [(would:2)] would  [(not:2)] not  [(be:2)] be  [(it:1)(tell:1)]   [(but:1)(will:1)]   [(as:1)(be:1)]   [(or:1)(powerful:1)]   [(oi:1)]   [(would:1)(telling:1)]   [(not:1)(you:1)]   [(be:1)]   [(telling:1)]   [(you:1)]  
+
+ [(why:1)]   [(this:2)] this  [(you:1)(down:1)]   [(a:1)(will:1)]   [(conversion:1)(see:2)] see  [(this:1)(why:2)] why  [(is:4)] is  [(not:6)] not  [(a:7)] a  [(it:1)]   [(is:1)(algorithm:1)]   [(to:1)(not:1)]   [(a:2)] a  [(decision:1)]   [(will:1)]   [(be:1)]   [(very:1)]   [(useless:9)] useless  [(model:7)] model  [(obviously:1)(otherwise:1)]   [(i:2)] i  [(would:2)] would  [(not:2)] not  [(be:2)] be  [(it:1)(tell:1)]   [(but:1)(will:1)]   [(as:1)(be:1)]   [(or:1)(powerful:1)]   [(oi:1)]   [(would:1)(telling:1)]   [(not:1)(you:1)]   [(be:1)]   [(telling:1)]   [(you:1)]  
+
+ [(why:1)]   [(this:2)] this  [(you:1)(down:1)]   [(a:1)(will:1)]   [(conversion:1)(see:2)] see  [(this:1)(why:2)] why  [(is:4)] is  [(not:6)] not  [(a:7)] a  [(it:1)]   [(is:1)(algorithm:1)]   [(to:1)(not:1)]   [(a:2)] a  [(decision:1)]   [(will:1)]   [(be:1)]   [(very:1)]   [(useless:9)] useless  [(model:7)] model  [(obviously:1)(otherwise:1)]   [(i:2)] i  [(would:2)] would  [(not:2)] not  [(be:2)] be  [(it:1)(tell:1)]   [(but:1)(will:1)]   [(as:1)(be:1)]   [(or:1)(powerful:1)]   [(oi:1)]   [(would:1)(telling:1)]   [(not:1)(you:1)]   [(be:1)]   [(telling:1)]   [(you:1)]  
+6
+model(294971)but(296851)as(297347)writing(298587)down(299547)an(300150)
+6
+this(296495)tree(297023)is(297757)not(298090)so(298628)useful(299156)
+10
+but(295011)as(295419)writing(295701)down(296411)an(296804)algorithm(297155)it(299978)is(300078)not(300513)so(300813)
+10
+writing(294398)down(295569)an(296193)algorithm(296579)if(297895)you(298142)we(298480)are(298580)going(299142)to(299662)
+14
+ing(294016)you(294361)otherwise(294671)but(295634)as(295966)writing(296243)down(296826)an(297196)algorithm(297561)this(299615)tree(299935)is(300439)not(300671)so(300970)
+4
+as(294686)writing(295360)down(297002)an(300363)
+6
+this(297293)tree(298025)is(298632)not(299208)so(299729)useful(300176)
+9
+model(294128)proving(295610)that(296509)we(297029)can(297265)not(297365)do(298026)better(298382)than(299205)
+12
+but(294213)as(294712)writing(295019)down(296385)an(296853)algorithm(297205)this(298552)tree(298974)is(299631)not(299956)so(300345)useful(300608)
+4
+powerful(294358)for(296792)proving(297434)this(300892)
+..............................Number of Queue Removal: 30
+
+Time spent in alignment:65 ms
+model		but		as		writing		down		an		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		this		tree		is		not		so		useful		_		_		_		_		_		_		_		
+_		but		as		writing		down		an		algorithm		_		_		_		_		_		_		it		_		_		_		_		_		is		not		so		_		_		_		_		_		_		_		_		
+_		_		_		writing		down		an		algorithm		if		you		we		are		going		to		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		ing		you		otherwise		but		as		writing		down		an		algorithm		_		this		tree		is		not		so		_		_		_		_		_		_		_		_		
+_		_		as		writing		down		an		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		this		tree		is		not		so		useful		_		_		_		_		_		_		_		
+model		_		_		_		_		_		_		_		_		_		_		_		_		_		_		_		proving		_		_		_		_		_		_		that		we		can		not		do		better		than		
+_		but		as		writing		down		an		algorithm		_		_		_		_		_		_		_		_		_		_		this		tree		is		not		so		useful		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		_		_		_		_		_		powerful		for		proving		this		_		_		_		_		_		_		_		_		_		_		_		_		
+
+model but as writing down an algorithm if you otherwise but going to it an for proving this tree is not so useful that we can not do better than 
+
+model but as writing down an algorithm if you otherwise but going to it an for proving this tree is not so useful that we can not do better than 
+
+ [(model:2)] model  [(but:3)] but  [(as:4)] as  [(writing:5)] writing  [(down:5)] down  [(an:5)] an  [(algorithm:3)] algorithm  [(if:1)(ing:1)]   [(you:2)] you  [(otherwise:1)(we:1)]   [(but:1)(are:1)]   [(going:1)(as:1)]   [(to:1)(writing:1)]   [(it:1)(down:1)]   [(an:1)(powerful:1)]   [(for:1)(algorithm:1)]   [(proving:2)] proving  [(this:5)] this  [(tree:4)] tree  [(is:5)] is  [(not:5)] not  [(so:5)] so  [(useful:3)] useful  [(that:1)]   [(we:1)]   [(can:1)]   [(not:1)]   [(do:1)]   [(better:1)]   [(than:1)]  
+
+ [(model:2)] model  [(but:3)] but  [(as:4)] as  [(writing:5)] writing  [(down:5)] down  [(an:5)] an  [(algorithm:3)] algorithm  [(if:1)(ing:1)]   [(you:2)] you  [(otherwise:1)(we:1)]   [(but:1)(are:1)]   [(going:1)(as:1)]   [(to:1)(writing:1)]   [(it:1)(down:1)]   [(an:1)(powerful:1)]   [(for:1)(algorithm:1)]   [(proving:2)] proving  [(this:5)] this  [(tree:4)] tree  [(is:5)] is  [(not:5)] not  [(so:5)] so  [(useful:3)] useful  [(that:1)]   [(we:1)]   [(can:1)]   [(not:1)]   [(do:1)]   [(better:1)]   [(than:1)]  
+
+ [(model:2)] model  [(but:3)] but  [(as:4)] as  [(writing:5)] writing  [(down:5)] down  [(an:5)] an  [(algorithm:3)] algorithm  [(if:1)(ing:1)]   [(you:2)] you  [(otherwise:1)(we:1)]   [(but:1)(are:1)]   [(going:1)(as:1)]   [(to:1)(writing:1)]   [(it:1)(down:1)]   [(an:1)(powerful:1)]   [(for:1)(algorithm:1)]   [(proving:2)] proving  [(this:5)] this  [(tree:4)] tree  [(is:5)] is  [(not:5)] not  [(so:5)] so  [(useful:3)] useful  [(that:1)]   [(we:1)]   [(can:1)]   [(not:1)]   [(do:1)]   [(better:1)]   [(than:1)]  
+2
+algorithim(301029)this(307532)
+()
+1
+useful(301215)
+7
+something(301233)this(302184)tree(302883)is(303669)not(304961)so(305564)useful(305933)
+1
+useful(301369)
+1
+algorithm(301032)
+()
+1
+long(301742)
+()
+5
+tree(301444)is(302431)not(302923)so(304311)useful(304776)
+.........Number of Queue Removal: 9
+
+Time spent in alignment:3 ms
+_		_		algorithim		this		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		
+_		useful		_		_		_		_		_		_		_		
+_		_		something		this		tree		is		not		so		useful		
+_		useful		_		_		_		_		_		_		_		
+algorithm		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		
+long		_		_		_		_		_		_		_		_		
+_		_		_		_		_		_		_		_		_		
+_		_		_		_		tree		is		not		so		useful		
+
+long useful algorithim this tree is not so useful 
+
+long useful algorithim this tree is not so useful 
+
+ [(long:1)(algorithm:1)]   [(useful:2)] useful  [(algorithim:1)(something:1)]   [(this:2)] this  [(tree:2)] tree  [(is:2)] is  [(not:2)] not  [(so:2)] so  [(useful:2)] useful 
+
+ [(long:1)(algorithm:1)]   [(useful:2)] useful  [(algorithim:1)(something:1)]   [(this:2)] this  [(tree:2)] tree  [(is:2)] is  [(not:2)] not  [(so:2)] so  [(useful:2)] useful 
+
+ [(long:1)(algorithm:1)]   [(useful:2)] useful  [(algorithim:1)(something:1)]   [(this:2)] this  [(tree:2)] tree  [(is:2)] is  [(not:2)] not  [(so:2)] so  [(useful:2)] useful 
+5
+tree(308243)is(309204)not(309763)so(310221)useful(310692)
+()
+()
+()
+()
+()
+()
+()
+()
+()
+.....Number of Queue Removal: 5
+
+Time spent in alignment:1 ms
+tree		is		not		so		useful		
+_		_		_		_		_		
+_		_		_		_		_		
+_		_		_		_		_		
+_		_		_		_		_		
+_		_		_		_		_		
+_		_		_		_		_		
+_		_		_		_		_		
+_		_		_		_		_		
+_		_		_		_		_		
+
+tree is not so useful 
+
+tree is not so useful 
+
+ [(tree:1)]   [(is:1)]   [(not:1)]   [(so:1)]   [(useful:1)]  
+
+ [(tree:1)]   [(is:1)]   [(not:1)]   [(so:1)]   [(useful:1)]  
+
+ [(tree:1)]   [(is:1)]   [(not:1)]   [(so:1)]   [(useful:1)]  
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+()
+
+
+---------------------------------
+Output without threshold:
+6 9 69 is bigger than 6 so we go this way then is 6 so we go this way and then than 6 so we go here this way 4 is less than 6 so compare the element second element and the claim is with the element the claim way and 6 the claim is that this is the correct permutation of the elements a2 which then 2 take so indeed that a1 of which and is 6 so works out indeed if i wrote this down right this is i that works out then is a sorting algorithm this is a sorting algorithm in the decision tree model so in general we just say the rules of this game let me write down is a sorting algorithm so rules of this game so in the decision general we have elements we want to sort and that we wanna to sort tree model so i only drew the n3 case because they equals 3 n3 case cause these trees get very big very the equal 3 case each internal node every node each internal tree every nonleaf node has a label of the form quickly every non leaf non has a label of the form when i colon where i and are between 1 and is i and are between 1 and this means that we compare this means that we compare a i ai with aj and we have 2 subtrees sub trees 2 from for every such node we have the left subtree subnode hte subtree sub tree which tells you what the subtreee which tells you sub tree which tells you what the algorithm does and what subsequent comparisons it if it comes out does algortihms it takes if it comes out up less than and what subtrees it and than we makes if it comes out less than and we have to be a little bit careful because it could also come out equal than because less than or equal to and could a little bit may also come equals so the right subtree corresponds to sub tress also come responds to comes the to subtree corresponds to strictly greater than great chalk to than greater thn so that is the a little bit more precise than what all are elements little more precise of what we are doing here but in general we care about the equality you hear now more extinct problem i general we care about the equality case too 2 to be general so that was the internal nodes and then no so each leaf node gives so that was the internal mode node and so each leaf node gives you a permutation the chalk so in order to be the teh answer give ou an answer permutation to the sorting problem that so that permutation better have the property that it orders aswer problem orders the elements to sorting problem so this is from the first lecture when we defined the sorting problems some permutation on things such that a pi 1 property that defines the api1 1 such that a pi of 1 and so on that is less than or equal to a pi 2 is of 2 and so on equal to a pi of 2 and so on okay chalk okay so that is the definition of a so that is the definion of the decision tree that any binary tree is with labels kidns of labels any with these it that is in some sense a sorting algorithm as binary tree that model aa a sort kinds of labels now as you sorting algorithm as you might expect this is a really not too different from if in give ou tree model not too different from the comparison model if not to different a quick sorting have these 4 insertion sort all of them can be translated into sort alrgormtih all of them can be translated into the decision tree model it is not a terribly graphical it is not the model it is not a terribly useful 1 for writing down an algorithm reprsentation not terribly useful and a guesses why did do we not draw these pictures as a 1 of sorting or an defition any guesses why do we as a definiton of merge sort we not draw these pictures it depends on the size of the input this tree is size of the input that is a good point now we it is this tree is specific to the value of could in some sense not as generic it to not of 1 of these decision trees generic could and to write value of that would give us a construction give sort of a real algorithm trees but us a real of real input writing but an even then this is not it is not a terribly convenient represetntation hmm convenient representation for writing down an algorithm lets write down a transformation way to not an terribly convenient done that to lets write down a transformation maybe this to a decision tree this is not you will see why compares is why this you a see why is not a it is to a decision will be very useless model obviously i would not be it but as or oi would not be telling you model but as writing down an algorithm if you otherwise but going to it an for proving this tree is not so useful that we can not do better than long useful algorithim this tree is not so useful tree is not so useful
+
+
+---------------------------------
+Output with threshold:
+6 9 69 is bigger than 6 so we go this way and than 6 so we go this way 4 is less than compare the second element and the claim is with the claim is that this is the correct permutation of the elements a2 then take so a1 and works out if i wrote this down right this is that works out a sorting algorithm this is a sorting algorithm in the decision tree model so in general we say the rules of this game rules of this game so in general we have elements we want to sort and we to sort i only drew the n3 case because n3 case cause these trees get very big very each internal node each internal every nonleaf node has a label of the has a label of the form i colon where i and are between i and are between 1 and this means that we compare means that we compare ai with aj and we have 2 subtrees from for every such node we have the left subtree which tells you what the algorithm does and what subsequent if it if it comes out less than and we have to be a little bit careful because it could also come out less than or equal to and could also come the right subtree corresponds strictly greater than so that is a little bit more precise than what little more precise what we are doing here but in general we care about the equality case too to be general so that was the internal nodes and each leaf node gives and each leaf node gives you a permutation so in order to be the answer an to the sorting problem so that permutation better have the property that it orders problem the elements so this is from the first lecture when we defined the sorting some permutation on things such that a pi 1 such that a pi and so on is less than or equal to a pi and to a pi of 2 and so on okay so that is the definition of a decision tree any binary tree with any these it that is in some sense a sorting algorithm that of labels now as you might expect this is really not too different from the comparison model a sorting have these insertion sort all of them can be translated all of them can be translated into the decision tree model it is not a terribly graphical it is not a terribly useful 1 for writing down an algorithm why do we not draw these pictures as an as a of merge sort not draw these pictures it depends on the size of the input size of the input that is a good point now we it is this tree is specific to the value of in some sense not as generic of 1 of these decision trees generic and to that would give us a real algorithm trees but us even then this is not a terribly convenient representation for writing down an algorithm lets write down a transformation that to lets write down a transformation maybe this decision tree is not you will see this see why is not a useless model i would not be model but as writing down an algorithm you proving this tree is not so useful this tree is not so useful
+
+
+---------------------------------
+Output without threshold:
+6 6 9 69 is bigger than 6 so we go this way then is 6 so we go this way
+* and then than 6 so we go here this way 4 is less than 6 so compare the element second element and the claim is with the element element the claim way
+* and 6 the claim is that this is the correct permutation of the elements a2 which then 2 take so indeed
+* that a1 of which and is 6 so works out indeed if i wrote this down right this is i that works out then is a sorting algorithm
+* this is a sorting algorithm in the decision tree model so in general we just say the rules of this game let me write down is a sorting algorithm
+* so rules of this game so in the decision general we have elements we want to sort want to sort
+* sort and that we wanna to sort tree model so i only drew drew the n3 case because they equals 3
+* n3 case cause these trees get very big very the equal 3 case each internal node every
+* node each internal tree every nonleaf node has a label of the form quickly every non
+* leaf non has a label of the form when i colon where i and are between 1 and
+* is i and are between 1 and and this means that we compare
+* this means that we compare a i ai with aj
+* aj and we have 2 subtrees sub sub trees
+* 2 from for every such node we have the left subtree subnode hte subtree sub tree which tells you what the
+* subtreee which tells you sub tree which tells you what the algorithm does and what subsequent comparisons it if it comes out
+* does algortihms it takes if it comes out up less than and what subtrees it
+* and than we makes if it comes out less than and we have to be a little bit careful because because it could also come out equal than
+* because less than or equal to and could a little bit may also come equals so the right subtree corresponds to sub tress also come
+* responds to comes the to subtree corresponds to strictly greater than great
+* chalk to than greater thn so that is the a little bit more precise than what all are
+* elements little more precise of what we we are doing here but in general we care about the equality you hear now more extinct problem i general
+* we care about the equality case too 2 to be general so that was the internal nodes and then no so each leaf node gives so that was the internal
+* mode node and so each leaf node gives you a permutation the chalk chalk
+* chalk so in order to be be the teh answer give ou an answer permutation to the sorting problem that
+* so that permutation better have the property that it orders aswer problem orders the elements to sorting problem so this is from the first first lecture
+* first lecture when we defined the sorting problems some permutation on things such that a pi 1 property that defines the
+* api1 1 such that a pi of 1 and so on that is less than or equal to a pi 2 is of 2 and so on
+* equal to a pi of 2 and so on okay chalk chalk chalk okay so that is the definition of
+* the definition of a so that is the definion of the decision tree that any binary tree is with labels kidns of labels
+* any with these it that is in some sense a sorting algorithm as binary tree that model aa a sort kinds of labels now as you sorting algorithm
+* as you might expect this is a really not too different from if in give ou tree model not too different
+* from the comparison model if not to different a quick sorting have these 4 insertion sort all of them can be translated into
+* sort alrgormtih all of them can be translated into the decision tree model it is not a terribly graphical it is not the model
+* it is not a terribly useful 1 for writing down an algorithm reprsentation not terribly useful and
+* a guesses why why did do we not draw these pictures as a 1 of sorting or an defition any guesses why why do we
+* as a definiton of merge sort we not draw these pictures it depends on the size of the input this tree is
+* size of the input that is a good point now we it is this tree is specific to the value of could in some sense not as generic it to not
+* of 1 of these decision trees generic could and to write value of that would give us a construction give sort of a real algorithm
+* trees but us a real of real input writing but an even then this is not it is not a terribly convenient represetntation
+* hmm convenient representation for writing down an algorithm lets write down a transformation way to not an terribly convenient done
+* that to lets write down a transformation maybe this to a decision tree this is not you will see why compares is
+* why this you a see why is not a it is to a decision will be very useless model obviously i would not be it but as or oi would not be telling you
+* model but as writing down an algorithm if you otherwise but going to it an for proving this tree is not so useful that we can not do better than
+* long useful algorithim this tree is not so useful
+* tree is not so useful
+* 
+
+
+---------------------------------
+Output with threshold:
+6 9 69 is bigger than 6 so we go this way
+* and than 6 so we go this way 4 is less than compare the second element and the claim is with
+* the claim is that this is the correct permutation of the elements a2 then take so
+* a1 and works out if i wrote this down right this is that works out a sorting algorithm
+* this is a sorting algorithm in the decision tree model so in general we say the rules of this game
+* rules of this game so in general we have elements we want to
+* sort and we to sort i only drew the n3 case because
+* n3 case cause these trees get very big very each internal node
+* each internal every nonleaf node has a label of the
+* has a label of the form i colon where i and are between
+* i and are between 1 and and this means that we compare
+* means that we compare ai with aj
+* and we have 2 subtrees
+* from for every such node we have the left subtree which tells you
+* which tells you what the algorithm does and what subsequent if it
+* it if it comes out less than and
+* and we have to be a little bit careful because it could also come out
+* less than or equal to and could also come the right subtree corresponds
+* subtree corresponds strictly greater than
+* so that is a little bit more precise than what
+* little more precise what we we are doing here but in general we care about the
+* care about the equality case too to be general so that was the internal nodes and each leaf node gives
+* and each leaf node gives you a permutation
+* so in order to be the answer an to the sorting problem
+* so that permutation better have the property that it orders problem the elements so this is from the first
+* first lecture when we defined the sorting some permutation on things such that a pi 1
+* 1 such that a pi and so on is less than or equal to a pi and
+* to a pi of 2 and so on okay so that is the definition
+* the definition of a decision tree any binary tree with
+* any these it that is in some sense a sorting algorithm that of labels now as you
+* as you might expect this is really not too different from
+* from the comparison model a sorting have these insertion sort all of them can be translated
+* all of them can be translated into the decision tree model it is not a terribly graphical
+* it is not a terribly useful 1 for writing down an algorithm
+* why why do we not draw these pictures as an
+* as a of merge sort not draw these pictures it depends on the size of the input
+* size of the input that is a good point now we it is this tree is specific to the value of in some sense not as generic
+* of 1 of these decision trees generic and to that would give us a real algorithm
+* trees but us even then this is not a terribly convenient
+* representation for writing down an algorithm lets write down a transformation
+* that to lets write down a transformation maybe this decision tree is not you will see
+* this see why is not a a useless model i would not be
+* model but as writing down an algorithm you proving this tree is not so useful
+* useful this tree is not so useful
+* 
+* 
+Ground Truth: -----------------
+6 9 is bigger than 6 so we go this way and then we compare the second element with the third element four is less than 6 and so we go this way and the claim is that this is the correct permutation of the elements you take a2 which is 4 then you take a3 which is 6 and then you take a1 which is 9 so indeed that works out and if i got if i wrote this down right this is a sorting algorithm in the decision tree model so in general let me just say the the rules of this game so in general we have n elements we want to sort and i only drew the n equals 3 case because they get these trees get very big very quickly each internal node so every non leaf node has a label of the form ij where i and j are between 1 and n and this means that we compare ai with aj and we have 2 subtrees from every such node we have the left subtree which tells you what the algorithm does what subsequent comparisons it makes if it comes out less than and we have to be a little bit careful because it could also come out equal so what well do is the left subtree corresponds to less than or equal to and the right subtree corresponds to strictly greater than so thats a little bit more precise than what we were doing here everything was all the elements are distinct so no problem but in general we care about the equality case too to be general so that was the internal nodes and then each leaf node gives you a permutation so in order to be the answer to the sorting problem that permutation better have the property that it orders the elements so this is from the first lecture when we defined the sorting problem some permutation on n things such that a pi of 1 is less than or equal to a pi of 2 and so on okay so thats the definition of a decision tree any tree any binary tree with these kinds of labels satisfies all these properties that is in some sense a sorting algorithm it is a sorting algorithm in the decision tree model now as you might expect this is a really not too different from the comparison model if i give you a comparison sorting algorithm we have these 4 quick sort heap sort merge sort insertion sort all of them can be translated into the decision tree model it is sort of a graphical representation of what the algorithm does its not a terribly useful 1 for writing down an algorithm any guesses why why do do we not draw these pictures as a definition of quick sort or a definition of merge sort it depends on the size of the input that is a good point so this tree is specific to the value of n so it is in some sense not as generic now we could try to write down a construction for an arbitrary value of n of one of these decision trees and that would give us sort of a real algorithm that works for any input but even then this is not a terribly convenient representation for writing down an algorithm okay well lets lets write down a transformation that converts a comparison sorting algorithm to a decision tree and then maybe you will see why this is not a useless model obviously i would not be telling you otherwise it will be very powerful for proving that we can not do better than n log n but as writing down an algorithm if you were going to implement something this tree is not so useful
+
+The graphical model output:
+6 6 9 69 is bigger than 9 is bigger than 6 so we go this way and then we this compare the the go 4 second this less element than with 6 and the element claim the way is that this is claim is this a2 the correct permutation of the is elements so indeed that works out and then you take a1 if i wrote this if down i right this is a sorting down algorithm i right this in the decision tree algorithm model so in general we just say the rules of this game so in general we have elements we want to sort and tree i only we drew drew the n3 case because drew they the these get very cause big very quickly case each internal node every nonleaf each node internal has a label mode of the form non i colon where i and are between where i 1 and are between 1 and this means and that we compare ai with aj and we have 2 subtrees sub from trees every for such node we have the left subtree which sub tells tree you what the algorithm does what the algorhithm if does and what subsequent comparisons it comes out less if it than if it and we have to be a little bit careful because because it could also come out equal less than or equals to and the right subtree corresponds to strictly greater than so that is a little bit more precise than what all we are the elements we doing here but in general we we care about the we equality case too so that was the to be internal general node each and leaf node gives and each you leaf a permutations node so in order to an be the be answer to the sorting answer problem to the that permutation better so the that have this property is it orders elements the first from lecture some permuation when that we defined on things the sorting such problems such that a pi 1 is less than or equal to a pi of 2 and so on okay so that is the definition of a decision tree any binary tree with these any binary of tree that labels is in some sense kinds it a that sorting algortihm in the decision now tree model as you might expect this is aa sortinga if i give ou we a really not too to different from the have these comparison comparing models insertion sorting all of sort them can be translated into the decision tree model graphical it is is not a terribly it is reprsentation useful 1 for writing it is not a down an algorith guesses a why why do we not draw these pictures why as a definiton of it merge depends on sort the size this of the tree input of specific the that size is a good point now we is could try write down and of 1 these to the value of so in some sense not as generic of that would decision give us trees sort a real of algortihm for but even then this is not a not terribly convenient represetntation for writng down lets an algorithm writing write a transfrmation lets write down that decision converts to a tree maybe this you will see why is not a useless model otherwise it i will would is not be a useless telling you model powerful but as writing down proving an algorithim this tree we is not so useful
+
+The final output with threshold:
+6 9 69 is bigger than 6 so we go this way and than 6 so we go this way 4 is less than compare the second element and the claim is with the claim is that this is the correct permutation of the elements a2 then take so a1 and works out if i wrote this down right this is that works out a sorting algorithm this is a sorting algorithm in the decision tree model so in general we say the rules of this game rules of this game so in general we have elements we want to sort and we to sort i only drew the n3 case because n3 case cause these trees get very big very each internal node each internal every nonleaf node has a label of the has a label of the form i colon where i and are between i and are between 1 and this means that we compare means that we compare ai with aj and we have 2 subtrees from for every such node we have the left subtree which tells you what the algorithm does and what subsequent if it if it comes out less than and we have to be a little bit careful because it could also come out less than or equal to and could also come the right subtree corresponds strictly greater than so that is a little bit more precise than what little more precise what we are doing here but in general we care about the equality case too to be general so that was the internal nodes and each leaf node gives and each leaf node gives you a permutation so in order to be the answer an to the sorting problem so that permutation better have the property that it orders problem the elements so this is from the first lecture when we defined the sorting some permutation on things such that a pi 1 such that a pi and so on is less than or equal to a pi and to a pi of 2 and so on okay so that is the definition of a decision tree any binary tree with any these it that is in some sense a sorting algorithm that of labels now as you might expect this is really not too different from the comparison model a sorting have these insertion sort all of them can be translated all of them can be translated into the decision tree model it is not a terribly graphical it is not a terribly useful 1 for writing down an algorithm why do we not draw these pictures as an as a of merge sort not draw these pictures it depends on the size of the input size of the input that is a good point now we it is this tree is specific to the value of in some sense not as generic of 1 of these decision trees generic and to that would give us a real algorithm trees but us even then this is not a terribly convenient representation for writing down an algorithm lets write down a transformation that to lets write down a transformation maybe this decision tree is not you will see this see why is not a useless model i would not be model but as writing down an algorithm you proving this tree is not so useful this tree is not so useful
+
+The final output without threshold:
+6 9 69 is bigger than 6 so we go this way then is 6 so we go this way and then than 6 so we go here this way 4 is less than 6 so compare the element second element and the claim is with the element the claim way and 6 the claim is that this is the correct permutation of the elements a2 which then 2 take so indeed that a1 of which and is 6 so works out indeed if i wrote this down right this is i that works out then is a sorting algorithm this is a sorting algorithm in the decision tree model so in general we just say the rules of this game let me write down is a sorting algorithm so rules of this game so in the decision general we have elements we want to sort and that we wanna to sort tree model so i only drew the n3 case because they equals 3 n3 case cause these trees get very big very the equal 3 case each internal node every node each internal tree every nonleaf node has a label of the form quickly every non leaf non has a label of the form when i colon where i and are between 1 and is i and are between 1 and this means that we compare this means that we compare a i ai with aj and we have 2 subtrees sub trees 2 from for every such node we have the left subtree subnode hte subtree sub tree which tells you what the subtreee which tells you sub tree which tells you what the algorithm does and what subsequent comparisons it if it comes out does algortihms it takes if it comes out up less than and what subtrees it and than we makes if it comes out less than and we have to be a little bit careful because it could also come out equal than because less than or equal to and could a little bit may also come equals so the right subtree corresponds to sub tress also come responds to comes the to subtree corresponds to strictly greater than great chalk to than greater thn so that is the a little bit more precise than what all are elements little more precise of what we are doing here but in general we care about the equality you hear now more extinct problem i general we care about the equality case too 2 to be general so that was the internal nodes and then no so each leaf node gives so that was the internal mode node and so each leaf node gives you a permutation the chalk so in order to be the teh answer give ou an answer permutation to the sorting problem that so that permutation better have the property that it orders aswer problem orders the elements to sorting problem so this is from the first lecture when we defined the sorting problems some permutation on things such that a pi 1 property that defines the api1 1 such that a pi of 1 and so on that is less than or equal to a pi 2 is of 2 and so on equal to a pi of 2 and so on okay chalk okay so that is the definition of a so that is the definion of the decision tree that any binary tree is with labels kidns of labels any with these it that is in some sense a sorting algorithm as binary tree that model aa a sort kinds of labels now as you sorting algorithm as you might expect this is a really not too different from if in give ou tree model not too different from the comparison model if not to different a quick sorting have these 4 insertion sort all of them can be translated into sort alrgormtih all of them can be translated into the decision tree model it is not a terribly graphical it is not the model it is not a terribly useful 1 for writing down an algorithm reprsentation not terribly useful and a guesses why did do we not draw these pictures as a 1 of sorting or an defition any guesses why do we as a definiton of merge sort we not draw these pictures it depends on the size of the input this tree is size of the input that is a good point now we it is this tree is specific to the value of could in some sense not as generic it to not of 1 of these decision trees generic could and to write value of that would give us a construction give sort of a real algorithm trees but us a real of real input writing but an even then this is not it is not a terribly convenient represetntation hmm convenient representation for writing down an algorithm lets write down a transformation way to not an terribly convenient done that to lets write down a transformation maybe this to a decision tree this is not you will see why compares is why this you a see why is not a it is to a decision will be very useless model obviously i would not be it but as or oi would not be telling you model but as writing down an algorithm if you otherwise but going to it an for proving this tree is not so useful that we can not do better than long useful algorithim this tree is not so useful tree is not so useful
+
+Chunk size: 7
+Heuristic Weight: 2.5
+BLEU scores:------------------
+BLEU without threshold:0.4087003359643041
+BLEU with threshold:0.545034191924159
+BLEU with Graph:0.39232063497736624
+BLEU with Muscle:0.3681432605597549
+
+Fmeasure scores:------------------
+Fmeasure without threshold:0.5099219697094964
+Fmeasure with threshold:0.6007789492745907
+Fmeasure with Muscle:0.5525197906002253
+WER scores:------------------
+WER without threshold:0.8021806853582555
+WER with threshold:0.4439252336448598
+WER with Graph:0.5327102803738317
+WER with Muscle:0.4439252336448598
+Estimated Time:3790

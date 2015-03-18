@@ -1,0 +1,299 @@
+#!/usr/bin/perl
+#
+# $Header: /u/drspeech/src/utils/signif/RCS/signif,v 1.11 1998/08/06 21:58:30 bilmes Exp $
+# Written by Jeff Bilmes <bilmes@icsi.berkeley.edu>
+# Wed Jun 26 1996
+# This is a reverse engineered and overly commented version of the 
+# old signif program written by Chuck Wooters but for 
+# which we have no source. 
+
+# signif:
+# Usage:
+#   signif -a p1 -b p2 -n N
+
+#  Assumption: We've run two experiments each consisting of N
+#  independent trials. In the first experiment, y1 = p1*N of the trials
+#  came out in error. In the second experiment, y2 = p2*N of the trials came
+#  out in error.  We want to find out if the second experiment p2
+#  is significantly (in a statistical sence) better than the
+#  first experiment p1 under N samples.  We do
+#  this by assuming a null hypothesis, H0, and seeing how unlikely
+#  this null hypothesis is.
+
+#  Since we want to test whether one process (p2) is better than
+#  another p1 (as apposed to testing whether one process is either
+#  better or worse than another), we use the two
+#  hypothesis.
+#
+#    H0: p1 == p2, i.e., the scores are really identical
+#    H1: p1 > p2 , i.e., and p2 is indeed better than p1 at
+#                        the current significance level.
+# 
+#  We do this by assuming H0 and then disproving it at various
+#  significance levels.
+#
+#  Under H0, the two processes are really identical.
+#  If we consider the difference (y1-y2)/N then
+#  E[(y1-y2)/N] = 0 since the processes are the same
+#  var((y1-y2)/N) = var(y1/N) + var(y2/N) 
+#    = p1(1-p1)/N + p2(1-p2)/N
+#  (note that this seems to be an inconsistency in that
+#   for the mean we assume p1==p2 but not for the variance.
+#   This is what the old signif program did, so for backwards
+#   compatibility, we do the same thing).
+# 
+#  We compute the z-score from the statistics of 
+#  the difference between two random variables with their
+#  corresponding distributions. We get:
+#      u_diff = p1 - p2 	 			(1)
+#  and standard deviation
+#      sigma_diff = sqrt(p1*q1/N + p2*q2/N) 		(2)
+#
+#  where q1 = 1-p1 and q2 = 1-p2. The distribution of
+#  this difference, we assume, is approximately
+#  normal with a large enough sample size (N) and therefore
+#  we can compute the normalized z-score as:
+#
+#       (y1-y2)/N - E((y1-y2)/N)
+# z =  --------------------------- = (p1-p2)/sigma_diff
+#        sqrt(var( (y1-y2)/N ))
+#
+#  
+#  Once we have this z-score and since we are interested in if
+#  one process p2 is better than the other p1, use use a one-tailed
+#  rather than a two-tailed significance test.
+
+#  One tailed significance values.  Note: The older version of signif
+#  (the one Chuck Wooters wrote and the one we can't find the source
+#  for) used only two digits of precision for the significance values
+#  (in particular, that program used 2.33 and 1.65 for significance
+#  levels 0.05 and 0.01 respectively). We use more digits of precision
+#  and therefore get slightly different results.
+#  These values came from mapleV using the commands:
+#      with(stats):
+#           statevalf[icdf,normald](v);
+#  where v takes on the significance levels 0.10, 0.05, etc.
+
+%short_signif_vals = (
+# levels   values
+  0.40,   0.2533471031,
+  0.20,   0.8416212336,
+  0.10,   1.281551566,
+  0.05,   1.644853627,
+  0.02,   2.053748911,
+  0.01,   2.326347874,
+  0.005,  2.575829304,
+  0.002,  2.878161739,
+  0.001,  3.090232306,
+  0.0005, 3.290526731,
+  0.0002, 3.540083799,
+  0.0001, 3.719016485,
+		);
+
+
+%long_signif_vals = (
+# levels   values
+  0.40,   0.2533471031,
+  0.30,   0.5244005127,
+  0.20,   0.8416212336,
+  0.10,   1.281551566,
+  0.09,   1.340755034,
+  0.08,   1.405071560,
+  0.07,   1.475791028,
+  0.06,   1.554773595,
+  0.05,   1.644853627,
+  0.04,   1.750686071,
+  0.03,   1.880793608,
+  0.02,   2.053748911,
+  0.01,   2.326347874,
+  0.009,  2.365618127,
+  0.008,  2.408915546,
+  0.007,  2.457263390,
+  0.006,  2.512144328,
+  0.005,  2.575829304,
+  0.004,  2.652069808,
+  0.003,  2.747781385,
+  0.002,  2.878161739,
+  0.001,  3.090232306,
+  0.0009, 3.121389149,
+  0.0008, 3.155906758,
+  0.0007, 3.194651054,
+  0.0006, 3.238880118,
+  0.0005, 3.290526731,
+  0.0004, 3.352794781,
+  0.0003, 3.431614404,
+  0.0002, 3.540083799,
+  0.0001, 3.719016485,
+  0.00009, 3.745548593,
+  0.00008, 3.775011939,
+  0.00007, 3.808168264,
+  0.00006, 3.846126145,
+  0.00005, 3.890591886,
+  0.00004, 3.944400084,
+  0.00003, 4.012810811,
+  0.00002, 4.107479655,
+  0.00001, 4.264890794,
+		     );
+
+
+
+
+sub usage {
+ printf STDERR (
+  "Usage: signif {-a p1|-s1 n1} {-b p2|-s1 n2} -n N [-l]\n" .
+  "   where p1 = the probability of event A (error score of process A)\n" .
+  "   where p1 = the probability of event B (error score of process B)\n" .
+  "   N is the number trials (number of examples)\n" .
+  "   -l specifies, use a longer list of significance values.\n");
+}
+
+sub checkfloat {
+    ($opt,$arg) = @_;
+    if (( $arg !~ /^[0-9.]+$/ ) || ($arg < 0.0 || $arg > 1.0)) {
+	print STDERR ("Error: Value \"", $arg, "\" invalid for option ",
+		      $opt, " (real number between 0 and 1 expected)\n");
+	&usage; exit(-1);
+    }
+}
+
+sub checkint {
+    ($opt,$arg) = @_;
+    if (( $arg !~ /^[0-9]+$/ ) || ($arg < 1)) {
+	print STDERR ("Error: Value \"", $arg, "\" invalid for option ",
+		      $opt, " (positive integer expected)\n");
+	&usage; exit(-1);
+    }
+}
+
+# parse arguments
+if ( $#ARGV < 0 ) {
+    &usage;
+    exit(-1);
+}
+
+%signif_vals = %short_signif_vals;
+
+while ( $#ARGV >= 0 ) {
+    $opt = shift(@ARGV);
+    $opt =~ tr/A-Z/a-z/; # ignore case
+    if ( $opt =~ /^-a/ ) {
+	if ( $#ARGV < 0 ) {
+	    print STDERR ("Error: Option ", $opt, " requires an argument\n");
+	    &usage; exit(-1);
+	}
+	$arg = shift(@ARGV);
+	&checkfloat($opt,$arg);
+	$p1 = $arg;
+    } elsif ( $opt =~ /^-s1/ ) {
+	if ( $#ARGV < 0 ) {
+	    print STDERR ("Error: Option ", $opt, " requires an argument\n");
+	    &usage; exit(-1);
+	}
+	$arg = shift(@ARGV);
+	&checkint($opt,$arg);
+	$s1 = $arg;
+    } elsif ( $opt =~ /^-b/ ) {
+	if ( $#ARGV < 0 ) {
+	    print STDERR ("Error: Option ", $opt, " requires an argument\n");
+	    &usage; exit(-1);
+	}
+	$arg = shift(@ARGV);
+	&checkfloat($opt,$arg);
+	$p2 = $arg;
+    } elsif ( $opt =~ /^-s2/ ) {
+	if ( $#ARGV < 0 ) {
+	    print STDERR ("Error: Option ", $opt, " requires an argument\n");
+	    &usage; exit(-1);
+	}
+	$arg = shift(@ARGV);
+	&checkint($opt,$arg);
+	$s2 = $arg;
+    } elsif ( $opt =~ /^-n/ ) {
+	if ( $#ARGV < 0 ) {
+	    print STDERR ("Error: Option ", $opt, " requires an argument\n");
+	    &usage; exit(-1);
+	}
+	$arg = shift(@ARGV);
+	&checkint($opt,$arg);
+	$N = $arg;
+    } elsif ( $opt =~ /^-l/ ) {
+	$arg = shift(@ARGV);
+	%signif_vals = %long_signif_vals;
+    } elsif ( $opt =~ /^-help/ ) {
+	&usage;
+	exit(0);
+    } else {
+	printf STDERR ("Error: Unknown option (%s)\n",$opt);
+	&usage;
+	exit(-1);
+    }
+}
+
+if (!defined($N)) {
+    printf STDERR ("Argument error, need to supply -n\n");
+    &usage;
+    exit(-1);
+}
+
+
+if (!defined($s1) && defined($p1)) {
+    $s1 = $N*$p1;
+} elsif  (defined($s1) && !defined($p1)) {
+    $p1 = $s1/$N;
+} else {
+    printf STDERR ("Argument error, need either -a or -s1\n");
+    &usage;
+    exit(-1);
+}
+
+if (!defined($s2) && defined($p2)) {
+    $s2 = $N*$p2;
+} elsif  (defined($s2) && !defined($p2)) {
+    $p2 = $s2/$N;
+} else {
+    printf STDERR ("Argument error, need either -b or -s2\n");
+    &usage;
+    exit(-1);
+}
+
+
+sub numerically { $a <=> $b; }
+
+$diff = ($p1-$p2);
+# Officially, $diff should be positive since we want
+# to see if $p2 is significantly better than $p1 (so we should
+# at least have $p2 < p1). The old signif program, however,
+# was symmetric in it's arguments, so we add the following line.
+$diff = -$diff if ($diff < 0);
+
+printf "Number of patterns differing is = %f\n",$diff*$N;
+
+if ($p1 == $p2) {
+    printf "WARNING: p1 = p2 = $p1. Therefore, this difference is not significant at any level.\n";
+    exit(-1);
+}
+
+$sigma = sqrt(($p1*(1.0-$p1)+$p2*(1-$p2))/$N);
+$z = $diff/$sigma;
+
+printf "This difference is:\n";
+foreach $level (sort numerically keys(%signif_vals)) {
+    $val = $signif_vals{$level};
+    if ($z <= $val) {
+	printf "Not significant";
+	# i.e., Under the null hypothesis, this difference
+        # is possible with probability >= $level so we
+        # say that it is *not* significant at this level.
+    } else {
+	printf "Significant";
+	# i.e., Under the null hypothesis, this difference
+        # is possible with probability < $level so we
+        # say that it *is* significant at this level.
+    }
+    printf " at the %.5f level (%0.2f differences required)\n",
+      $level,
+      $N*$val*$sigma;
+}
+
+
+exit(0);

@@ -1,0 +1,26 @@
+#Starting point
+Please start from the code file: Main_class.java
+
+Other important files:
+MSA.java: implements the A* search based MSA
+Alignment.java: basic alignment object for each position
+
+
+To Compile:
+===========
+javac -Xlint *.java
+
+To Run:
+=======
+java msa_affine_gap -d/home/vax7/u6/inaim/MSA/data/e6p22 -w2 -c60 -b60 -s0 -e360 -go1.25 -ge0.05
+
+The command line parameters are:
+
+-d: data directory
+-w: heuristic weight
+-c: chunk size
+-b: beamsize
+-s: starting timestamp (second)
+-e: ending timestamp (second)
+-go: gap opening penalty
+-ge: gap extension penalty
