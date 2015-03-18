@@ -1,0 +1,11 @@
+This directory contains the source codes and datasets for aligning multiple captions using A* search based Multiple Sequence Alignment (MSA).
+
+The directory “./data” contains the necessary data files. Our experiments are performed on 4 audio files. The 10 partial captions for each of these audio files are provided in the following sub-directories:
+
+./data/e6p11
+./data/e6p22
+./data/sch1p11
+./data/sch1p22
+
+The ground truth captions for these four audio files are provided in the directory:
+./data/ground
